@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Civil_Militia</defName>
+    <label>Militia</label>
+    <combatPower>65</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <weaponTags>
+      <li>BNF_Settler</li>
+      <li>SimpleGun</li>
+      <li>Pistol</li>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>600</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>BNF_Uniform</li>
+      <li>BNF_Armor_Conscript</li>
+    </apparelTags>
+    <apparelRequired>
+    </apparelRequired>
+    <apparelMoney>
+      <min>250</min>
+      <max>500</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

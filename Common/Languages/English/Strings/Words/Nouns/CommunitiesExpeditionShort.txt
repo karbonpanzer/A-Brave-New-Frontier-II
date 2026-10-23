@@ -1,0 +1,16 @@
+﻿village
+village
+town
+town
+township
+hamlet
+district
+city
+settlement
+encampment
+campsite
+borough
+burg
+county
+parish
+terroritory

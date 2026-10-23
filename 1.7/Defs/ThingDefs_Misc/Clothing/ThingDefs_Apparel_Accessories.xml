@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs> 
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>BNF_Headgear_Goggles</defName>
+		<label>goggles</label>
+		<description>A pair of standard goggles, the design older than anything besides that manhole cover you found in that crater a few years back. Reinforced glass with a nice comfy leather band which allows you to protect your eyes from both the light of the sun and the dust that seems to be everywhere. Who would want to miss these landscapes and people who think that eating on the ground is the end of the world. Not going to lie, you should have gone to trade school or college because signing on for a 10 year contract for 1/200th of a Thunder Cougar Falcon Bird was a mistake.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Headgear/Goggles/Goggles</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+			<drawSize>1.7</drawSize>			
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+        <generateCommonality>0.05</generateCommonality>
+		<costList>
+			<Cloth>15</Cloth>
+			<Steel>30</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>6500</WorkToMake>
+			<Mass>0.2</Mass>
+			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.70</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+ 			<Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>0.6</EquipDelay>
+		</statBases>
+		<thingCategories Inherit='False'>
+		  <li>KP_Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Headgear/Goggles/Goggles</wornGraphicPath>
+			<useWornGraphicMask>True</useWornGraphicMask>			
+		  <layers>
+			<li>EyeCover</li>
+		  </layers>
+		  <drawData>
+			<defaultData>
+			  <layer>61</layer>
+			</defaultData>
+		  </drawData>
+			<tags>
+				<li>BNF_Uniform</li>
+				<li>BNF_Uniform_Officer</li>				
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+            </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+		<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>	
+    </ThingDef>
+
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>BNF_Headgear_SlouchHat</defName>
+		<label>Slouch Hat</label>
+		<description>Based on an ancient Earth tradition, the slouch hat is famous among some of humanities greatest warriors or at least their maddest. The hat originally saw use with the doomed Colonial Rangers, a paramilitary organization that fought rough nations and criminal empires in the Rimworlds before the Awakening. Faced with the insurmountable enemy of both the Mechanoids and Insectoids, the Colonial Rangers collapsed, now nothing more than a few rag tag partisan groups. Now it is found in the hands of collectors of curiosities or in people wanting to invoke an image of heroism without having any of that heroism.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialUniforms</researchPrerequisite>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Headgear/SlouchHat/SlouchHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories Inherit="False">
+			<li>KP_Headgear</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Headgear/SlouchHat/SlouchHat</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>BNF_Uniform</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			<useWornGraphicMask>True</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.50,0.5,0.36)</only>
+				</li>
+				<li>
+					<weight>6</weight>
+					<only>(0.40,0.57,0.40)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.38,0.36,0.20)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.29,0.32,0.12)</only>
+				</li>
+			</options>
+		</colorGenerator>	
+	</ThingDef>	
+</Defs> 	

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Police</defName>
+    <label>Star Crest</label>
+    <Path>Things/Decals/Police/Police</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Shield</defName>
+    <label>Shield</label>
+    <Path>Things/Decals/Police/Shield</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Scales</defName>
+    <label>Scales</label>
+    <Path>Things/Decals/Police/Scales</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Dredd</defName>
+    <label>Badge</label>
+    <Path>Things/Decals/Police/Dredd</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Torch</defName>
+    <label>Torch</label>
+    <Path>Things/Decals/Police/Torch</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Column</defName>
+    <label>Column</label>
+    <Path>Things/Decals/Police/Column</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_TinStar</defName>
+    <label>Tin Star</label>
+    <Path>Things/Decals/Police/TinStar</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>  
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Gavel</defName>
+    <label>Gavel</label>
+    <Path>Things/Decals/Police/Gavel</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_142MP</defName>
+    <label>142MP</label>
+    <Path>Things/Decals/Police/142MP</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_300MP</defName>
+    <label>300MP</label>
+    <Path>Things/Decals/Police/300MP</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+
+</Defs>

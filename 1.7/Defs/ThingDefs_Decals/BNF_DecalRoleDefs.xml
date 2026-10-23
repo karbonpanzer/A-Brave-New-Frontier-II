@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Decal roles for filtering which symbols show up on which apparel -->
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Infantry</defName>
+    <label>infantry</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Engineer</defName>
+    <label>engineer</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Medic</defName>
+    <label>medic</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Officer</defName>
+    <label>officer</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Police</defName>
+    <label>police</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Scout</defName>
+    <label>scout</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+  <BNF.Core.DecalSystem.DecalRoleDef>
+    <defName>BNF_Role_Special</defName>
+    <label>special</label>
+  </BNF.Core.DecalSystem.DecalRoleDef>
+
+</Defs>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet</defName>
+    <label>Carapace Helmet</label>
+    <description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light</li>
+        <li>BNF_Armor_Scout</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.13)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet_Medic</defName>
+    <label>Carapace Helmet (Medic)</label>
+    <description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Medical staff.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light_Medic</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Medical/CrossCircle</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.13)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet_Support</defName>
+    <label>Carapace Helmet (Engineer)</label>
+    <description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by Engineering staff.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light_Engineer</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Engineer/Cog</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.13)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet_Officer</defName>
+    <label>Carapace Helmet (Officer)</label>
+    <description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is marked for usage by officers.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>OfficerFlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNF_Armor_Officer</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Officer/OfficerStar</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.13)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet_Thermal</defName>
+    <label>Carapace Helmet (Thermal)</label>
+    <description>Based on an ancient design of headwear, this helmet was designed for usage during Attrition Warfare. From the most brutal of trenches this helmet protects from Carapace and shrapnel that often finds soldiers in the trenches. Though lacking the finer details of more modern designs it makes up for it through the ease of production of this helmet. Its composition allows a versatile usage, being made from a composite of plasteel and a base metal that ensures even soldiers on the most barren of worlds will have adequate protection from their enemies.\n\nThis variant is modified for usage on extremely cold worlds.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>ThermalHelmets</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>80</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>KP_Light_Flak_Helmet_Faceshield</defName>
+    <label>Carapace Helmet (Faceshield)</label>
+    <description>Heavy fighting is a constant, especially on the Hellworld of Acheron. For the last 400 years, Acheron has fought off the Gamma Incursion of Insectoids which have covered approximately 40% of the planet in a new terraformed landscape. This mask covers a variety of issues that would be found in the trenches of Acheron, from additional face protection and fabric keeping ash and spores out of the lungs of the Paladin Regiments. Functional and practical, with only a small amount of plasteel to provide protection from any projectile coming towards the wearer.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>ModifiedHelmet</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>60</Cloth>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <EquipDelay>5</EquipDelay>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>170</MaxHitPoints>
+      <Mass>1.7</Mass>
+      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <RangedCooldownFactor>0.15</RangedCooldownFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light_Shocktrooper</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>BNF_FlakHelmetL_Gasmask</defName>
+    <label>Carapace Helmet (Gasmask)</label>
+    <description>.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>True</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <tags Inherit="False">
+        <li>BNF_Armor_Light</li>
+        <li>BNF_Armor_Scout</li>
+      </tags>
+      <renderNodeProperties>
+        <li Class="BNF.Core.DecalSystem.PawnRenderNodePropertiesOmni">
+          <nodeClass>BNF.Core.DecalSystem.PawnRenderNodeDecal</nodeClass>
+          <workerClass>BNF.Core.DecalSystem.PawnRenderNodeWorkerHeadware</workerClass>
+          <parentTagDef>ApparelHead</parentTagDef>
+          <baseLayer>55</baseLayer>
+          <texPaths>
+            <li>Things/Decals/Infantry/None</li>
+          </texPaths>
+          <visibleFacing>
+            <li>South</li>
+            <li>North</li>
+          </visibleFacing>
+          <drawData>
+            <scale>0.100</scale>
+            <defaultData>
+              <layer>75</layer>
+              <offset>(0,0,0.17)</offset>
+              <flip>true</flip>
+            </defaultData>
+          </drawData>
+        </li>
+      </renderNodeProperties>
+    </apparel>
+    <comps>
+      <li Class="BNF.Core.DecalSystem.CompPropertiesEditDecalMarker" />
+    </comps>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNF_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNF_Armor</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

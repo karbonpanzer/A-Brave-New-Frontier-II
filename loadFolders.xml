@@ -1,0 +1,23 @@
+<loadFolders>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>	
+		<li>Common</li>		
+	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li>Common</li>	
+
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey</li>
+		<li IfModActive="ceteam.combatextended">1.6/Mods/CE</li>
+	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.7</li>
+		<li>Common</li>			
+
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey</li>
+		<li IfModActive="ceteam.combatextended">1.7/Mods/CE</li>
+	</v1.7>	
+</loadFolders>

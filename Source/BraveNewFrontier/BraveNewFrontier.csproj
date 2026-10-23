@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>BNF.Core</RootNamespace>
+        <AssemblyName>BNF.Core</AssemblyName>
+        <OutputType>Library</OutputType>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <Deterministic>true</Deterministic>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>embedded</DebugType>
+        <OutputPath>..\..\..\1.7\Assemblies\</OutputPath>
+        <RimWorldDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\</RimWorldDir>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+        <Optimize>false</Optimize>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <Optimize>true</Optimize>
+        <DefineConstants>TRACE</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(RimWorldDir)Assembly-CSharp.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="UnityStubs">
+            <HintPath>$(RimWorldDir)UnityStubs.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+        <Reference Include="Waylith">
+            <HintPath>$(RimWorldDir)Waylith.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Lib.Harmony" Version="3.0.0-rc.2">
+            <ExcludeAssets>runtime</ExcludeAssets>
+            <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>

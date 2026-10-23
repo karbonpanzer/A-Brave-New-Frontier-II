@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs> 				
+			
+		<ThingDef ParentName="ArmorHelmetMakeableBase">
+			<defName>BNF_Helmet_EVA</defName>
+			<label>EVA Helmet</label>
+			<description>Made on the moon of Karloff, this helmet is a modifed rebreather from a dominion gasmask mixed with parts from a astro-miner helmet. It provides decent protection and the ability to function in a vacuum which is all it needed to do during the Laemelle Rebellion. Laemelle propaganda states taht the origin of this device was from the leader of the rebellion whose name had been lost to time, one they called Abraham Stroker, a miner who eventually took up arms against the explotation of the world by the dominion and led the revolt himself. Of course though actual records show that it was a woman by the name of Vilhemina Gotwyn who lead a division of miners against the Dominion after the death of 300 people in a cave-in. However, her falling out with the party led to the eventually take over of Abraham Stroker during the Reconstruction of the world of Chaney Major.</description>
+			<techLevel>Spacer</techLevel>
+		   <recipeMaker>
+			  <researchPrerequisite>AeneidKit</researchPrerequisite>
+			  <recipeUsers>
+				<li>TableMachining</li>
+			  </recipeUsers>
+			</recipeMaker>
+			<graphicData>
+				<texPath>Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+			</graphicData>
+			<statBases>
+				<WorkToMake>7000</WorkToMake>
+				<MaxHitPoints>60</MaxHitPoints>
+				<Mass>1</Mass>
+				<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>				
+				<EquipDelay>5</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+				<MoveSpeed>-0.01</MoveSpeed>
+				<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+				<VacuumResistance>0.69</VacuumResistance>				
+			</equippedStatOffsets>
+			<costList>
+				<Cloth>10</Cloth>
+				<Plasteel>5</Plasteel>
+				<ComponentIndustrial>2</ComponentIndustrial>
+			</costList>
+			<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>45</costStuffCount>
+			<thingCategories>
+				<li>BNF_Helmets</li>
+			</thingCategories>
+			<apparel>
+			  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+			  <immuneToToxGasExposure>true</immuneToToxGasExposure>
+			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+			  <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+			  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			  <bodyPartGroups>
+				<li>FullHead</li>
+			  </bodyPartGroups>
+			  <wornGraphicPath>Things/Pawn/Humanlike/Helmets/EVAHelmet/EVAHelmet</wornGraphicPath>
+		      <useWornGraphicMask>True</useWornGraphicMask>			  
+			  <layers>
+				<li>Overhead</li>
+			  </layers>
+			  <tags>
+				<li>BNF_Spacer</li>
+				<li>Vacsuit</li>
+			  </tags>
+			<forceEyesVisibleForRotations>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</forceEyesVisibleForRotations>			  
+			  <defaultOutfitTags>
+				<li>Spacefarer</li>
+			  </defaultOutfitTags>
+			</apparel>
+			<tradeTags>
+			  <li>HiTechArmor</li>
+			  <li>Armor</li>
+			</tradeTags>
+			<thingSetMakerTags>
+			  <li>RewardStandardMidFreq</li>
+			</thingSetMakerTags>
+			<costList>
+			  <ComponentIndustrial>2</ComponentIndustrial>
+			  <Steel>40</Steel>
+			</costList>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />
+		</ThingDef>	
+
+		<ThingDef ParentName="ApparelMakeableBase">
+			<defName>BNF_Armor_EVA</defName>
+			<label>EVA Armor</label>
+			<techLevel>Spacer</techLevel>
+			<description>During the reign of the Great Domain, a battle between the Dominion Infantry and the Laemelle Expanse, a secessionist movement of seven worlds who fought agains the Dominion.The Laemelle Republic formed the fall of the Dominion and armed several meteors as fortresses protecting the worlds of Chapman, Legosi, and Chaney Minor and Major, their greatest fortresses being on the moons of Rains and Karloff. On those worlds, they use a modified form of the standard dominion armor which allows its usage in space, using reinforced space suit seen by astro-miners before the rebellion. It is not a complex equipment but functions well for combat.</description>			
+			<recipeMaker>
+				<researchPrerequisite>AeneidKit</researchPrerequisite>
+			</recipeMaker>
+			<graphicData>
+				<graphicClass>Graphic_Single</graphicClass>
+				<texPath>Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</texPath>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>0.8</drawSize>
+			</graphicData>
+			<costStuffCount>150</costStuffCount>
+			<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+			<thingCategories Inherit="False">
+				<li>BNF_Armor</li>
+			</thingCategories>
+			<statBases>
+				<MaxHitPoints>200</MaxHitPoints>
+				<WorkToMake>7200</WorkToMake>
+				<Mass>7</Mass>
+				<StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+				<StuffEffectMultiplierInsulation_Cold>6</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
+				<EquipDelay>2</EquipDelay>
+			</statBases>
+			<equippedStatOffsets>
+				<PainShockThreshold>0.10</PainShockThreshold>
+		        <MoveSpeed>-1.25</MoveSpeed>
+			    <VacuumResistance>0.32</VacuumResistance>			
+			</equippedStatOffsets>
+			<apparel>
+				<bodyPartGroups>
+					<li>Torso</li>
+					<li>Neck</li>
+					<li>Shoulders</li>
+				</bodyPartGroups>
+				<wornGraphicPath>Things/Pawn/Humanlike/Armor/EVAArmor/EVAArmor</wornGraphicPath>
+				<useWornGraphicMask>True</useWornGraphicMask>
+				<layers>
+					<li>Middle</li>					
+				</layers>
+				<tags>
+					<li>BNF_EVA</li>
+				</tags>
+				<defaultOutfitTags>
+					<li>Spacefarer</li>
+				</defaultOutfitTags>
+			</apparel>
+			<colorGenerator Class="ColorGenerator_StandardApparel" />	
+		</ThingDef>	  
+</Defs>

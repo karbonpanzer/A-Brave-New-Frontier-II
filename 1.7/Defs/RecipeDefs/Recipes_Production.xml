@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RecipeDef>
+    <defName>BNF_Make_Dominium</defName>
+    <label>make dominium</label>
+    <description>Make dominium using steel and plasteel.</description>
+    <jobString>Making dominium.</jobString>
+    <workAmount>2400</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+        <BNF_Dominium>12</BNF_Dominium>
+    </products>
+    <recipeUsers>
+        <li>FabricationBench</li>
+    </recipeUsers>
+    <researchPrerequisite>
+	    <li>BNF_Dominium_Refining</li>
+	</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

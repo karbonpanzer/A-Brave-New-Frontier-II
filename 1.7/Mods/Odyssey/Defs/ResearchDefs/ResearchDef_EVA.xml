@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs> 	
+		
+		<ResearchProjectDef>
+			<defName>AeneidKit</defName>
+			<label>EVA Kit</label>
+			<description>Craft EVA helmets and suits for usage in orbit.</description>
+			<baseCost>500</baseCost>
+			<tab>ABraveNewFrontier</tab>
+			<techLevel>Industrial</techLevel>
+			<prerequisites>
+				<li>LateIndustrialFlakArmor</li>
+				<li>OrbitalTech</li>
+			</prerequisites>
+			<researchViewX>1</researchViewX>
+			<researchViewY>2.5</researchViewY>
+		</ResearchProjectDef>			
+			
+</Defs>

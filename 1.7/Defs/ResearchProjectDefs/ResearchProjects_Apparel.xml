@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<!--Armor-->
+	<ResearchProjectDef>
+		<defName>LateIndustrialFlakArmor</defName>
+		<label>Carapace Armor and Helmets</label>
+		<description>Craft armor and helmets that provide stronger protection than flak gear and cover more of the body.</description>
+		<baseCost>1600</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>FlakArmor</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>HeavyFlakArmor</defName>
+		<label>Heavy Carapace Armor and Helmets</label>
+		<description>Craft heavy armor and helmets that add additional plating for improved protection at increased material cost.</description>
+		<baseCost>2000</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialFlakArmor</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OfficerFlakArmor</defName>
+		<label>Officer Carapace Armor</label>
+		<description>Craft armor sets with officer markings that provide standard protection with added visual identification.</description>
+		<baseCost>2400</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialFlakArmor</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ThermalHelmets</defName>
+		<label>Thermal Helmets</label>
+		<description>Tailor insulated garments that provide warmth and wind protection in extreme cold.</description>
+		<baseCost>800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialFlakArmor</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ModifiedGauntlets</defName>
+		<label>Modified Gauntlets</label>
+		<description>Craft reinforced armor for the hands to improve protection and close-combat capability.</description>
+		<baseCost>2000</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>HeavyFlakArmor</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ModifiedHelmet</defName>
+		<label>Faceshield Helmets</label>
+		<description>Craft specilized helmets for heavy frontline use by shocktroopers.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>HeavyFlakArmor</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.75</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>RiotKit</defName>
+		<label>Riot Kit</label>
+		<description>Craft streamlined armor and equipment for protecting the colony from crime.</description>
+		<baseCost>500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialFlakArmor</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<!--Apparel-->
+	<ResearchProjectDef>
+		<defName>LateIndustrialUniforms</defName>
+		<label>Frontier Uniforms</label>
+		<description>Tailor garments that provide light protection and insulation for a variety of climates.</description>
+		<baseCost>1200</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OfficerUniforms</defName>
+		<label>Officer Uniforms</label>
+		<description>Tailor garments with officer markings that offer the same protection as standard apparel.</description>
+		<baseCost>1500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialUniforms</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ArcticUniforms</defName>
+		<label>Extreme Weather Uniforms</label>
+		<description>Tailor heavily modified garments designed for survival and work in extreme heat and cold.</description>
+		<baseCost>1500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialUniforms</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4.75</researchViewY>
+	</ResearchProjectDef>
+
+	<!--Accessories-->
+
+	<ResearchProjectDef>
+		<defName>LateIndustrialKitSupport</defName>
+		<label>Support Kits</label>
+		<description>Craft equipment that assist the work of support roles such as engineers and medics.</description>
+		<baseCost>1000</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>LateIndustrialKitInfantry</defName>
+		<label>Infantry Kit</label>
+		<description>Craft equipment that improves reload speed and general combat readiness.</description>
+		<baseCost>1000</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ComplexClothing</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>5.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>StormtrooperKit</defName>
+		<label>Stormtrooper Kit</label>
+		<description>Craft specilized equipment for heavy frontline use by shocktroopers.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialKitInfantry</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>5.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>VanguardKit</defName>
+		<label>Vanguard Kit</label>
+		<description>Craft lightweight armor that improves mobility at the cost of reduced protection.</description>
+		<baseCost>1200</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>LateIndustrialKitInfantry</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>6.5</researchViewY>
+	</ResearchProjectDef>	
+
+</Defs>

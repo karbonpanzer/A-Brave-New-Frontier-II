@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Gizmo -->
+  <BNF_StyleDecalsGizmo>Customize Decal</BNF_StyleDecalsGizmo>
+  <BNF_StyleDecalsDesc>Edit the decal and color applied to this pawn's apparel.</BNF_StyleDecalsDesc>
+  <BNF_StyleDecalsTitle>Edit Decal - {0}</BNF_StyleDecalsTitle>
+
+  <!-- Sections -->
+  <BNF_Decals_Symbol>Decal</BNF_Decals_Symbol>
+  <BNF_Decals_Color>Color</BNF_Decals_Color>
+
+  <!-- Symbol -->
+  <BNF_Decals_RandomSymbol>Random Symbol</BNF_Decals_RandomSymbol>
+  <BNF_Decals_NoSymbolsFound>No symbols found.</BNF_Decals_NoSymbolsFound>
+  <BNF_Decals_NoSelection>No selection</BNF_Decals_NoSelection>
+
+  <!-- Color -->
+  <BNF_Decals_IdeoColor>Set Ideology Color</BNF_Decals_IdeoColor>
+  <BNF_Decals_FavColor>Set Favorite Color</BNF_Decals_FavColor>
+  <BNF_Decals_RandomColor>Random Color</BNF_Decals_RandomColor>
+
+  <!-- Buttons -->
+  <BNF_Decals_Reset>Reset</BNF_Decals_Reset>
+  <BNF_Decals_Apply>Apply</BNF_Decals_Apply>
+  <BNF_Decals_Helmet>Helmet</BNF_Decals_Helmet>
+  <BNF_Decals_Armor>Armor</BNF_Decals_Armor>
+
+</LanguageData>

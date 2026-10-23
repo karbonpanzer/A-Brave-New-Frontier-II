@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>KP_Uniforms</defName>
+		<label>Frontier Apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>KP_Headgear</defName>
+		<label>Frontier Headgear</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>KP_Accessories</defName>
+		<label>Frontier Accessories</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>
+
+	<!-- Armor Directory-->
+	<ThingCategoryDef>
+		<defName>BNF_Armor</defName>
+		<label>Frontier Armor</label>
+		<parent>KP_Uniforms</parent>
+	</ThingCategoryDef>	
+
+	<!-- Helmet Subdirectory-->	
+	<ThingCategoryDef>
+		<defName>BNF_Helmets</defName>
+		<label>Helmets</label>
+		<parent>BNF_Armor</parent>
+	</ThingCategoryDef>			
+	
+	<!-- Armor Accessories-->	
+	<ThingCategoryDef>
+		<defName>BNF_ArmorAccessories</defName>
+		<label>Armor Accessories</label>
+		<parent>BNF_Armor</parent>
+	</ThingCategoryDef>	
+
+</Defs>

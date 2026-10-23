@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ExpeditionaryWeaponry</defName>
+		<label>Expeditionary Weaponry</label>
+		<description>Craft dependable expeditionary firearms and compact sidearms suited for general use.</description>
+		<baseCost>1500</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>GasOperation</li>
+			<li>PrecisionRifling</li>
+			<li>Smithing</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>	
+
+	<ResearchProjectDef>
+		<defName>AdvancedBallisticWeaponry</defName>
+		<label>Advanced Ballistic Weaponry</label>
+		<description>Craft high-performance ballistic weapons with improved accuracy and penetration.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>3.25</researchViewY>
+	</ResearchProjectDef>	
+
+	<ResearchProjectDef>
+		<defName>AntiMechanoidWeaponry</defName>
+		<label>Anti-Mechanoid Weaponry</label>
+		<description>Craft weapons specialized for penetrating or disabling armored mechanical targets.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AdvancedBallisticWeaponry</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>3.25</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ExperimentalWeaponry</defName>
+		<label>Experimental Weaponry</label>
+		<description>Craft prototype weapons built around unique mechanisms and systems.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>AntiInsectoidWeaponry</defName>
+		<label>Anti-Insectoid Weaponry</label>
+		<description>Craft weapons suited for rapid fire or shredding attacks against chitinous targets.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExperimentalWeaponry</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>	
+
+	<ResearchProjectDef>
+		<defName>ColonialRangerWeaponry</defName>
+		<label>Orbital Warfare Weaponry</label>
+		<description>Craft weapons suited for all enemies both surface and orbit.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>AntiInsectoidWeaponry</li>
+			<li>AntiMechanoidWeaponry</li>			
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>3.75</researchViewY>
+	</ResearchProjectDef>	
+	
+	<ResearchProjectDef>
+		<defName>TrenchWeaponry</defName>
+		<label>Trench Weaponry</label>
+		<description>Craft short-range firearms and heavy melee tools suited for close-quarters fighting.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ExpeditionaryWeaponry</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>4.75</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>ImprovisedWeaponry</defName>
+		<label>Improvised Weaponry</label>
+		<description>Craft makeshift weapons often used when industrial equipment is limited or unavailable.</description>
+		<baseCost>1800</baseCost>
+		<tab>ABraveNewFrontier</tab>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>TrenchWeaponry</li>
+		</prerequisites>
+		<researchViewX>5</researchViewX>
+		<researchViewY>4.75</researchViewY>
+	</ResearchProjectDef>	
+	
+</Defs>

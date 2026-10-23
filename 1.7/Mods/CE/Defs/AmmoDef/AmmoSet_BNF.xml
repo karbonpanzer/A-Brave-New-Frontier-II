@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- ================================================================ -->
+<!--  BNF_BelicoseAP — Assault Pistol (.45 Belicose AP Pistol Round)  -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoBelicoseAP</defName>
+    <label>Belicose AP</label>
+    <parent>AmmoPistols</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_BelicoseAP</defName>
+    <label>.45 Belicose AP pistol</label>
+    <ammoTypes>
+      <Ammo_BelicoseAP_FMJ>Bullet_BelicoseAP_FMJ</Ammo_BelicoseAP_FMJ>
+      <Ammo_BelicoseAP_AP>Bullet_BelicoseAP_AP</Ammo_BelicoseAP_AP>
+      <Ammo_BelicoseAP_HP>Bullet_BelicoseAP_HP</Ammo_BelicoseAP_HP>
+      <Ammo_BelicoseAP_Incendiary>Bullet_BelicoseAP_Incendiary</Ammo_BelicoseAP_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_45ACP</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BelicoseAPBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A .45-caliber armor-piercing pistol cartridge developed by Belicose for the Mark 17. Subsonic, heavy, designed to defeat human carapace at close range. Designated the .45 Belicose AP by the manufacturer. Inferior to Mechanoid-grade armor.</description>
+    <statBases>
+      <Mass>0.022</Mass>
+      <Bulk>0.04</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoBelicoseAP</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BelicoseAPBase">
+    <defName>Ammo_BelicoseAP_FMJ</defName>
+    <label>Belicose AP (FMJ)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.28</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_BelicoseAP_FMJ</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BelicoseAPBase">
+    <defName>Ammo_BelicoseAP_AP</defName>
+    <label>Belicose AP (AP)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.45</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_BelicoseAP_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BelicoseAPBase">
+    <defName>Ammo_BelicoseAP_HP</defName>
+    <label>Belicose AP (HP)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/HP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.38</MarketValue></statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_BelicoseAP_HP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BelicoseAPBase">
+    <defName>Ammo_BelicoseAP_Incendiary</defName>
+    <label>Belicose AP (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.50</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_BelicoseAP_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="BelicoseAPBulletBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>38</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BelicoseAPBulletBase">
+    <defName>Bullet_BelicoseAP_FMJ</defName>
+    <label>Belicose AP bullet (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationSharp>2.50</armorPenetrationSharp>
+      <armorPenetrationBlunt>18</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BelicoseAPBulletBase">
+    <defName>Bullet_BelicoseAP_AP</defName>
+    <label>Belicose AP bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationSharp>4.50</armorPenetrationSharp>
+      <armorPenetrationBlunt>22</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BelicoseAPBulletBase">
+    <defName>Bullet_BelicoseAP_HP</defName>
+    <label>Belicose AP bullet (HP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationSharp>0.80</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BelicoseAPBulletBase">
+    <defName>Bullet_BelicoseAP_Incendiary</defName>
+    <label>Belicose AP bullet (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationSharp>2.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>15</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_BelicoseAP_FMJ</defName>
+    <label>make Belicose AP (FMJ) x50</label>
+    <description>Craft 50 Belicose AP FMJ cartridges.</description>
+    <jobString>Making Belicose AP (FMJ) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>10</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_BelicoseAP_FMJ>50</Ammo_BelicoseAP_FMJ></products>
+    <workAmount>800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_BelicoseAP_AP</defName>
+    <label>make Belicose AP (AP) x50</label>
+    <description>Craft 50 Belicose AP armor-piercing cartridges.</description>
+    <jobString>Making Belicose AP (AP) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>2</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_BelicoseAP_AP>50</Ammo_BelicoseAP_AP></products>
+    <workAmount>1200</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_BelicoseAP_HP</defName>
+    <label>make Belicose AP (HP) x50</label>
+    <description>Craft 50 Belicose AP hollow point cartridges.</description>
+    <jobString>Making Belicose AP (HP) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_BelicoseAP_HP>50</Ammo_BelicoseAP_HP></products>
+    <workAmount>900</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_BelicoseAP_Incendiary</defName>
+    <label>make Belicose AP (Incendiary) x50</label>
+    <description>Craft 50 Belicose AP incendiary cartridges.</description>
+    <jobString>Making Belicose AP (Incendiary) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_BelicoseAP_Incendiary>50</Ammo_BelicoseAP_Incendiary></products>
+    <workAmount>1000</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_XMP7MicroRound — HyperSMG (Sub-caliber micro-flechette)    -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoXMP7Micro</defName>
+    <label>XMP-7 Micro</label>
+    <parent>AmmoPistols</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_XMP7Micro</defName>
+    <label>4x18mm XMP-7 micro-round</label>
+    <ammoTypes>
+      <Ammo_XMP7Micro_Standard>Bullet_XMP7Micro_Standard</Ammo_XMP7Micro_Standard>
+      <Ammo_XMP7Micro_Subsonic>Bullet_XMP7Micro_Subsonic</Ammo_XMP7Micro_Subsonic>
+      <Ammo_XMP7Micro_Tracer>Bullet_XMP7Micro_Tracer</Ammo_XMP7Micro_Tracer>
+      <Ammo_XMP7Micro_Incendiary>Bullet_XMP7Micro_Incendiary</Ammo_XMP7Micro_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_9x19mmPara</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="XMP7MicroBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 4x18mm sub-caliber micro-flechette developed through PROJECT: VOLLEY. Tiny enough to allow near-zero recoil in 7-round bursts from the Mithras XMP-7. Effective against flesh, negligible against armor.</description>
+    <statBases>
+      <Mass>0.004</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoXMP7Micro</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="XMP7MicroBase">
+    <defName>Ammo_XMP7Micro_Standard</defName>
+    <label>XMP-7 micro-round (Standard)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.08</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_XMP7Micro_Standard</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="XMP7MicroBase">
+    <defName>Ammo_XMP7Micro_Subsonic</defName>
+    <label>XMP-7 micro-round (Subsonic)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/HP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.12</MarketValue></statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_XMP7Micro_Subsonic</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="XMP7MicroBase">
+    <defName>Ammo_XMP7Micro_Tracer</defName>
+    <label>XMP-7 micro-round (Tracer)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.14</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_XMP7Micro_Tracer</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="XMP7MicroBase">
+    <defName>Ammo_XMP7Micro_Incendiary</defName>
+    <label>XMP-7 micro-round (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.16</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_XMP7Micro_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="XMP7MicroBulletBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>55</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="XMP7MicroBulletBase">
+    <defName>Bullet_XMP7Micro_Standard</defName>
+    <label>XMP-7 micro-round bullet (Standard)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>7</damageAmountBase>
+      <armorPenetrationSharp>0.10</armorPenetrationSharp>
+      <armorPenetrationBlunt>4</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="XMP7MicroBulletBase">
+    <defName>Bullet_XMP7Micro_Subsonic</defName>
+    <label>XMP-7 micro-round bullet (Subsonic)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>9</damageAmountBase>
+      <armorPenetrationSharp>0.06</armorPenetrationSharp>
+      <armorPenetrationBlunt>3</armorPenetrationBlunt>
+      <speed>30</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="XMP7MicroBulletBase">
+    <defName>Bullet_XMP7Micro_Tracer</defName>
+    <label>XMP-7 micro-round bullet (Tracer)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>7</damageAmountBase>
+      <armorPenetrationSharp>0.10</armorPenetrationSharp>
+      <armorPenetrationBlunt>4</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="XMP7MicroBulletBase">
+    <defName>Bullet_XMP7Micro_Incendiary</defName>
+    <label>XMP-7 micro-round bullet (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <armorPenetrationSharp>0.05</armorPenetrationSharp>
+      <armorPenetrationBlunt>3</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_XMP7Micro_Standard</defName>
+    <label>make XMP-7 micro-round (Standard) x200</label>
+    <description>Craft 200 XMP-7 standard micro-rounds.</description>
+    <jobString>Making XMP-7 micro-rounds (Standard).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_XMP7Micro_Standard>200</Ammo_XMP7Micro_Standard></products>
+    <workAmount>600</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_XMP7Micro_Subsonic</defName>
+    <label>make XMP-7 micro-round (Subsonic) x200</label>
+    <description>Craft 200 XMP-7 subsonic micro-rounds.</description>
+    <jobString>Making XMP-7 micro-rounds (Subsonic).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_XMP7Micro_Subsonic>200</Ammo_XMP7Micro_Subsonic></products>
+    <workAmount>700</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_XMP7Micro_Tracer</defName>
+    <label>make XMP-7 micro-round (Tracer) x200</label>
+    <description>Craft 200 XMP-7 tracer micro-rounds.</description>
+    <jobString>Making XMP-7 micro-rounds (Tracer).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>3</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_XMP7Micro_Tracer>200</Ammo_XMP7Micro_Tracer></products>
+    <workAmount>800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_XMP7Micro_Incendiary</defName>
+    <label>make XMP-7 micro-round (Incendiary) x200</label>
+    <description>Craft 200 XMP-7 incendiary micro-rounds.</description>
+    <jobString>Making XMP-7 micro-rounds (Incendiary).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>6</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_XMP7Micro_Incendiary>200</Ammo_XMP7Micro_Incendiary></products>
+    <workAmount>900</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_MicroMunitions — Compact PDW (Proprietary high-vel round)  -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoMicroMunitions</defName>
+    <label>Micro-Munitions</label>
+    <parent>AmmoPistols</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_MicroMunitions</defName>
+    <label>5x28mm Micro-Munitions round</label>
+    <ammoTypes>
+      <Ammo_MicroMunitions_FMJ>Bullet_MicroMunitions_FMJ</Ammo_MicroMunitions_FMJ>
+      <Ammo_MicroMunitions_HP>Bullet_MicroMunitions_HP</Ammo_MicroMunitions_HP>
+      <Ammo_MicroMunitions_AP>Bullet_MicroMunitions_AP</Ammo_MicroMunitions_AP>
+      <Ammo_MicroMunitions_Tracer>Bullet_MicroMunitions_Tracer</Ammo_MicroMunitions_Tracer>
+    </ammoTypes>
+    <similarTo>AmmoSet_9x19mmPara</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="MicroMunitionsBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 5x28mm proprietary PDW cartridge produced by Micro-Munitions. High-velocity, compact, designed for the Micro-Munitions Protector. Used by the Presidium Guard as a concealed sidearm round. No equivalent in the standard CE caliber registry.</description>
+    <statBases>
+      <Mass>0.006</Mass>
+      <Bulk>0.025</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoMicroMunitions</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MicroMunitionsBase">
+    <defName>Ammo_MicroMunitions_FMJ</defName>
+    <label>Micro-Munitions round (FMJ)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.12</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_MicroMunitions_FMJ</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MicroMunitionsBase">
+    <defName>Ammo_MicroMunitions_HP</defName>
+    <label>Micro-Munitions round (HP)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/HP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.18</MarketValue></statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_MicroMunitions_HP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MicroMunitionsBase">
+    <defName>Ammo_MicroMunitions_AP</defName>
+    <label>Micro-Munitions round (AP)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.22</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_MicroMunitions_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="MicroMunitionsBase">
+    <defName>Ammo_MicroMunitions_Tracer</defName>
+    <label>Micro-Munitions round (Tracer)</label>
+    <graphicData><texPath>Things/Ammo/Pistol/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.16</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_MicroMunitions_Tracer</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="MicroMunitionsBulletBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>90</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="MicroMunitionsBulletBase">
+    <defName>Bullet_MicroMunitions_FMJ</defName>
+    <label>Micro-Munitions bullet (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationSharp>0.40</armorPenetrationSharp>
+      <armorPenetrationBlunt>8</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="MicroMunitionsBulletBase">
+    <defName>Bullet_MicroMunitions_HP</defName>
+    <label>Micro-Munitions bullet (HP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationSharp>0.12</armorPenetrationSharp>
+      <armorPenetrationBlunt>5</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="MicroMunitionsBulletBase">
+    <defName>Bullet_MicroMunitions_AP</defName>
+    <label>Micro-Munitions bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>9</damageAmountBase>
+      <armorPenetrationSharp>1.20</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="MicroMunitionsBulletBase">
+    <defName>Bullet_MicroMunitions_Tracer</defName>
+    <label>Micro-Munitions bullet (Tracer)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationSharp>0.40</armorPenetrationSharp>
+      <armorPenetrationBlunt>8</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_MicroMunitions_FMJ</defName>
+    <label>make Micro-Munitions round (FMJ) x100</label>
+    <description>Craft 100 Micro-Munitions FMJ rounds.</description>
+    <jobString>Making Micro-Munitions rounds (FMJ).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_MicroMunitions_FMJ>100</Ammo_MicroMunitions_FMJ></products>
+    <workAmount>600</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_MicroMunitions_HP</defName>
+    <label>make Micro-Munitions round (HP) x100</label>
+    <description>Craft 100 Micro-Munitions hollow point rounds.</description>
+    <jobString>Making Micro-Munitions rounds (HP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_MicroMunitions_HP>100</Ammo_MicroMunitions_HP></products>
+    <workAmount>700</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_MicroMunitions_AP</defName>
+    <label>make Micro-Munitions round (AP) x100</label>
+    <description>Craft 100 Micro-Munitions armor-piercing rounds.</description>
+    <jobString>Making Micro-Munitions rounds (AP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>2</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_MicroMunitions_AP>100</Ammo_MicroMunitions_AP></products>
+    <workAmount>900</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_MicroMunitions_Tracer</defName>
+    <label>make Micro-Munitions round (Tracer) x100</label>
+    <description>Craft 100 Micro-Munitions tracer rounds.</description>
+    <jobString>Making Micro-Munitions rounds (Tracer).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>3</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_MicroMunitions_Tracer>100</Ammo_MicroMunitions_Tracer></products>
+    <workAmount>800</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_570Express — Slab Revolver (.570 Express large-bore round) -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>Ammo570Express</defName>
+    <label>.570 Express</label>
+    <parent>AmmoPistols</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_570Express</defName>
+    <label>.570 Express</label>
+    <ammoTypes>
+      <Ammo_570Express_FMJ>Bullet_570Express_FMJ</Ammo_570Express_FMJ>
+      <Ammo_570Express_SoftPoint>Bullet_570Express_SoftPoint</Ammo_570Express_SoftPoint>
+      <Ammo_570Express_AP>Bullet_570Express_AP</Ammo_570Express_AP>
+      <Ammo_570Express_Incendiary>Bullet_570Express_Incendiary</Ammo_570Express_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_50AE</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base570Express" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A .570-caliber (14.5mm) large-bore revolver cartridge developed by Belicose for the EVA Argonaut. One of the most powerful handgun cartridges in existence, delivering extreme stopping power at the cost of severe recoil and low magazine capacity. Favored by void-farers who need a sidearm capable of stopping large threats in a single shot.</description>
+    <statBases>
+      <Mass>0.028</Mass>
+      <Bulk>0.06</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>Ammo570Express</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base570Express">
+    <defName>Ammo_570Express_FMJ</defName>
+    <label>.570 Express (FMJ)</label>
+    <graphicData><texPath>Things/Ammo/Revolver/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.55</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_570Express_FMJ</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base570Express">
+    <defName>Ammo_570Express_SoftPoint</defName>
+    <label>.570 Express (Soft Point)</label>
+    <graphicData><texPath>Things/Ammo/Revolver/HP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.75</MarketValue></statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_570Express_SoftPoint</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base570Express">
+    <defName>Ammo_570Express_AP</defName>
+    <label>.570 Express (AP)</label>
+    <graphicData><texPath>Things/Ammo/Revolver/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.90</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_570Express_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base570Express">
+    <defName>Ammo_570Express_Incendiary</defName>
+    <label>.570 Express (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Revolver/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.85</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_570Express_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="Bullet570ExpressBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>48</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet570ExpressBase">
+    <defName>Bullet_570Express_FMJ</defName>
+    <label>.570 Express bullet (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationSharp>3.20</armorPenetrationSharp>
+      <armorPenetrationBlunt>28</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet570ExpressBase">
+    <defName>Bullet_570Express_SoftPoint</defName>
+    <label>.570 Express bullet (Soft Point)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>26</damageAmountBase>
+      <armorPenetrationSharp>1.20</armorPenetrationSharp>
+      <armorPenetrationBlunt>18</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet570ExpressBase">
+    <defName>Bullet_570Express_AP</defName>
+    <label>.570 Express bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>17</damageAmountBase>
+      <armorPenetrationSharp>5.80</armorPenetrationSharp>
+      <armorPenetrationBlunt>36</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet570ExpressBase">
+    <defName>Bullet_570Express_Incendiary</defName>
+    <label>.570 Express bullet (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationSharp>2.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>20</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_570Express_FMJ</defName>
+    <label>make .570 Express (FMJ) x24</label>
+    <description>Craft 24 .570 Express FMJ cartridges.</description>
+    <jobString>Making .570 Express (FMJ) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_570Express_FMJ>24</Ammo_570Express_FMJ></products>
+    <workAmount>1000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_570Express_SoftPoint</defName>
+    <label>make .570 Express (Soft Point) x24</label>
+    <description>Craft 24 .570 Express soft point cartridges.</description>
+    <jobString>Making .570 Express (Soft Point) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_570Express_SoftPoint>24</Ammo_570Express_SoftPoint></products>
+    <workAmount>1100</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_570Express_AP</defName>
+    <label>make .570 Express (AP) x24</label>
+    <description>Craft 24 .570 Express armor-piercing cartridges.</description>
+    <jobString>Making .570 Express (AP) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>4</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_570Express_AP>24</Ammo_570Express_AP></products>
+    <workAmount>1400</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_570Express_Incendiary</defName>
+    <label>make .570 Express (Incendiary) x24</label>
+    <description>Craft 24 .570 Express incendiary cartridges.</description>
+    <jobString>Making .570 Express (Incendiary) cartridges.</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_570Express_Incendiary>24</Ammo_570Express_Incendiary></products>
+    <workAmount>1200</workAmount>
+  </RecipeDef>
+
+<!-- ================================================================ -->
+<!--  BNF_16x50mm — Autoloader Rifle (16.5mm light cannon round)     -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>Ammo16x50mm</defName>
+    <label>16.5mm Autoloader</label>
+    <parent>AmmoRifles</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_16x50mm</defName>
+    <label>16.5x50mm Autoloader cannon</label>
+    <ammoTypes>
+      <Ammo_16x50mm_FMJ>Bullet_16x50mm_FMJ</Ammo_16x50mm_FMJ>
+      <Ammo_16x50mm_AP>Bullet_16x50mm_AP</Ammo_16x50mm_AP>
+      <Ammo_16x50mm_Sabot>Bullet_16x50mm_Sabot</Ammo_16x50mm_Sabot>
+      <Ammo_16x50mm_Incendiary>Bullet_16x50mm_Incendiary</Ammo_16x50mm_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_20x102mmNATO</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base16x50mm" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 16.5x50mm light cannon cartridge developed for the Alexandria Type-22 Double Deuce. Anti-vehicle capable, filling the gap between 12.7x99mm (.50 BMG) and 20x102mm autocannon rounds. Designed to defeat armored personnel carriers and light aircraft. Heavier than any rifle caliber in the CE standard registry.</description>
+    <statBases>
+      <Mass>0.085</Mass>
+      <Bulk>0.12</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>Ammo16x50mm</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base16x50mm">
+    <defName>Ammo_16x50mm_FMJ</defName>
+    <label>16.5mm round (FMJ)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.85</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_16x50mm_FMJ</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base16x50mm">
+    <defName>Ammo_16x50mm_AP</defName>
+    <label>16.5mm round (AP)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>1.40</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_16x50mm_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base16x50mm">
+    <defName>Ammo_16x50mm_Sabot</defName>
+    <label>16.5mm round (Sabot)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Sabot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>1.80</MarketValue></statBases>
+    <ammoClass>Sabot</ammoClass>
+    <cookOffProjectile>Bullet_16x50mm_Sabot</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base16x50mm">
+    <defName>Ammo_16x50mm_Incendiary</defName>
+    <label>16.5mm round (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Incendiary</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>1.20</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_16x50mm_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="Bullet16x50mmBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>55</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet16x50mmBase">
+    <defName>Bullet_16x50mm_FMJ</defName>
+    <label>16.5mm bullet (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationSharp>8.50</armorPenetrationSharp>
+      <armorPenetrationBlunt>45</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet16x50mmBase">
+    <defName>Bullet_16x50mm_AP</defName>
+    <label>16.5mm bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationSharp>14.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>58</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet16x50mmBase">
+    <defName>Bullet_16x50mm_Sabot</defName>
+    <label>16.5mm bullet (Sabot)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationSharp>22.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>70</armorPenetrationBlunt>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet16x50mmBase">
+    <defName>Bullet_16x50mm_Incendiary</defName>
+    <label>16.5mm bullet (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>26</damageAmountBase>
+      <armorPenetrationSharp>5.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>30</armorPenetrationBlunt>
+      <explosionRadius>0.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_16x50mm_FMJ</defName>
+    <label>make 16.5mm round (FMJ) x20</label>
+    <description>Craft 20 16.5mm FMJ rounds.</description>
+    <jobString>Making 16.5mm rounds (FMJ).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>25</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_16x50mm_FMJ>20</Ammo_16x50mm_FMJ></products>
+    <workAmount>1500</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_16x50mm_AP</defName>
+    <label>make 16.5mm round (AP) x20</label>
+    <description>Craft 20 16.5mm armor-piercing rounds.</description>
+    <jobString>Making 16.5mm rounds (AP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>6</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_16x50mm_AP>20</Ammo_16x50mm_AP></products>
+    <workAmount>2000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_16x50mm_Sabot</defName>
+    <label>make 16.5mm round (Sabot) x20</label>
+    <description>Craft 20 16.5mm discarding-sabot rounds.</description>
+    <jobString>Making 16.5mm rounds (Sabot).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>10</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_16x50mm_Sabot>20</Ammo_16x50mm_Sabot></products>
+    <workAmount>2500</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_16x50mm_Incendiary</defName>
+    <label>make 16.5mm round (Incendiary) x20</label>
+    <description>Craft 20 16.5mm incendiary rounds.</description>
+    <jobString>Making 16.5mm rounds (Incendiary).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>10</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_16x50mm_Incendiary>20</Ammo_16x50mm_Incendiary></products>
+    <workAmount>1800</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_6x24mmPhased — Phase Rifle + Carbine (Phased electric)     -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>Ammo6x24mmPhased</defName>
+    <label>6x24mm Phased</label>
+    <parent>AmmoRifles</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_6x24mmPhased</defName>
+    <label>6x24mm Phased Electric (Alphamech)</label>
+    <ammoTypes>
+      <Ammo_6x24mmPhased_Standard>Bullet_6x24mmPhased_Standard</Ammo_6x24mmPhased_Standard>
+      <Ammo_6x24mmPhased_EMP>Bullet_6x24mmPhased_EMP</Ammo_6x24mmPhased_EMP>
+      <Ammo_6x24mmPhased_Shock>Bullet_6x24mmPhased_Shock</Ammo_6x24mmPhased_Shock>
+      <Ammo_6x24mmPhased_AP>Bullet_6x24mmPhased_AP</Ammo_6x24mmPhased_AP>
+    </ammoTypes>
+    <similarTo>AmmoSet_6x24mmCharged</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base6x24mmPhased" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 6x24mm phased electric projectile developed by Alphamech for the Apollo-97 system. Electrically propelled through phased magnetic coils rather than chemical propellant. While sharing the 6x24mm designation with CE's standard Charged Rifle rounds, these are electrically-phased and carry different ammo classes — EMP, Shock, and AP variants not available in the standard charge rifle set.</description>
+    <statBases>
+      <Mass>0.010</Mass>
+      <Bulk>0.03</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>Ammo6x24mmPhased</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmPhased">
+    <defName>Ammo_6x24mmPhased_Standard</defName>
+    <label>phased round (Standard)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.35</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_6x24mmPhased_Standard</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmPhased">
+    <defName>Ammo_6x24mmPhased_EMP</defName>
+    <label>phased round (EMP)</label>
+    <graphicData><texPath>Things/Ammo/HighCaliber/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.65</MarketValue></statBases>
+    <ammoClass>GrenadeEMP</ammoClass>
+    <cookOffProjectile>Bullet_6x24mmPhased_EMP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmPhased">
+    <defName>Ammo_6x24mmPhased_Shock</defName>
+    <label>phased round (Shock)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Incendiary</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.55</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_6x24mmPhased_Shock</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base6x24mmPhased">
+    <defName>Ammo_6x24mmPhased_AP</defName>
+    <label>phased round (AP)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.70</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_6x24mmPhased_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="Bullet6x24mmPhasedBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>70</speed>
+      <dropsCasings>false</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet6x24mmPhasedBase">
+    <defName>Bullet_6x24mmPhased_Standard</defName>
+    <label>phased bolt (Standard)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationSharp>3.50</armorPenetrationSharp>
+      <armorPenetrationBlunt>30</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet6x24mmPhasedBase">
+    <defName>Bullet_6x24mmPhased_EMP</defName>
+    <label>phased bolt (EMP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationSharp>2.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>18</armorPenetrationBlunt>
+      <explosionRadius>0.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet6x24mmPhasedBase">
+    <defName>Bullet_6x24mmPhased_Shock</defName>
+    <label>phased bolt (Shock)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationSharp>1.50</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet6x24mmPhasedBase">
+    <defName>Bullet_6x24mmPhased_AP</defName>
+    <label>phased bolt (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationSharp>7.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>48</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_6x24mmPhased_Standard</defName>
+    <label>make phased round (Standard) x60</label>
+    <description>Craft 60 standard phased rounds.</description>
+    <jobString>Making phased rounds (Standard).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>2</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>ComponentIndustrial</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_6x24mmPhased_Standard>60</Ammo_6x24mmPhased_Standard></products>
+    <workAmount>1000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_6x24mmPhased_EMP</defName>
+    <label>make phased round (EMP) x60</label>
+    <description>Craft 60 EMP phased rounds.</description>
+    <jobString>Making phased rounds (EMP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>1</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>ComponentIndustrial</li><li>ComponentSpacer</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_6x24mmPhased_EMP>60</Ammo_6x24mmPhased_EMP></products>
+    <workAmount>1500</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_6x24mmPhased_Shock</defName>
+    <label>make phased round (Shock) x60</label>
+    <description>Craft 60 shock phased rounds.</description>
+    <jobString>Making phased rounds (Shock).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>ComponentIndustrial</li><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_6x24mmPhased_Shock>60</Ammo_6x24mmPhased_Shock></products>
+    <workAmount>1200</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_6x24mmPhased_AP</defName>
+    <label>make phased round (AP) x60</label>
+    <description>Craft 60 armor-piercing phased rounds.</description>
+    <jobString>Making phased rounds (AP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>2</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>3</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>ComponentIndustrial</li><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_6x24mmPhased_AP>60</Ammo_6x24mmPhased_AP></products>
+    <workAmount>1600</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_10Gauge — Super-Shotgun + Coreburner (10 gauge caseless)   -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>Ammo10Gauge</defName>
+    <label>10 Gauge</label>
+    <parent>AmmoShotguns</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberShotgun</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_10Gauge</defName>
+    <label>10 Gauge Caseless (Millenia)</label>
+    <ammoTypes>
+      <Ammo_10Gauge_Buck>Bullet_10Gauge_Buck</Ammo_10Gauge_Buck>
+      <Ammo_10Gauge_Slug>Bullet_10Gauge_Slug</Ammo_10Gauge_Slug>
+      <Ammo_10Gauge_Explosive>Bullet_10Gauge_Explosive</Ammo_10Gauge_Explosive>
+      <Ammo_10Gauge_EMP>Bullet_10Gauge_EMP</Ammo_10Gauge_EMP>
+      <Ammo_10Gauge_Incendiary>Bullet_10Gauge_Incendiary</Ammo_10Gauge_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_12Gauge</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Base10Gauge" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 10-gauge caseless shell produced by Millenia for the M72 Super-Shotgun and licensed to Tschish-Maxwell for the Coreburner. Larger bore than the standard 12-gauge (41.4g payload), the 10-gauge caseless carries approximately 55g of shot or slug material. Not compatible with standard 12-gauge weapons.</description>
+    <statBases>
+      <Mass>0.055</Mass>
+      <Bulk>0.08</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>Ammo10Gauge</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10Gauge">
+    <defName>Ammo_10Gauge_Buck</defName>
+    <label>10 gauge shell (Buckshot)</label>
+    <graphicData><texPath>Things/Ammo/Shotgun/Shot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.35</MarketValue></statBases>
+    <ammoClass>BuckShot</ammoClass>
+    <cookOffProjectile>Bullet_10Gauge_Buck</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10Gauge">
+    <defName>Ammo_10Gauge_Slug</defName>
+    <label>10 gauge shell (Slug)</label>
+    <graphicData><texPath>Things/Ammo/Shotgun/Slug</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.45</MarketValue></statBases>
+    <ammoClass>Slug</ammoClass>
+    <cookOffProjectile>Bullet_10Gauge_Slug</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10Gauge">
+    <defName>Ammo_10Gauge_Explosive</defName>
+    <label>10 gauge shell (Explosive)</label>
+    <graphicData><texPath>Things/Ammo/Shotgun/Shot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.80</MarketValue></statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <cookOffProjectile>Bullet_10Gauge_Explosive</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10Gauge">
+    <defName>Ammo_10Gauge_EMP</defName>
+    <label>10 gauge shell (EMP)</label>
+    <graphicData><texPath>Things/Ammo/Shotgun/EMP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.90</MarketValue></statBases>
+    <ammoClass>GrenadeEMP</ammoClass>
+    <cookOffProjectile>Bullet_10Gauge_EMP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10Gauge">
+    <defName>Ammo_10Gauge_Incendiary</defName>
+    <label>10 gauge shell (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Shotgun/Shot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.70</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_10Gauge_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="Bullet10GaugeBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>55</speed>
+      <pelletCount>9</pelletCount>
+      <dropsCasings>false</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet10GaugeBase">
+    <defName>Bullet_10Gauge_Buck</defName>
+    <label>10 gauge pellet (Buckshot)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationSharp>0.18</armorPenetrationSharp>
+      <armorPenetrationBlunt>7</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet10GaugeBase">
+    <defName>Bullet_10Gauge_Slug</defName>
+    <label>10 gauge slug</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationSharp>2.80</armorPenetrationSharp>
+      <armorPenetrationBlunt>25</armorPenetrationBlunt>
+      <pelletCount>1</pelletCount>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet10GaugeBase">
+    <defName>Bullet_10Gauge_Explosive</defName>
+    <label>10 gauge explosive shell</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationSharp>1.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>12</armorPenetrationBlunt>
+      <pelletCount>1</pelletCount>
+      <explosionRadius>1.8</explosionRadius>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet10GaugeBase">
+    <defName>Bullet_10Gauge_EMP</defName>
+    <label>10 gauge EMP slug</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationSharp>1.00</armorPenetrationSharp>
+      <armorPenetrationBlunt>10</armorPenetrationBlunt>
+      <pelletCount>1</pelletCount>
+      <explosionRadius>1.2</explosionRadius>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet10GaugeBase">
+    <defName>Bullet_10Gauge_Incendiary</defName>
+    <label>10 gauge incendiary shell</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <armorPenetrationSharp>0.10</armorPenetrationSharp>
+      <armorPenetrationBlunt>4</armorPenetrationBlunt>
+      <pelletCount>6</pelletCount>
+      <speed>45</speed>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_10Gauge_Buck</defName>
+    <label>make 10 gauge shell (Buckshot) x25</label>
+    <description>Craft 25 10-gauge buckshot shells.</description>
+    <jobString>Making 10 gauge shells (Buckshot).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_10Gauge_Buck>25</Ammo_10Gauge_Buck></products>
+    <workAmount>700</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_10Gauge_Slug</defName>
+    <label>make 10 gauge shell (Slug) x25</label>
+    <description>Craft 25 10-gauge slug shells.</description>
+    <jobString>Making 10 gauge shells (Slug).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_10Gauge_Slug>25</Ammo_10Gauge_Slug></products>
+    <workAmount>900</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_10Gauge_Explosive</defName>
+    <label>make 10 gauge shell (Explosive) x25</label>
+    <description>Craft 25 10-gauge explosive shells.</description>
+    <jobString>Making 10 gauge shells (Explosive).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_10Gauge_Explosive>25</Ammo_10Gauge_Explosive></products>
+    <workAmount>1200</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_10Gauge_EMP</defName>
+    <label>make 10 gauge shell (EMP) x25</label>
+    <description>Craft 25 10-gauge EMP shells.</description>
+    <jobString>Making 10 gauge shells (EMP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>12</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>2</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>ComponentIndustrial</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_10Gauge_EMP>25</Ammo_10Gauge_EMP></products>
+    <workAmount>1400</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_10Gauge_Incendiary</defName>
+    <label>make 10 gauge shell (Incendiary) x25</label>
+    <description>Craft 25 10-gauge incendiary shells.</description>
+    <jobString>Making 10 gauge shells (Incendiary).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_10Gauge_Incendiary>25</Ammo_10Gauge_Incendiary></products>
+    <workAmount>1100</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_Flechette — Flechette Rifle (anti-flesh dart round)        -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoFlechette</defName>
+    <label>Flechette</label>
+    <parent>AmmoRifles</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_Flechette</defName>
+    <label>3x45mm Flechette (Shredder)</label>
+    <ammoTypes>
+      <Ammo_Flechette_Standard>Bullet_Flechette_Standard</Ammo_Flechette_Standard>
+      <Ammo_Flechette_Barbed>Bullet_Flechette_Barbed</Ammo_Flechette_Barbed>
+      <Ammo_Flechette_Explosive>Bullet_Flechette_Explosive</Ammo_Flechette_Explosive>
+      <Ammo_Flechette_Incendiary>Bullet_Flechette_Incendiary</Ammo_Flechette_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_556x45mmNATO</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseFlechette" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A 3x45mm sub-caliber flechette dart designed by Terys-Gua for the R4 Shredder. The 3mm steel dart and 45mm sabot casing deliver extreme soft-tissue damage at the cost of armor penetration. Developed specifically to fight the unarmored clone armies of the Black King on the fortress-world of Sisu. Not compatible with standard 5.56x45mm weapons.</description>
+    <statBases>
+      <Mass>0.005</Mass>
+      <Bulk>0.02</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoFlechette</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFlechette">
+    <defName>Ammo_Flechette_Standard</defName>
+    <label>flechette dart (Standard)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.10</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_Flechette_Standard</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFlechette">
+    <defName>Ammo_Flechette_Barbed</defName>
+    <label>flechette dart (Barbed)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/HP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.18</MarketValue></statBases>
+    <ammoClass>HollowPoint</ammoClass>
+    <cookOffProjectile>Bullet_Flechette_Barbed</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFlechette">
+    <defName>Ammo_Flechette_Explosive</defName>
+    <label>flechette dart (Explosive Tip)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/HE</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.30</MarketValue></statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <cookOffProjectile>Bullet_Flechette_Explosive</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseFlechette">
+    <defName>Ammo_Flechette_Incendiary</defName>
+    <label>flechette dart (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Incendiary</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>0.25</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_Flechette_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="BulletFlechetteBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Small</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>70</speed>
+      <dropsCasings>false</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletFlechetteBase">
+    <defName>Bullet_Flechette_Standard</defName>
+    <label>flechette dart (Standard)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>7</damageAmountBase>
+      <armorPenetrationSharp>0.40</armorPenetrationSharp>
+      <armorPenetrationBlunt>4</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletFlechetteBase">
+    <defName>Bullet_Flechette_Barbed</defName>
+    <label>flechette dart (Barbed)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>9</damageAmountBase>
+      <armorPenetrationSharp>0.15</armorPenetrationSharp>
+      <armorPenetrationBlunt>3</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletFlechetteBase">
+    <defName>Bullet_Flechette_Explosive</defName>
+    <label>flechette dart (Explosive Tip)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationSharp>0.30</armorPenetrationSharp>
+      <armorPenetrationBlunt>5</armorPenetrationBlunt>
+      <explosionRadius>0.3</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletFlechetteBase">
+    <defName>Bullet_Flechette_Incendiary</defName>
+    <label>flechette dart (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <armorPenetrationSharp>0.20</armorPenetrationSharp>
+      <armorPenetrationBlunt>3</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_Flechette_Standard</defName>
+    <label>make flechette dart (Standard) x120</label>
+    <description>Craft 120 standard flechette darts.</description>
+    <jobString>Making flechette darts (Standard).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_Flechette_Standard>120</Ammo_Flechette_Standard></products>
+    <workAmount>600</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_Flechette_Barbed</defName>
+    <label>make flechette dart (Barbed) x120</label>
+    <description>Craft 120 barbed flechette darts.</description>
+    <jobString>Making flechette darts (Barbed).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>10</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_Flechette_Barbed>120</Ammo_Flechette_Barbed></products>
+    <workAmount>800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_Flechette_Explosive</defName>
+    <label>make flechette dart (Explosive Tip) x120</label>
+    <description>Craft 120 explosive-tip flechette darts.</description>
+    <jobString>Making flechette darts (Explosive Tip).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_Flechette_Explosive>120</Ammo_Flechette_Explosive></products>
+    <workAmount>1000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_Flechette_Incendiary</defName>
+    <label>make flechette dart (Incendiary) x120</label>
+    <description>Craft 120 incendiary flechette darts.</description>
+    <jobString>Making flechette darts (Incendiary).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>6</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_Flechette_Incendiary>120</Ammo_Flechette_Incendiary></products>
+    <workAmount>900</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_ChemRail — Chemrail Rifle (chem-assisted rail slug)        -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoChemRail</defName>
+    <label>Chem-Rail</label>
+    <parent>AmmoRifles</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_ChemRail</defName>
+    <label>.60 Chem-Rail slug</label>
+    <ammoTypes>
+      <Ammo_ChemRail_FMJ>Bullet_ChemRail_FMJ</Ammo_ChemRail_FMJ>
+      <Ammo_ChemRail_Sabot>Bullet_ChemRail_Sabot</Ammo_ChemRail_Sabot>
+      <Ammo_ChemRail_Explosive>Bullet_ChemRail_Explosive</Ammo_ChemRail_Explosive>
+      <Ammo_ChemRail_Incendiary>Bullet_ChemRail_Incendiary</Ammo_ChemRail_Incendiary>
+    </ammoTypes>
+    <similarTo>AmmoSet_50BMG</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseChemRail" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A .60-caliber (15.24mm) hybrid slug developed for the Alphamech Gustav Mod.10 Chem-Rail. Launched by chemical propellant and then accelerated through magnetic rails, these rounds sit between .50 BMG (12.7mm) and 20mm autocannon (20mm) in bore diameter. The chemical-rail hybrid launch mechanism gives them a distinct ballistic profile from either pure chemical or pure magnetic propulsion systems.</description>
+    <statBases>
+      <Mass>0.065</Mass>
+      <Bulk>0.10</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoChemRail</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseChemRail">
+    <defName>Ammo_ChemRail_FMJ</defName>
+    <label>chem-rail slug (FMJ)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/FMJ</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>1.50</MarketValue></statBases>
+    <ammoClass>FullMetalJacket</ammoClass>
+    <cookOffProjectile>Bullet_ChemRail_FMJ</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseChemRail">
+    <defName>Ammo_ChemRail_Sabot</defName>
+    <label>chem-rail slug (Sabot)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Sabot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.20</MarketValue></statBases>
+    <ammoClass>Sabot</ammoClass>
+    <cookOffProjectile>Bullet_ChemRail_Sabot</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseChemRail">
+    <defName>Ammo_ChemRail_Explosive</defName>
+    <label>chem-rail slug (Explosive)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/HE</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.50</MarketValue></statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <cookOffProjectile>Bullet_ChemRail_Explosive</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseChemRail">
+    <defName>Ammo_ChemRail_Incendiary</defName>
+    <label>chem-rail slug (Incendiary)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Incendiary</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.00</MarketValue></statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <cookOffProjectile>Bullet_ChemRail_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="BulletChemRailBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>75</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletChemRailBase">
+    <defName>Bullet_ChemRail_FMJ</defName>
+    <label>chem-rail slug (FMJ)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>38</damageAmountBase>
+      <armorPenetrationSharp>18.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>80</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletChemRailBase">
+    <defName>Bullet_ChemRail_Sabot</defName>
+    <label>chem-rail slug (Sabot)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationSharp>32.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>100</armorPenetrationBlunt>
+      <speed>95</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletChemRailBase">
+    <defName>Bullet_ChemRail_Explosive</defName>
+    <label>chem-rail slug (Explosive)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <armorPenetrationSharp>12.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>60</armorPenetrationBlunt>
+      <explosionRadius>2.0</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletChemRailBase">
+    <defName>Bullet_ChemRail_Incendiary</defName>
+    <label>chem-rail slug (Incendiary)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>35</damageAmountBase>
+      <armorPenetrationSharp>10.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>50</armorPenetrationBlunt>
+      <explosionRadius>0.8</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_ChemRail_FMJ</defName>
+    <label>make chem-rail slug (FMJ) x10</label>
+    <description>Craft 10 chem-rail FMJ slugs.</description>
+    <jobString>Making chem-rail slugs (FMJ).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_ChemRail_FMJ>10</Ammo_ChemRail_FMJ></products>
+    <workAmount>1800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_ChemRail_Sabot</defName>
+    <label>make chem-rail slug (Sabot) x10</label>
+    <description>Craft 10 chem-rail sabot slugs.</description>
+    <jobString>Making chem-rail slugs (Sabot).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>15</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>8</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Plasteel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_ChemRail_Sabot>10</Ammo_ChemRail_Sabot></products>
+    <workAmount>2500</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_ChemRail_Explosive</defName>
+    <label>make chem-rail slug (Explosive) x10</label>
+    <description>Craft 10 chem-rail explosive slugs.</description>
+    <jobString>Making chem-rail slugs (Explosive).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>20</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>15</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_ChemRail_Explosive>10</Ammo_ChemRail_Explosive></products>
+    <workAmount>2200</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_ChemRail_Incendiary</defName>
+    <label>make chem-rail slug (Incendiary) x10</label>
+    <description>Craft 10 chem-rail incendiary slugs.</description>
+    <jobString>Making chem-rail slugs (Incendiary).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Steel</li></thingDefs></filter><count>18</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>18</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Steel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_ChemRail_Incendiary>10</Ammo_ChemRail_Incendiary></products>
+    <workAmount>2000</workAmount>
+  </RecipeDef>
+
+
+<!-- ================================================================ -->
+<!--  BNF_HypervelocityAMR — Twin Lancer (hypervelocity penetrator)  -->
+<!-- ================================================================ -->
+
+  <ThingCategoryDef>
+    <defName>AmmoHypervelocityAMR</defName>
+    <label>Hypervelocity AMR</label>
+    <parent>AmmoRifles</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+  </ThingCategoryDef>
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_HypervelocityAMR</defName>
+    <label>.50 HV Penetrator (Okean)</label>
+    <ammoTypes>
+      <Ammo_HypervelocityAMR_AP>Bullet_HypervelocityAMR_AP</Ammo_HypervelocityAMR_AP>
+      <Ammo_HypervelocityAMR_Sabot>Bullet_HypervelocityAMR_Sabot</Ammo_HypervelocityAMR_Sabot>
+      <Ammo_HypervelocityAMR_EMP>Bullet_HypervelocityAMR_EMP</Ammo_HypervelocityAMR_EMP>
+      <Ammo_HypervelocityAMR_Explosive>Bullet_HypervelocityAMR_Explosive</Ammo_HypervelocityAMR_Explosive>
+    </ammoTypes>
+    <similarTo>AmmoSet_50BMG</similarTo>
+  </CombatExtended.AmmoSetDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseHypervelocityAMR" ParentName="SmallAmmoBase" Abstract="True">
+    <description>A .50-caliber (12.7mm) hypervelocity kinetic penetrator developed on Okeus for the OMC-2 Twin Lancer. While sharing bore diameter with .50 BMG, these rounds are purpose-designed for rail-assisted hypervelocity launch — lighter projectile, harder alloy, no explosive filler. Velocity exceeds all standard CE calibers. Incompatible with conventional .50 BMG chambers due to different case geometry and chamber pressure ratings.</description>
+    <statBases>
+      <Mass>0.050</Mass>
+      <Bulk>0.09</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories><li>AmmoHypervelocityAMR</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseHypervelocityAMR">
+    <defName>Ammo_HypervelocityAMR_AP</defName>
+    <label>hypervelocity round (AP)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.00</MarketValue></statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_HypervelocityAMR_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseHypervelocityAMR">
+    <defName>Ammo_HypervelocityAMR_Sabot</defName>
+    <label>hypervelocity round (Sabot)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/Sabot</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.80</MarketValue></statBases>
+    <ammoClass>Sabot</ammoClass>
+    <cookOffProjectile>Bullet_HypervelocityAMR_Sabot</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseHypervelocityAMR">
+    <defName>Ammo_HypervelocityAMR_EMP</defName>
+    <label>hypervelocity round (EMP)</label>
+    <graphicData><texPath>Things/Ammo/HighCaliber/AP</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.50</MarketValue></statBases>
+    <ammoClass>GrenadeEMP</ammoClass>
+    <cookOffProjectile>Bullet_HypervelocityAMR_EMP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseHypervelocityAMR">
+    <defName>Ammo_HypervelocityAMR_Explosive</defName>
+    <label>hypervelocity round (Explosive)</label>
+    <graphicData><texPath>Things/Ammo/Rifle/Clip/HE</texPath><graphicClass>Graphic_StackCount</graphicClass></graphicData>
+    <statBases><MarketValue>2.20</MarketValue></statBases>
+    <ammoClass>GrenadeHE</ammoClass>
+    <cookOffProjectile>Bullet_HypervelocityAMR_Explosive</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Name="BulletHypervelocityAMRBase" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData><texPath>Things/Projectile/Bullet_Big</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>120</speed>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletHypervelocityAMRBase">
+    <defName>Bullet_HypervelocityAMR_AP</defName>
+    <label>hypervelocity penetrator (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>22</damageAmountBase>
+      <armorPenetrationSharp>22.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>90</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletHypervelocityAMRBase">
+    <defName>Bullet_HypervelocityAMR_Sabot</defName>
+    <label>hypervelocity penetrator (Sabot)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationSharp>35.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>115</armorPenetrationBlunt>
+      <speed>140</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletHypervelocityAMRBase">
+    <defName>Bullet_HypervelocityAMR_EMP</defName>
+    <label>hypervelocity penetrator (EMP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationSharp>15.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>65</armorPenetrationBlunt>
+      <explosionRadius>0.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BulletHypervelocityAMRBase">
+    <defName>Bullet_HypervelocityAMR_Explosive</defName>
+    <label>hypervelocity penetrator (Explosive)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationSharp>12.0</armorPenetrationSharp>
+      <armorPenetrationBlunt>55</armorPenetrationBlunt>
+      <explosionRadius>1.5</explosionRadius>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_HypervelocityAMR_AP</defName>
+    <label>make hypervelocity round (AP) x8</label>
+    <description>Craft 8 hypervelocity AP penetrators.</description>
+    <jobString>Making hypervelocity rounds (AP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>12</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_HypervelocityAMR_AP>8</Ammo_HypervelocityAMR_AP></products>
+    <workAmount>2000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_HypervelocityAMR_Sabot</defName>
+    <label>make hypervelocity round (Sabot) x8</label>
+    <description>Craft 8 hypervelocity sabot penetrators.</description>
+    <jobString>Making hypervelocity rounds (Sabot).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>16</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Plasteel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_HypervelocityAMR_Sabot>8</Ammo_HypervelocityAMR_Sabot></products>
+    <workAmount>2800</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_HypervelocityAMR_EMP</defName>
+    <label>make hypervelocity round (EMP) x8</label>
+    <description>Craft 8 hypervelocity EMP penetrators.</description>
+    <jobString>Making hypervelocity rounds (EMP).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter><count>2</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Plasteel</li><li>ComponentSpacer</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_HypervelocityAMR_EMP>8</Ammo_HypervelocityAMR_EMP></products>
+    <workAmount>3000</workAmount>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_HypervelocityAMR_Explosive</defName>
+    <label>make hypervelocity round (Explosive) x8</label>
+    <description>Craft 8 hypervelocity explosive penetrators.</description>
+    <jobString>Making hypervelocity rounds (Explosive).</jobString>
+    <ingredients>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>Chemfuel</li></thingDefs></filter><count>10</count></li>
+    </ingredients>
+    <fixedIngredientFilter><thingDefs><li>Plasteel</li><li>Chemfuel</li></thingDefs></fixedIngredientFilter>
+    <products><Ammo_HypervelocityAMR_Explosive>8</Ammo_HypervelocityAMR_Explosive></products>
+    <workAmount>2500</workAmount>
+  </RecipeDef>
+
+
+</Defs>

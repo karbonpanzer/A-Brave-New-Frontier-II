@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- ==================== LIGHT ARMORS ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Armor" or defName="KP_Light_Flak_Armor_Medic" or defName="KP_Light_Flak_Armor_Support"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>17</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Armor" or defName="KP_Light_Flak_Armor_Medic" or defName="KP_Light_Flak_Armor_Support"]/statBases</xpath>
+    <value>
+      <Bulk>18</Bulk>
+      <WornBulk>6</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Armor" or defName="KP_Light_Flak_Armor_Medic" or defName="KP_Light_Flak_Armor_Support"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>300</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== HEAVY ARMORS ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Armor" or defName="KP_Heavy_Flak_Armor_Medic" or defName="KP_Heavy_Flak_Armor_Support"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>20</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Armor" or defName="KP_Heavy_Flak_Armor_Medic" or defName="KP_Heavy_Flak_Armor_Support"]/statBases</xpath>
+    <value>
+      <Bulk>26</Bulk>
+      <WornBulk>10</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Armor" or defName="KP_Heavy_Flak_Armor_Medic" or defName="KP_Heavy_Flak_Armor_Support"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>380</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== SPECIAL ARMORS ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Flak_Armor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>20</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Flak_Armor"]/statBases</xpath>
+    <value>
+      <Bulk>20</Bulk>
+      <WornBulk>7</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Flak_Armor"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>330</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Flak_Armor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Flak_Armor"]/statBases</xpath>
+    <value>
+      <Bulk>12</Bulk>
+      <WornBulk>3</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Flak_Armor"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>260</MaxHitPoints></value>
+  </Operation>
+
+  <!-- Scout Officer: Mult=5, Scout coverage with Light protection -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Officer_Flak_Armor"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>17</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Officer_Flak_Armor"]/statBases</xpath>
+    <value>
+      <Bulk>13</Bulk>
+      <WornBulk>4</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Scout_Officer_Flak_Armor"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>285</MaxHitPoints></value>
+  </Operation>
+
+  <!-- Riot: Leathery stuff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Police"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>12</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Police"]/statBases</xpath>
+    <value>
+      <Bulk>30</Bulk>
+      <WornBulk>12</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Police"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>270</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== LIGHT HELMETS ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet" or defName="KP_Light_Flak_Helmet_Medic" or defName="KP_Light_Flak_Helmet_Support"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>11</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet" or defName="KP_Light_Flak_Helmet_Medic" or defName="KP_Light_Flak_Helmet_Support"]/statBases</xpath>
+    <value>
+      <Bulk>6</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet" or defName="KP_Light_Flak_Helmet_Medic" or defName="KP_Light_Flak_Helmet_Support"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>150</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Officer"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>11</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Officer"]/statBases</xpath>
+    <value>
+      <Bulk>6</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Officer"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>160</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Thermal"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>11</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Thermal"]/statBases</xpath>
+    <value>
+      <Bulk>7</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Thermal"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>140</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Faceshield"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>13</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Faceshield"]/statBases</xpath>
+    <value>
+      <Bulk>9</Bulk>
+      <WornBulk>3</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Faceshield"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>200</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>11</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>150</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== HEAVY HELMETS ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet" or defName="KP_Heavy_Flak_Helmet_Medic" or defName="KP_Heavy_Flak_Helmet_Support"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet" or defName="KP_Heavy_Flak_Helmet_Medic" or defName="KP_Heavy_Flak_Helmet_Support"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet" or defName="KP_Heavy_Flak_Helmet_Medic" or defName="KP_Heavy_Flak_Helmet_Support"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>180</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Officer"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Officer"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Officer"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>190</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Thermal"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Thermal"]/statBases</xpath>
+    <value>
+      <Bulk>10</Bulk>
+      <WornBulk>3</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Thermal"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>200</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Faceshield"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>17</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Faceshield"]/statBases</xpath>
+    <value>
+      <Bulk>12</Bulk>
+      <WornBulk>4</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Heavy_Flak_Helmet_Faceshield"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>260</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetH_Gasmask"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetH_Gasmask"]/statBases</xpath>
+    <value>
+      <Bulk>10</Bulk>
+      <WornBulk>3</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetH_Gasmask"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>180</MaxHitPoints></value>
+  </Operation>
+
+  <!-- Riot Helmet: Leathery — fixed stats same as armor body piece -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Helmet_Police"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>10</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>  
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Helmet_Police"]/statBases</xpath>
+    <value>
+      <Bulk>5</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Helmet_Police"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>170</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== ARMOR ACCESSORIES ==================== -->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Boots"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Boots"]/statBases</xpath>
+    <value>
+      <Bulk>4</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Boots"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>110</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Gloves"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Gloves"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Armored_Gloves"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>90</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Talon_Gauntlets"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>18</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Talon_Gauntlets"]/statBases</xpath>
+    <value>
+      <Bulk>5</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Talon_Gauntlets"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Tauran_Gauntlets"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>18</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Tauran_Gauntlets"]/statBases</xpath>
+    <value>
+      <Bulk>5</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Tauran_Gauntlets"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Gorget"]/statBases/StuffEffectMultiplierArmor</xpath>
+    <value>
+      <StuffEffectMultiplierArmor>15</StuffEffectMultiplierArmor>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Gorget"]/statBases</xpath>
+    <value>
+      <Bulk>5</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Armor_Gorget"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>220</MaxHitPoints></value>
+  </Operation>
+
+
+
+  <!-- ==================== HELMET FUNCTIONAL BONUSES ==================== -->
+
+  <!-- Thermal helmets: NightVision only -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Thermal" or defName="KP_Heavy_Flak_Helmet_Thermal"]/statBases</xpath>
+    <value>
+      <NightVisionEfficiency_Apparel>0.75</NightVisionEfficiency_Apparel>
+    </value>
+  </Operation>
+
+  <!-- Faceshields: PartialArmorExt on Eye/Nose/Jaw -->
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="KP_Light_Flak_Helmet_Faceshield" or defName="KP_Heavy_Flak_Helmet_Faceshield"]</xpath>
+    <value>
+      <li Class="CombatExtended.PartialArmorExt">
+        <stats>
+          <li>
+            <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+            <parts>
+              <li>Eye</li>
+              <li>Nose</li>
+              <li>Jaw</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+            <parts>
+              <li>Eye</li>
+              <li>Nose</li>
+              <li>Jaw</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- Gasmasks: NightVision + immuneToToxGasExposure + SmokeSensitivity + PartialArmorExt -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask" or defName="BNF_FlakHelmetH_Gasmask"]/statBases</xpath>
+    <value>
+      <NightVisionEfficiency_Apparel>0.60</NightVisionEfficiency_Apparel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask" or defName="BNF_FlakHelmetH_Gasmask"]/apparel</xpath>
+    <value>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask" or defName="BNF_FlakHelmetH_Gasmask"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SmokeSensitivity>-1</SmokeSensitivity>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="BNF_FlakHelmetL_Gasmask" or defName="BNF_FlakHelmetH_Gasmask"]</xpath>
+    <value>
+      <li Class="CombatExtended.PartialArmorExt">
+        <stats>
+          <li>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <parts>
+              <li>Eye</li>
+              <li>Nose</li>
+              <li>Jaw</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+            <parts>
+              <li>Eye</li>
+              <li>Nose</li>
+              <li>Jaw</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

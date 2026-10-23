@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>KP_GasMask_Standalone</defName>
+		<label>Gas Mask</label>
+		<description>.</description>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>LateIndustrialFlakArmor</researchPrerequisite>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Gasmask/gas_mask/gasmask</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>1</Mass>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>1</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.65</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<bodyPartGroups>
+				<li>Eyes</li>
+				<li>Mouth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Gasmask/gas_mask/gasmask</wornGraphicPath>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
+			<drawData>
+				<dataNorth>
+					<layer>-3</layer>
+				</dataNorth>
+			</drawData>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li>
+				<li>IndustrialMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+</Defs>

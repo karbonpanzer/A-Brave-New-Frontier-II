@@ -1,0 +1,24 @@
+﻿//Common with tribals
+union
+nation
+confederacy
+confederation
+alliance
+covenant
+treaty
+pact
+coalition
+
+//Expedition specific (different from outlander)
+federation
+authority
+charter
+assembly
+commission
+directorate
+mandate
+consortium
+accord
+mandate
+entente
+detente

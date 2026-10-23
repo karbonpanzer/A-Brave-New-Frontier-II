@@ -1,0 +1,22 @@
+# IntelliJ
+.idea
+*.iml
+
+# Visual Studio
+.vs
+obj
+*.pdb
+*/.vs
+*/obj
+*/*.pdb
+
+# Rider
+*.DotSettings.user
+
+
+# Ignore the Unity Build storage folder
+*.af~lock~
+Storage/UFR_UnityBuild/
+Storage/Junk Drawer/
+Source/UnitedFront/.idea
+Source/UnitedFront/obj

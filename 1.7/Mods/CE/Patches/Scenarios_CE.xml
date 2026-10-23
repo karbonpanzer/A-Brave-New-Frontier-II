@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ScenarioDef[defName="KP_Outlanders"]/scenario/parts</xpath>
+    <value>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
+        <count>240</count>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>Ammo_10Gauge_Buck</thingDef>
+        <count>48</count>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>KP_Webbing_Ammo</thingDef>
+        <count>2</count>
+        <stuff>Leather_Plain</stuff>
+        <quality>Normal</quality>
+      </li>
+      <li Class="ScenPart_StartingThing_Defined">
+        <def>StartingThing_Defined</def>
+        <thingDef>KP_Pouches_Infantry</thingDef>
+        <count>1</count>
+        <stuff>Leather_Plain</stuff>
+        <quality>Normal</quality>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

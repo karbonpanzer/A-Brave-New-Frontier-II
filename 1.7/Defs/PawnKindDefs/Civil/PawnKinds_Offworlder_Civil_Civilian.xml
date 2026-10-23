@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Civil_Settler</defName>
+    <label>Settler</label>
+    <combatPower>35</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+	<weaponTags>
+	  <li>BNF_Settler</li>
+	  <li>SimpleGun</li>
+	  <li>Pistol</li>
+	</weaponTags>
+    <weaponMoney>
+      <min>900</min>
+      <max>1500</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>BNF_Uniform</li>
+    </apparelTags>
+    <apparelRequired>
+    </apparelRequired>
+    <apparelMoney>
+      <min>200</min>
+      <max>350</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>20~30</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Offworlder_Civil_Trader</defName>
+    <label>Trader</label>
+    <trader>true</trader>
+    <combatPower>50</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>1.0</min>
+      <max>1.0</max>
+    </gearHealthRange>
+	<weaponTags>
+	  <li>BNF_Trader</li>
+	  <li>Pistol</li>
+	  <li>SimpleGun</li>
+	</weaponTags>
+    <weaponMoney>
+      <min>1350</min>
+      <max>1950</max>
+    </weaponMoney>
+    <apparelTags>
+      <li>BNF_Uniform</li>
+    </apparelTags>
+    <apparelRequired>
+    </apparelRequired>
+    <apparelMoney>
+      <min>300</min>
+      <max>600</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

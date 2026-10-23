@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>KP_Offwolder_Player</defName>
+		<label>Offworlder</label>
+
+		<race>Human</race>
+		<defaultFactionType>KP_Offworlder_Player</defaultFactionType>
+
+		<backstoryCategories>
+			<li>Outlander</li>
+		</backstoryCategories>
+
+		<apparelTags>
+			<li>BNF_Uniform</li>
+		</apparelTags>
+
+		<gearHealthRange>
+			<min>0.2</min>
+			<max>0.6</max>
+		</gearHealthRange>
+
+		<itemQuality>Normal</itemQuality>
+
+		<apparelMoney>
+			<min>1500</min>
+			<max>3000</max>
+		</apparelMoney>
+		
+		<apparelColor>(60,80,110)</apparelColor>
+		
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+
+		<backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
+
+		<techHediffsMoney>
+			<min>0</min>
+			<max>300</max>
+		</techHediffsMoney>
+
+		<techHediffsTags>
+			<li>Normal</li>
+		</techHediffsTags>
+
+		<techHediffsChance>0.06</techHediffsChance>
+
+		<initialResistanceRange>13~21</initialResistanceRange>
+	</PawnKindDef>
+</Defs>

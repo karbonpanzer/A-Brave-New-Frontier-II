@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- ==================== FIELD UNIFORMS - ARID ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Desert"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Desert"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Desert"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Desert"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== FIELD UNIFORMS - BOREAL ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Winter"]/statBases</xpath>
+    <value>
+      <Bulk>10</Bulk>
+      <WornBulk>3</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Winter"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Winter"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Winter"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== FIELD UNIFORMS - TORRID ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Field_Uniform_Hell"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Field_Uniform_Hell"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_FieldHat_Hell"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_FieldHat_Hell"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== FIELD UNIFORMS - POLAR ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Arctic"]/statBases</xpath>
+    <value>
+      <Bulk>12</Bulk>
+      <WornBulk>4</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Arctic"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Arctic"]/statBases</xpath>
+    <value>
+      <Bulk>4</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Arctic"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== FIELD UNIFORMS - TEMPERATE ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Temperate"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Uniform_Temperate"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>120</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Temperate"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Field_Hat_Temperate"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== OFFICER UNIFORMS ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Uniform"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <WornBulk>2</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Uniform"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Uniform_Winter"]/statBases</xpath>
+    <value>
+      <Bulk>12</Bulk>
+      <WornBulk>4</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Uniform_Winter"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>200</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Cap"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="KP_Officer_Cap"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_OfficerCap_Polar"]/statBases</xpath>
+    <value>
+      <Bulk>4</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_OfficerCap_Polar"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>110</MaxHitPoints></value>
+  </Operation>
+
+  <!-- ==================== APPAREL ACCESSORIES ==================== -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Headgear_Goggles"]/statBases</xpath>
+    <value>
+      <Bulk>2</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Headgear_Goggles"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>100</MaxHitPoints></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BNF_Headgear_SlouchHat"]/statBases</xpath>
+    <value>
+      <Bulk>3</Bulk>
+      <WornBulk>1</WornBulk>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BNF_Headgear_SlouchHat"]/statBases/MaxHitPoints</xpath>
+    <value><MaxHitPoints>80</MaxHitPoints></value>
+  </Operation>
+
+</Patch>

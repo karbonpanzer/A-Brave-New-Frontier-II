@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_22Inf_Scout</defName>
+    <label>22Inf</label>
+    <Path>Things/Decals/Scout/22inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_32Inf_Scout</defName>
+    <label>32Inf</label>
+    <Path>Things/Decals/Scout/32Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_40Inf_Scout</defName>
+    <label>40Inf</label>
+    <Path>Things/Decals/Scout/40Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_50Inf_Scout</defName>
+    <label>50Inf</label>
+    <Path>Things/Decals/Scout/50Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_79Inf_Scout</defName>
+    <label>79Inf</label>
+    <Path>Things/Decals/Scout/79Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_116Inf_Scout</defName>
+    <label>116Inf</label>
+    <Path>Things/Decals/Scout/116Inf</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_135Air_Scout</defName>
+    <label>135Air</label>
+    <Path>Things/Decals/Scout/135Air</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_460Chem_Scout</defName>
+    <label>460Chem</label>
+    <Path>Things/Decals/Scout/460Chem</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Thunderbird</defName>
+    <label>Thunderbird</label>
+    <Path>Things/Decals/Scout/Thunderbird</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+</Defs>

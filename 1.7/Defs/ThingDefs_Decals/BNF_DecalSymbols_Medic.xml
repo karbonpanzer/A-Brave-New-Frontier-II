@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Medic</defName>
+    <label>Cross</label>
+    <Path>Things/Decals/Medical/Medic</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Staff</defName>
+    <label>Healer's Staff</label>
+    <Path>Things/Decals/Medical/StaffofAsclepius</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Caduceus</defName>
+    <label>Caduceus</label>
+    <Path>Things/Decals/Medical/Caduceus</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_LifeStar</defName>
+    <label>Star of Life</label>
+    <Path>Things/Decals/Medical/StarofLife</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>    
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Chalice</defName>
+    <label>Chalice</label>
+    <Path>Things/Decals/Medical/Chalice</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef> 
+  
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Blooddrop</defName>
+    <label>Blooddrop</label>
+    <Path>Things/Decals/Medical/Blooddrop</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>   
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_CrossCircle</defName>
+    <label>Cross in Circle</label>
+    <Path>Things/Decals/Medical/CrossCircle</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>     
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_Pill</defName>
+    <label>Pill</label>
+    <Path>Things/Decals/Medical/Pill</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_2Med</defName>
+    <label>2Med</label>
+    <Path>Things/Decals/Medical/2Med</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+  <BNF.Core.DecalSystem.DecalSymbolDef>
+    <defName>BNF_Decal_18Med</defName>
+    <label>18Med</label>
+    <Path>Things/Decals/Medical/18Med</Path>
+  </BNF.Core.DecalSystem.DecalSymbolDef>
+
+</Defs>
