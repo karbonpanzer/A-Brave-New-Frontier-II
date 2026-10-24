@@ -6,7 +6,7 @@
 		<label>magazine webbing</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
+			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MagazineBandoleer/MagazineBandoleer</texPath>
@@ -91,7 +91,7 @@
 		<label>ammo webbing</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
+			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/AmmoBandoleer/AmmoBandoleer</texPath>
@@ -176,7 +176,7 @@
 		<label>vanguard webbing</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_ScoutFlakArmor</researchPrerequisite>
+			<researchPrerequisite>BNFII_VanguardKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
@@ -261,7 +261,7 @@
 		<label>shocktrooper webbing</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_StormtrooperKit</researchPrerequisite>
+			<researchPrerequisite>BNFII_ShocktrooperKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
@@ -346,7 +346,7 @@
 			<description>.</description>
 			<label>grenadier webbing</label>
 			<recipeMaker>
-			  <researchPrerequisite>BNFII_StormtrooperKit</researchPrerequisite>
+			  <researchPrerequisite>BNFII_ShocktrooperKit</researchPrerequisite>
 			</recipeMaker>
 
 			<graphicData>
@@ -466,7 +466,7 @@
 		<label>infantry pouches</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
+			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</texPath>
@@ -545,7 +545,7 @@
 		<label>support pouches</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
+			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
@@ -626,7 +626,7 @@
 		<label>medic pouches</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
+			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</texPath>
@@ -707,7 +707,7 @@
 		<label>police belt</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
+			<researchPrerequisite>BNFII_RiotFlakArmor</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</texPath>
