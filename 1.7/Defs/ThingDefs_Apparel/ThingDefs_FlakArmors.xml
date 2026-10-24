@@ -68,7 +68,6 @@
 
   <ThingDef Name="BNFII_ApparelArmorHelmetFlakLightBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -103,7 +102,6 @@
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -135,16 +133,11 @@
     </graphicData>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</wornGraphicPath>
-    </apparel>    
-    <colorGenerator Class="ColorGenerator_Single">
-      <color>(0.47, 0.47, 0.47)</color>
-    </colorGenerator>
-    <apparel>
       <tags Inherit="False">
         <li>BNFII_Armor_Light</li>
         <li>BNFII_Armor_Light_Shocktrooper</li>
       </tags>
-    </apparel>
+    </apparel>    
   </ThingDef>
 
   <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
