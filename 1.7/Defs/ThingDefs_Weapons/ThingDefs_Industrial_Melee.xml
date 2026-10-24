@@ -7,7 +7,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/trenchspike</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/trenchspike</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.7</drawSize>
 		</graphicData>
@@ -75,7 +75,7 @@
 			<li>BNFII_Civilian</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>	
 	</ThingDef>
 
@@ -85,7 +85,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/trenchmace</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/trenchmace</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
@@ -137,7 +137,7 @@
             <li>BNFII_InfantrySupport</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>		
 	</ThingDef>
 		
@@ -147,7 +147,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/electroglaive</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/electroglaive</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2.0</drawSize>
 		</graphicData>
@@ -221,7 +221,7 @@
 			<li>BNFII_Commander</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>		
 	</ThingDef>
 
@@ -231,7 +231,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/chainsword</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/chainsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
