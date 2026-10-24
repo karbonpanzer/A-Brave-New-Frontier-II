@@ -82,7 +82,7 @@
   <!-- Temperate Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Temperate</defName>
-    <label>Frontier Uniform (Temperate)</label>
+    <label>frontier uniform (temperate)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
@@ -131,7 +131,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Temperate</defName>
-    <label>Field Hat (Temperate)</label>
+    <label>field hat (temperate)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
@@ -180,7 +180,7 @@
   <!-- Arid Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Desert</defName>
-    <label>Frontier Uniform (Arid)</label>
+    <label>frontier uniform (arid)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
@@ -225,7 +225,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Desert</defName>
-    <label>Field Hat (Arid)</label>
+    <label>field hat (arid)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
@@ -274,7 +274,7 @@
   <!-- Boreal Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Winter</defName>
-    <label>Frontier Uniform (Boreal)</label>
+    <label>frontier uniform (boreal)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
@@ -323,7 +323,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Winter</defName>
-    <label>Field Hat (Boreal)</label>
+    <label>field hat (boreal)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
@@ -372,7 +372,7 @@
   <!-- Polar Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Arctic</defName>
-    <label>Frontier Uniform (Polar)</label>
+    <label>frontier uniform (polar)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformArctic/FieldUniformArctic</texPath>
@@ -421,7 +421,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Arctic</defName>
-    <label>Field Hat (Polar)</label>
+    <label>field hat (polar)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatArctic/FieldHatArctic</texPath>
@@ -470,7 +470,7 @@
   <!-- Torrid Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Hell</defName>
-    <label>Frontier Uniform (Torrid)</label>
+    <label>frontier uniform (torrid)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformHell/FieldUniformHell</texPath>
@@ -519,7 +519,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Hell</defName>
-    <label>Field Hat (Torrid)</label>
+    <label>field hat (torrid)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatHell/FieldHatHell</texPath>
@@ -568,7 +568,7 @@
   <!-- Officer Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_OfficerUniform</defName>
-    <label>Frontier Officer Uniform</label>
+    <label>frontier officer uniform</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</texPath>
@@ -618,7 +618,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_OfficerCap</defName>
-    <label>Officer Cap</label>
+    <label>officer cap</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</texPath>
@@ -668,7 +668,7 @@
   <!-- Polar Officer Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_OfficerUniform_Winter</defName>
-    <label>Frontier Officer Uniform (Polar)</label>
+    <label>frontier officer uniform (polar)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerUniformWinter/OfficerUniformWinter</texPath>
@@ -721,7 +721,7 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_OfficerCap_Polar</defName>
-    <label>Officer Cap (Polar)</label>
+    <label>officer cap (polar)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Headgear/OfficerCapArctic/OfficerCapArctic</texPath>
