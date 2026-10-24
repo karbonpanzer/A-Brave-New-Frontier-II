@@ -8,7 +8,7 @@
 			<description>Made on the moon of Karloff, this helmet is a modifed rebreather from a dominion gasmask mixed with parts from a astro-miner helmet. It provides decent protection and the ability to function in a vacuum which is all it needed to do during the Laemelle Rebellion. Laemelle propaganda states taht the origin of this device was from the leader of the rebellion whose name had been lost to time, one they called Abraham Stroker, a miner who eventually took up arms against the explotation of the world by the dominion and led the revolt himself. Of course though actual records show that it was a woman by the name of Vilhemina Gotwyn who lead a division of miners against the Dominion after the death of 300 people in a cave-in. However, her falling out with the party led to the eventually take over of Abraham Stroker during the Reconstruction of the world of Chaney Major.</description>
 			<techLevel>Spacer</techLevel>
 		   <recipeMaker>
-			  <researchPrerequisite>AeneidKit</researchPrerequisite>
+			  <researchPrerequisite>BNFII_EVAFlakArmor</researchPrerequisite>
 			  <recipeUsers>
 				<li>TableMachining</li>
 			  </recipeUsers>
@@ -91,7 +91,7 @@
 			<techLevel>Spacer</techLevel>
 			<description>During the reign of the Great Domain, a battle between the Dominion Infantry and the Laemelle Expanse, a secessionist movement of seven worlds who fought agains the Dominion.The Laemelle Republic formed the fall of the Dominion and armed several meteors as fortresses protecting the worlds of Chapman, Legosi, and Chaney Minor and Major, their greatest fortresses being on the moons of Rains and Karloff. On those worlds, they use a modified form of the standard dominion armor which allows its usage in space, using reinforced space suit seen by astro-miners before the rebellion. It is not a complex equipment but functions well for combat.</description>			
 			<recipeMaker>
-				<researchPrerequisite>AeneidKit</researchPrerequisite>
+				<researchPrerequisite>BNFII_EVAFlakArmor</researchPrerequisite>
 			</recipeMaker>
 			<graphicData>
 				<graphicClass>Graphic_Single</graphicClass>
