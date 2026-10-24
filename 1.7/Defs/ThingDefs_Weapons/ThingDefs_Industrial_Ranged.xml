@@ -775,7 +775,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/MarksmanRifle</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/MarksmenRifle</texPath>
 			<drawSize>1.34</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
