@@ -4,7 +4,7 @@
   <!-- Flak Armor Parents -->
   <ThingDef Name="BNFII_ApparelArmorFlakLightBase" ParentName="ArmorMachineableBase" Abstract="True">
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -40,7 +40,7 @@
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>
@@ -69,7 +69,7 @@
 
   <ThingDef Name="BNFII_ApparelArmorHelmetFlakLightBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -104,7 +104,7 @@
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -290,7 +290,7 @@
     <label>Flak Helmet (Thermal)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>BNFII_ThermalInsulation</researchPrerequisite>
@@ -308,7 +308,7 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetThermal</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -323,7 +323,7 @@
     <label>Flak Helmet (Faceshield)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>BNFII_ImprovisedFaceshields</researchPrerequisite>
@@ -348,7 +348,7 @@
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetMask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
