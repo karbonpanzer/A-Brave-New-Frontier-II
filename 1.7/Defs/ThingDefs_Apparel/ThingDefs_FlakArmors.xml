@@ -10,7 +10,7 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <recipeMaker>
-      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -75,7 +75,7 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <recipeMaker>
-      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -293,7 +293,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ThermalInsulation</researchPrerequisite>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
     </recipeMaker>
     <costList Inherit="False">
       <Cloth>80</Cloth>
@@ -326,7 +326,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ImprovisedFaceshields</researchPrerequisite>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
     </recipeMaker>
     <costList Inherit="False">
       <Cloth>60</Cloth>
@@ -365,6 +365,9 @@
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
+    </recipeMaker>
     <costList Inherit="False">
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
@@ -608,7 +611,9 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ThermalInsulation</researchPrerequisite>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+      </researchPrerequisites>
     </recipeMaker>
     <costList Inherit="False">
       <Cloth>100</Cloth>
@@ -643,7 +648,9 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ImprovisedFaceshields</researchPrerequisite>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+      </researchPrerequisites>
     </recipeMaker>
     <costList Inherit="False">
       <Cloth>60</Cloth>
@@ -684,6 +691,9 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -726,7 +736,7 @@
     <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
-      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <researchPrerequisite>BNFII_ScoutFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -796,7 +806,7 @@
     <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
-      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -869,7 +879,7 @@
     <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
-      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -958,7 +968,7 @@
     </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
-      <researchPrerequisite>BNFII_RiotKit</researchPrerequisite>
+      <researchPrerequisite>BNFII_RiotFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -1040,7 +1050,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_RiotKit</researchPrerequisite>
+      <researchPrerequisite>BNFII_RiotFlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>7</Crafting>
