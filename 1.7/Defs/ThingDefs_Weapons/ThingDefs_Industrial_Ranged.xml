@@ -23,7 +23,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/frontierpistol</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/frontierpistol</texPath>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
@@ -115,7 +115,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/assaultpistol</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/assaultpistol</texPath>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
@@ -210,7 +210,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/bigiron</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/bigiron</texPath>
 			<drawSize>0.9</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Revolver</soundInteract>
@@ -303,7 +303,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/compactpdw</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/compactpdw</texPath>
 			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -400,7 +400,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/RetroRifle</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/RetroRifle</texPath>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -492,7 +492,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/autoloaderrifle_alt</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/autoloaderrifle_alt</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -585,7 +585,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/servicerifle</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/servicerifle</texPath>
 			<drawSize>1.0</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -668,7 +668,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/servicerifleb</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/servicerifleb</texPath>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<equippedAngleOffset>35</equippedAngleOffset>		
@@ -768,7 +768,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/assaultlmg</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/assaultlmg</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
@@ -864,7 +864,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/supershotgun</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/supershotgun</texPath>
 		</graphicData>
 		<soundInteract>Interact_Shotgun</soundInteract>
 		<weaponClasses>
@@ -960,7 +960,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/WeaponRanged/chemrailrifle</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/chemrailrifle</texPath>
 			<drawSize>1.34</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

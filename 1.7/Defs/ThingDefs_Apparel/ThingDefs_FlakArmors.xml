@@ -789,7 +789,7 @@
     <label>Flak Boots</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ArmoredBoots/ArmoredBoots</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorAccessories/FlakBoots</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -862,7 +862,7 @@
     <label>Flak Gloves</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ArmoredGloves/ArmoredGloves</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorAccessories/FlakGloves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
