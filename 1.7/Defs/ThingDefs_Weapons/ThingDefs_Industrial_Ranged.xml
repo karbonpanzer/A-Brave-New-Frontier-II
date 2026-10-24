@@ -421,21 +421,20 @@
 		<statBases>
 			<WorkToMake>22000</WorkToMake>
 			<Mass>3.6</Mass>
-			<AccuracyTouch>0.60</AccuracyTouch>
-			<AccuracyShort>0.66</AccuracyShort>
-			<AccuracyMedium>0.60</AccuracyMedium>
-			<AccuracyLong>0.50</AccuracyLong>
-			<RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.50</AccuracyMedium>
+			<AccuracyLong>0.40</AccuracyLong>
+			<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>BNFII_Bullet_ServiceRifle</defaultProjectile>
-				<warmupTime>0.7</warmupTime>
+				<warmupTime>0.4</warmupTime>
 				<range>32.0</range>
-				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
 				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
