@@ -4,17 +4,17 @@
 		
 		<ResearchProjectDef>
 			<defName>BNFII_EVAFlakArmor</defName>
-			<label>EVA Kit</label>
+			<label>EVA flak armor</label>
 			<description>Craft EVA helmets and suits for usage in orbit.</description>
-			<baseCost>500</baseCost>
-			<tab>ABraveNewFrontier</tab>
+			<baseCost>1600</baseCost>
+			<tab>ABraveNewFrontierII</tab>
 			<techLevel>Industrial</techLevel>
 			<prerequisites>
-				<li>LateIndustrialFlakArmor</li>
+				<li>BNFII_FlakArmor</li>
 				<li>OrbitalTech</li>
 			</prerequisites>
 			<researchViewX>1</researchViewX>
-			<researchViewY>2.5</researchViewY>
+			<researchViewY>3.75</researchViewY>
 		</ResearchProjectDef>			
 			
 </Defs>
