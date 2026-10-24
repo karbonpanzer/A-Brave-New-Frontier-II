@@ -108,7 +108,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>70</costStuffCount>
     <statBases>
@@ -157,7 +157,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>35</costStuffCount>
     <statBases>
@@ -202,7 +202,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>70</costStuffCount>
     <statBases>
@@ -251,7 +251,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>35</costStuffCount>
     <statBases>
@@ -300,7 +300,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>70</costStuffCount>
     <statBases>
@@ -349,7 +349,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisite>BNFII_IndustrialUniforms</researchPrerequisite>
+      <researchPrerequisite>BNFII_FrontierUniforms</researchPrerequisite>
     </recipeMaker>
     <costStuffCount>35</costStuffCount>
     <statBases>
