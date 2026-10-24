@@ -4,7 +4,6 @@
   <!-- Flak Armor Parents -->
   <ThingDef Name="BNFII_ApparelArmorFlakLightBase" ParentName="ArmorMachineableBase" Abstract="True">
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -131,6 +130,12 @@
     <defName>BNFII_LightFlakArmor</defName>
     <label>flak armor</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</wornGraphicPath>
+    </apparel>    
     <colorGenerator Class="ColorGenerator_Single">
       <color>(0.47, 0.47, 0.47)</color>
     </colorGenerator>
@@ -146,12 +151,16 @@
     <defName>BNFII_FlakHelmet</defName>
     <label>flak helmet</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light</li>
         <li>BNFII_Armor_Scout</li>
       </tags>
-    </apparel>
+    </apparel>     
   </ThingDef>
 
   <!-- Medic Flak Armor -->
@@ -159,22 +168,30 @@
     <defName>BNFII_LightFlakArmor_Medic</defName>
     <label>flak armor (medic)</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light_Medic</li>
-      </tags>
-    </apparel>
+      </tags>      
+    </apparel>     
   </ThingDef>
 
   <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
     <defName>BNFII_FlakHelmet_Medic</defName>
     <label>flak helmet (medic)</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedic</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light_Medic</li>
-      </tags>
-    </apparel>
+      </tags>      
+    </apparel>  
   </ThingDef>
 
   <!-- Engineer Flak Armor -->
@@ -182,22 +199,30 @@
     <defName>BNFII_LightFlakArmor_Support</defName>
     <label>flak armor (engineer)</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakArmorEngineer</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakArmorEngineer</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light_Engineer</li>
-      </tags>
-    </apparel>
+      </tags>    
+    </apparel>      
   </ThingDef>
 
   <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
     <defName>BNFII_FlakHelmet_Support</defName>
     <label>flak helmet (engineer)</label>
     <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineer</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineer</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light_Engineer</li>
-      </tags>
-    </apparel>
+      </tags>    
+    </apparel> 
   </ThingDef>
 
   <!-- Officer Flak Armor -->
