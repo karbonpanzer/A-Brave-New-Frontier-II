@@ -295,11 +295,15 @@
     <recipeMaker>
       <researchPrerequisite>BNFII_OfficerFlakArmor</researchPrerequisite>
     </recipeMaker>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
+    </graphicData>
     <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Officer</li>
       </tags>
-    </apparel>
+    </apparel> 
   </ThingDef>
 
   <!-- Modified Flak Helmets -->
