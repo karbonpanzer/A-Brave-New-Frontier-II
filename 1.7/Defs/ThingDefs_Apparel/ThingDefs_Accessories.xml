@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingMagazine</defName>
-		<label>Magazine Webbing</label>
+		<label>magazine webbing</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
@@ -83,12 +83,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingAmmo</defName>
-		<label>Ammo Webbing</label>
+		<label>ammo webbing</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
@@ -141,7 +141,7 @@
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
-			</drawData>			
+			</drawData>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -168,12 +168,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingScout</defName>
-		<label>Vanguard Webbing</label>
+		<label>vanguard webbing</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_ScoutFlakArmor</researchPrerequisite>
@@ -226,7 +226,7 @@
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
-			</drawData>			
+			</drawData>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -253,12 +253,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingShocktrooper</defName>
-		<label>Shocktrooper Webbing</label>
+		<label>shocktrooper webbing</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_StormtrooperKit</researchPrerequisite>
@@ -311,7 +311,7 @@
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
-			</drawData>			
+			</drawData>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -338,13 +338,13 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 		<ThingDef ParentName="ApparelMakeableBase">
 			<defName>BNF_WebbingGrenadier</defName>
 			<description>.</description>
-			<label>Grenadier Webbing</label>
+			<label>grenadier webbing</label>
 			<recipeMaker>
 			  <researchPrerequisite>BNFII_StormtrooperKit</researchPrerequisite>
 			</recipeMaker>
@@ -373,7 +373,7 @@
 			  <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			  <EquipDelay>1</EquipDelay>
 			</statBases>
-			
+
 			<comps>
 			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>8</maxCharges>
@@ -406,20 +406,20 @@
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 			</verbs>
-		
+
 		   <thingCategories>
 			  <li>BNFII_Accessories</li>
 			</thingCategories>
 
 			<equippedStatOffsets>
-			  <PainShockThreshold>0.20</PainShockThreshold>	  
-			</equippedStatOffsets>   
+			  <PainShockThreshold>0.20</PainShockThreshold>
+			</equippedStatOffsets>
 
 			<apparel>
 			  <bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
-				<li>Waist</li>        
+				<li>Waist</li>
 			  </bodyPartGroups>
 			  <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
 			  <layers>
@@ -436,9 +436,9 @@
               <countsAsClothingForNudity>false</countsAsClothingForNudity>
 			  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-			  <useWornGraphicMask>True</useWornGraphicMask>			  
+			  <useWornGraphicMask>True</useWornGraphicMask>
 			</apparel>
-			
+
 				<colorGenerator Class="ColorGenerator_Options">
 				  <options>
 					<li>
@@ -458,12 +458,12 @@
 					  <only>(0.29,0.32,0.12)</only>
 					</li>
 				  </options>
-				</colorGenerator>	
-		</ThingDef>	
+				</colorGenerator>
+		</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_PouchesInfantry</defName>
-		<label>Infantry Pouches</label>
+		<label>infantry pouches</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitInfantry</researchPrerequisite>
@@ -537,12 +537,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_PouchesSupport</defName>
-		<label>Support Pouches</label>
+		<label>support pouches</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
@@ -618,12 +618,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_PouchesMedic</defName>
-		<label>Medic Pouches</label>
+		<label>medic pouches</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
@@ -699,12 +699,12 @@
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
-		</tradeTags>			
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNF_BeltPolice</defName>
-		<label>Police Belt</label>
+		<label>police belt</label>
 		<description>.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_IndustrialKitSupport</researchPrerequisite>
@@ -772,5 +772,5 @@
 				</li>
 			</options>
 		</colorGenerator>
-	</ThingDef>		
+	</ThingDef>
 </Defs>
