@@ -7,13 +7,13 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/trenchspike</texPath>
+			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/trenchspike</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.7</drawSize>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_ExpeditionaryWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_StreamlinedProduction</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -85,13 +85,13 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/trenchmace</texPath>
+			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/trenchmace</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_TrenchWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -147,7 +147,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/electroglaive</texPath>
+			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/electroglaive</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2.0</drawSize>
 		</graphicData>
@@ -160,7 +160,7 @@
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>BNFII_AntiMechanoidWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<recipeUsers>
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
@@ -231,7 +231,7 @@
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/chainsword</texPath>
+			<texPath>BNFII/Things/Item/Equipment/WeaponMelee/chainsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>
@@ -243,7 +243,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>BNFII_AntiInsectoidWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
