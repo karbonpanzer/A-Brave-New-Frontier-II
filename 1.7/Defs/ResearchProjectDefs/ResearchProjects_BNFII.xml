@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <!-- Armor -->
+  <ResearchProjectDef>
+    <defName>BNFII_LateIndustrialFlakArmor</defName>
+    <label>Flak Armor and Helmets</label>
+    <description>Craft armor and helmets that provide stronger protection than flak gear and cover more of the body.</description>
+    <baseCost>1600</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>FlakArmor</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_HeavyFlakArmor</defName>
+    <label>Heavy Flak Armor and Helmets</label>
+    <description>Craft heavy armor and helmets that add additional plating for improved protection at increased material cost.</description>
+    <baseCost>2000</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_LateIndustrialFlakArmor</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_OfficerFlakArmor</defName>
+    <label>Officer Flak Armor</label>
+    <description>Craft armor sets with officer markings that provide standard protection with added visual identification.</description>
+    <baseCost>2400</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_LateIndustrialFlakArmor</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_RiotKit</defName>
+    <label>Riot Flak Armor</label>
+    <description>Craft streamlined armor and equipment for protecting the colony from crime.</description>
+    <baseCost>500</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_LateIndustrialFlakArmor</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef> 
+  
+  <ResearchProjectDef>
+    <defName>BNFII_ScoutFlakArmor</defName>
+    <label>Scout Flak Armor</label>
+    <description>Craft lightweight armor that improves mobility at the cost of reduced protection.</description>
+    <baseCost>1200</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_LateIndustrialFlakArmor</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>6.5</researchViewY>
+  </ResearchProjectDef>  
+
+  <ResearchProjectDef>
+    <defName>BNFII_ThermalInsulation</defName>
+    <label>Thermal Insulation</label>
+    <description>Tailor insulated garments that provide warmth and wind protection in extreme cold.</description>
+    <baseCost>800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_LateIndustrialFlakArmor</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_ImprovisedFaceshields</defName>
+    <label>Improvised Faceshields</label>
+    <description>Craft specilized helmets for heavy frontline use by shocktroopers.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_HeavyFlakArmor</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Uniforms -->
+  <ResearchProjectDef>
+    <defName>BNFII_IndustrialUniforms</defName>
+    <label>Frontier Uniforms</label>
+    <description>Tailor garments that provide light protection and insulation for a variety of climates.</description>
+    <baseCost>1200</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_OfficerUniforms</defName>
+    <label>Officer Uniforms</label>
+    <description>Tailor garments with officer markings that offer the same protection as standard apparel.</description>
+    <baseCost>1500</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_IndustrialUniforms</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_ExtremeWeatherUniforms</defName>
+    <label>Extreme Weather Uniforms</label>
+    <description>Tailor heavily modified garments designed for survival and work in extreme heat and cold.</description>
+    <baseCost>1500</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_IndustrialUniforms</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>4.75</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Accessories -->
+  <ResearchProjectDef>
+    <defName>BNFII_IndustrialKitSupport</defName>
+    <label>Support Kits</label>
+    <description>Craft equipment that assist the work of support roles such as engineers and medics.</description>
+    <baseCost>1000</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_IndustrialKitInfantry</defName>
+    <label>Infantry Kit</label>
+    <description>Craft equipment that improves reload speed and general combat readiness.</description>
+    <baseCost>1000</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_StormtrooperKit</defName>
+    <label>Stormtrooper Kit</label>
+    <description>Craft specilized equipment for heavy frontline use by shocktroopers.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_IndustrialKitInfantry</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5.75</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- Weapons -->
+  <ResearchProjectDef>
+    <defName>BNFII_ExpeditionaryWeaponry</defName>
+    <label>Expeditionary Weaponry</label>
+    <description>Craft dependable expeditionary firearms and compact sidearms suited for general use.</description>
+    <baseCost>1500</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>GasOperation</li>
+      <li>PrecisionRifling</li>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_AdvancedBallisticWeaponry</defName>
+    <label>Advanced Ballistic Weaponry</label>
+    <description>Craft high-performance ballistic weapons with improved accuracy and penetration.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_ExpeditionaryWeaponry</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>3.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_AntiMechanoidWeaponry</defName>
+    <label>Anti-Mechanoid Weaponry</label>
+    <description>Craft weapons specialized for penetrating or disabling armored mechanical targets.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_AdvancedBallisticWeaponry</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>3.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_ExperimentalWeaponry</defName>
+    <label>Experimental Weaponry</label>
+    <description>Craft prototype weapons built around unique mechanisms and systems.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_ExpeditionaryWeaponry</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_AntiInsectoidWeaponry</defName>
+    <label>Anti-Insectoid Weaponry</label>
+    <description>Craft weapons suited for rapid fire or shredding attacks against chitinous targets.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_ExperimentalWeaponry</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_TrenchWeaponry</defName>
+    <label>Trench Weaponry</label>
+    <description>Craft short-range firearms and heavy melee tools suited for close-quarters fighting.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_ExpeditionaryWeaponry</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4.75</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>BNFII_ImprovisedWeaponry</defName>
+    <label>Improvised Weaponry</label>
+    <description>Craft makeshift weapons often used when industrial equipment is limited or unavailable.</description>
+    <baseCost>1800</baseCost>
+    <tab>ABraveNewFrontierII</tab>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BNFII_TrenchWeaponry</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4.75</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

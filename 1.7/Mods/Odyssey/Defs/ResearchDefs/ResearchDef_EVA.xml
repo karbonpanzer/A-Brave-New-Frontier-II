@@ -3,7 +3,7 @@
 <Defs> 	
 		
 		<ResearchProjectDef>
-			<defName>AeneidKit</defName>
+			<defName>BNFII_EVAFlakArmor</defName>
 			<label>EVA Kit</label>
 			<description>Craft EVA helmets and suits for usage in orbit.</description>
 			<baseCost>500</baseCost>

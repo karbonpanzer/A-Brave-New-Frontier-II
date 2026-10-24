@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <!-- Flak Armor Parents -->
+  <ThingDef Name="BNFII_ApparelArmorFlakLightBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MarketValue>550</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>7.0</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/LightArmor/LightArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="BNFII_ApparelArmorHelmetFlakLightBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmet/LightHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNFII_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakLightBase">
+    <defName>BNFII_LightFlakArmor</defName>
+    <label>Flak Armor</label>
+    <description>.</description>
+    <colorGenerator Class="ColorGenerator_Single">
+      <color>(0.47, 0.47, 0.47)</color>
+    </colorGenerator>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light</li>
+        <li>BNFII_Armor_Light_Shocktrooper</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet</defName>
+    <label>Flak Helmet</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light</li>
+        <li>BNFII_Armor_Scout</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Medic Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakLightBase">
+    <defName>BNFII_LightFlakArmor_Medic</defName>
+    <label>Flak Armor (Medic)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light_Medic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Medic</defName>
+    <label>Flak Helmet (Medic)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light_Medic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Engineer Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakLightBase">
+    <defName>BNFII_LightFlakArmor_Support</defName>
+    <label>Flak Armor (Engineer)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light_Engineer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Support</defName>
+    <label>Flak Helmet (Engineer)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light_Engineer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Officer Flak Armor -->
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>BNFII_OfficerFlakArmor</defName>
+    <label>Officer Flak Armor</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_OfficerFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>265</MaxHitPoints>
+      <Mass>10.0</Mass>
+      <StuffEffectMultiplierArmor>1.15</StuffEffectMultiplierArmor>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Officer</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Officer</defName>
+    <label>Flak Helmet (Officer)</label>
+    <description>.</description>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_OfficerFlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Officer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Modified Flak Helmets -->
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Thermal</defName>
+    <label>Flak Helmet (Thermal)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</texPath>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_ThermalInsulation</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>80</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetThermal/LightHelmetThermal</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Faceshield</defName>
+    <label>Flak Helmet (Faceshield)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</texPath>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_ImprovisedFaceshields</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>60</Cloth>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>170</MaxHitPoints>
+      <Mass>1.7</Mass>
+      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <RangedCooldownFactor>0.15</RangedCooldownFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetMasked/LightHelmetMasked</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light_Shocktrooper</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+    <defName>BNFII_FlakHelmet_Gasmask</defName>
+    <label>Flak Helmet (Gasmask)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+    </graphicData>
+    <costList Inherit="False">
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <costStuffCount>45</costStuffCount>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Light</li>
+        <li>BNFII_Armor_Scout</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Heavy Flak Armor Parents -->
+  <ThingDef Name="BNFII_ApparelArmorFlakHeavyBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_HeavyFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.07</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>12.0</Mass>
+      <StuffEffectMultiplierArmor>1.25</StuffEffectMultiplierArmor>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="BNFII_ApparelArmorHelmetFlakHeavyBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_HeavyFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>60</Cloth>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.02</MoveSpeed>
+    </equippedStatOffsets>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <MaxHitPoints>110</MaxHitPoints>
+      <Mass>1</Mass>
+      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>BNFII_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Heavy Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakHeavyBase">
+    <defName>BNFII_HeavyFlakArmor</defName>
+    <label>Heavy Flak Armor</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy</li>
+        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet</defName>
+    <label>Heavy Flak Helmet</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Medic Heavy Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakHeavyBase">
+    <defName>BNFII_HeavyFlakArmor_Medic</defName>
+    <label>Heavy Flak Armor (Medic)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Medic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Medic</defName>
+    <label>Heavy Flak Helmet (Medic)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Medic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Engineer Heavy Flak Armor -->
+  <ThingDef ParentName="BNFII_ApparelArmorFlakHeavyBase">
+    <defName>BNFII_HeavyFlakArmor_Support</defName>
+    <label>Heavy Flak Armor (Engineer)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Engineer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Support</defName>
+    <label>Heavy Flak Helmet (Engineer)</label>
+    <description>.</description>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Engineer</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Officer Heavy Flak Helmet -->
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Officer</defName>
+    <label>Heavy Flak Helmet (Officer)</label>
+    <description>.</description>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_OfficerFlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <costStuffCount>55</costStuffCount>
+    <apparel>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Officer</li>
+      </tags>
+    </apparel>
+    <uiIconScale>1.4</uiIconScale>
+  </ThingDef>
+
+  <!-- Modified Heavy Flak Helmets -->
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Thermal</defName>
+    <label>Heavy Flak Helmet (Thermal)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</texPath>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_ThermalInsulation</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>100</Cloth>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>2</Mass>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetThermal/HeavyHelmetThermal</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Faceshield</defName>
+    <label>Heavy Flak Helmet (Faceshield)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</texPath>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_ImprovisedFaceshields</researchPrerequisite>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>60</Cloth>
+      <Plasteel>30</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>60</costStuffCount>
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Mass>2.7</Mass>
+      <StuffEffectMultiplierArmor>1.30</StuffEffectMultiplierArmor>
+      <Insulation_Cold>12</Insulation_Cold>
+      <Insulation_Heat>0.2</Insulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.15</MoveSpeed>
+      <RangedCooldownFactor>0.35</RangedCooldownFactor>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetMasked/HeavyHelmetMasked</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+    <defName>BNFII_HeavyFlakHelmet_Gasmask</defName>
+    <label>Heavy Flak Helmet (Gasmask)</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</texPath>
+    </graphicData>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList Inherit="False">
+      <Cloth>60</Cloth>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmetGasmask/HeavyHelmetGasmask</wornGraphicPath>
+      <bodyPartGroups Inherit="False">
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Heavy</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Scout Flak Armor -->
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>BNFII_FlakArmor_Scout</defName>
+    <label>Scout Flak Armor</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>20</Cloth>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <MarketValue>400</MarketValue>
+      <MaxHitPoints>220</MaxHitPoints>
+      <Mass>5.5</Mass>
+      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags Inherit="False">
+        <li>BNFII_Armor_Scout</li>
+        <li>BNFII_Armor_Conscript</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <!-- Flak Boots and Gloves -->
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>BNFII_FlakBoots</defName>
+    <label>Flak Boots</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ArmoredBoots/ArmoredBoots</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>2.5</Mass>
+      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Feet</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>BNFII_Armor_Light</li>
+        <li>BNFII_Armor_Heavy</li>
+        <li>BNFII_Armor_Light_Medic</li>
+        <li>BNFII_Armor_Heavy_Medic</li>
+        <li>BNFII_Armor_Light_Engineer</li>
+        <li>BNFII_Armor_Heavy_Engineer</li>
+        <li>BNFII_Armor_Light_Shocktrooper</li>
+        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_ArmorAccessories</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+    <uiIconScale>2</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>BNFII_FlakGloves</defName>
+    <label>Flak Gloves</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ArmoredGloves/ArmoredGloves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_LateIndustrialFlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Cloth>10</Cloth>
+      <Plasteel>5</Plasteel>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <MarketValue>100</MarketValue>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Hands</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <tags>
+        <li>BNFII_Armor_Light</li>
+        <li>BNFII_Armor_Heavy</li>
+        <li>BNFII_Armor_Light_Medic</li>
+        <li>BNFII_Armor_Heavy_Medic</li>
+        <li>BNFII_Armor_Light_Engineer</li>
+        <li>BNFII_Armor_Heavy_Engineer</li>
+        <li>BNFII_Armor_Light_Shocktrooper</li>
+        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_ArmorAccessories</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+    <uiIconScale>2</uiIconScale>
+  </ThingDef>
+
+  <!-- Riot Armor -->
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>BNFII_FlakArmor_Police</defName>
+    <label>Riot Flak Armor</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.75,0.67,0.54)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.55,0.45,0.46)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.56,0.43,0.24)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_RiotKit</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <costStuffCount>220</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>18</Mass>
+      <StuffEffectMultiplierArmor>1.02</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>20</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/RiotArmor/RiotArmor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <soundWear>Wear_PowerArmor</soundWear>
+      <soundRemove>Remove_PowerArmor</soundRemove>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <tags>
+        <li>BNFII_Police</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>BNFII_FlakHelmet_Police</defName>
+    <label>Riot Flak Helmet</label>
+    <description>.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/RiotHelmet/RiotHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.75,0.67,0.54)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.55,0.45,0.46)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.56,0.43,0.24)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_RiotKit</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Steel>15</Steel>
+    </costList>
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>3.5</Mass>
+      <StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>2.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/RiotHelmet/RiotHelmet</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <tags>
+        <li>BNFII_Police</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Helmets</li>
+    </thingCategories>
+  </ThingDef>
+
+</Defs>

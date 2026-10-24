@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <!-- Player -->
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>BNFII_Frontier_Player</defName>
+    <label>offworlder</label>
+    <labelPlural>offworlders</labelPlural>
+    <race>Human</race>
+    <defaultFactionType>BNFII_Frontier_Player</defaultFactionType>
+    <itemQuality>Normal</itemQuality>
+    <gearHealthRange>0.2~0.6</gearHealthRange>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Outlander</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <backstoryCryptosleepCommonality>0.5</backstoryCryptosleepCommonality>
+    <apparelMoney>1500~3000</apparelMoney>
+    <apparelTags>
+      <li>BNFII_Uniform</li>
+    </apparelTags>
+    <apparelColor>(60,80,110)</apparelColor>
+    <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+    <techHediffsChance>0.06</techHediffsChance>
+    <techHediffsMoney>0~300</techHediffsMoney>
+    <techHediffsTags>
+      <li>Normal</li>
+    </techHediffsTags>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

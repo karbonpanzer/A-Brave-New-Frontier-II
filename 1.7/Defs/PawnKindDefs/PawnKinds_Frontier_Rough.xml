@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <!-- Civilian -->
+  <PawnKindDef ParentName="BNFII_SettlerBase">
+    <defName>BNFII_Rough_Settler</defName>
+    <label>claim-jumper</label>
+    <labelPlural>claim-jumpers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <weaponTags>
+      <li>BNF_Civilian</li>
+      <li>SimpleGun</li>
+      <li>Pistol</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_TraderBase">
+    <defName>BNFII_Rough_Trader</defName>
+    <label>fence</label>
+    <labelPlural>fences</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <weaponMoney>450~650</weaponMoney>
+    <weaponTags>
+      <li>BNF_Civilian</li>
+      <li>Pistol</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <apparelMoney>900~1800</apparelMoney>
+  </PawnKindDef>
+
+  <!-- Leader -->
+  <PawnKindDef ParentName="BNFII_RepresentativeBase">
+    <defName>BNFII_Rough_Representative</defName>
+    <label>commissar</label>
+    <labelPlural>commissars</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_CommanderBase">
+    <defName>BNFII_Rough_Commander</defName>
+    <label>company marshall</label>
+    <labelPlural>company marshalls</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <combatPower>180</combatPower>
+    <isFighter>true</isFighter>
+    <itemQuality>Excellent</itemQuality>
+    <minGenerationAge>32</minGenerationAge>
+    <weaponMoney>3900~5100</weaponMoney>
+    <apparelMoney>1400~1900</apparelMoney>
+    <apparelTags>
+      <li>BNFII_Uniform_Officer</li>
+      <li>BNFII_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.85</apparelAllowHeadgearChance>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>20~30</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- Fighter -->
+  <PawnKindDef ParentName="BNFII_MilitiaBase">
+    <defName>BNFII_Rough_Hireling</defName>
+    <label>hired gun</label>
+    <labelPlural>hired guns</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <weaponTags>
+      <li>BNF_Civilian</li>
+      <li>SimpleGun</li>
+      <li>Pistol</li>
+      <li>Gun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_InfantryBase">
+    <defName>BNFII_Rough_Infantry</defName>
+    <label>mercenary</label>
+    <labelPlural>mercenaries</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <apparelRequired>
+      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakHelmet</li>
+      <li>BNFII_FlakBoots</li>
+      <li>BNFII_FlakGloves</li>
+      <li>BNFII_WebbingMagazine</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyInfantryBase">
+    <defName>BNFII_Rough_Heavy_Infantry</defName>
+    <label>veteran mercenary</label>
+    <labelPlural>veteran mercenaries</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_RangerBase">
+    <defName>BNFII_Rough_Ranger</defName>
+    <label>stalker</label>
+    <labelPlural>stalkers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_ShocktrooperBase">
+    <defName>BNFII_Rough_Trench_Raider</defName>
+    <label>raider</label>
+    <labelPlural>raiders</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <apparelRequired>
+      <li>BNFII_HeavyFlakArmor</li>
+      <li>BNFII_HeavyFlakHelmet_Faceshield</li>
+      <li>BNFII_FlakBoots</li>
+      <li>BNFII_FlakGloves</li>
+      <li>BNFII_WebbingShocktrooper</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>BNFII_Uniform</li>
+      <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyShocktrooperBase">
+    <defName>BNFII_Rough_Trench_Shocktrooper</defName>
+    <label>heavy raider</label>
+    <labelPlural>heavy raiders</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+    <combatPower>125</combatPower>
+    <weaponMoney>2100~2700</weaponMoney>
+    <apparelMoney>1200~1700</apparelMoney>
+    <apparelTags>
+      <li>BNFII_Uniform</li>
+      <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_MedicBase">
+    <defName>BNFII_Rough_Medic</defName>
+    <label>corpsman</label>
+    <labelPlural>corpsmen</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyMedicBase">
+    <defName>BNFII_Rough_Heavy_Medic</defName>
+    <label>veteran corpsman</label>
+    <labelPlural>veteran corpsmen</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_EngineerBase">
+    <defName>BNFII_Rough_Engineer</defName>
+    <label>technic</label>
+    <labelPlural>technics</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyEngineerBase">
+    <defName>BNFII_Rough_Heavy_Engineer</defName>
+    <label>veteran technic</label>
+    <labelPlural>veteran technics</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
+  </PawnKindDef>
+
+</Defs>

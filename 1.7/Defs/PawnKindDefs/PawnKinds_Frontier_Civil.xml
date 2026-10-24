@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+  <!-- Civilian -->
+  <PawnKindDef ParentName="BNFII_SettlerBase">
+    <defName>BNFII_Civil_Settler</defName>
+    <label>settler</label>
+    <labelPlural>settlers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <weaponTags>
+      <li>BNF_Settler</li>
+      <li>SimpleGun</li>
+      <li>Pistol</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_TraderBase">
+    <defName>BNFII_Civil_Trader</defName>
+    <label>trader</label>
+    <labelPlural>traders</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <weaponMoney>1350~1950</weaponMoney>
+    <weaponTags>
+      <li>BNF_Trader</li>
+      <li>Pistol</li>
+      <li>SimpleGun</li>
+    </weaponTags>
+    <apparelMoney>300~600</apparelMoney>
+  </PawnKindDef>
+
+  <!-- Leader -->
+  <PawnKindDef ParentName="BNFII_RepresentativeBase">
+    <defName>BNFII_Civil_Representative</defName>
+    <label>representative</label>
+    <labelPlural>representatives</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_CommanderBase">
+    <defName>BNFII_Civil_Commander</defName>
+    <label>infantry commander</label>
+    <labelPlural>infantry commanders</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <combatPower>160</combatPower>
+    <isFighter>false</isFighter>
+    <itemQuality>Good</itemQuality>
+    <minGenerationAge>30</minGenerationAge>
+    <weaponMoney>3300~5200</weaponMoney>
+    <apparelMoney>1200~1600</apparelMoney>
+    <apparelRequired>
+      <li>BNFII_FlakGloves</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>BNFII_Uniform_Officer</li>
+      <li>BNFII_Armor_Officer</li>
+      <li>BNF_Accessories_Infantry</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+      <li>BNF_Accessories_Scout</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>15~25</initialResistanceRange>
+  </PawnKindDef>
+
+  <!-- Fighter -->
+  <PawnKindDef ParentName="BNFII_MilitiaBase">
+    <defName>BNFII_Civil_Militia</defName>
+    <label>militia</label>
+    <labelPlural>militia</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <weaponTags>
+      <li>BNF_Settler</li>
+      <li>SimpleGun</li>
+      <li>Pistol</li>
+      <li>Gun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_InfantryBase">
+    <defName>BNFII_Civil_Infantry</defName>
+    <label>infantry</label>
+    <labelPlural>infantry</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <apparelRequired>
+      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakHelmet</li>
+      <li>BNFII_FlakBoots</li>
+      <li>BNFII_FlakGloves</li>
+      <li>BNFII_WebbingAmmo</li>
+    </apparelRequired>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyInfantryBase">
+    <defName>BNFII_Civil_Heavy_Infantry</defName>
+    <label>heavy infantry</label>
+    <labelPlural>heavy infantry</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_RangerBase">
+    <defName>BNFII_Civil_Ranger</defName>
+    <label>ranger</label>
+    <labelPlural>rangers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_ShocktrooperBase">
+    <defName>BNFII_Civil_Trench_Raider</defName>
+    <label>shocktrooper</label>
+    <labelPlural>shocktroopers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <apparelRequired>
+      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakHelmet_Faceshield</li>
+      <li>BNFII_FlakBoots</li>
+      <li>BNFII_FlakGloves</li>
+      <li>BNFII_WebbingShocktrooper</li>
+    </apparelRequired>
+    <apparelTags>
+      <li>BNFII_Uniform</li>
+      <li>BNFII_Armor_Light_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyShocktrooperBase">
+    <defName>BNFII_Civil_Trench_Shocktrooper</defName>
+    <label>heavy shocktrooper</label>
+    <labelPlural>heavy shocktroopers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <combatPower>135</combatPower>
+    <weaponMoney>2400~3000</weaponMoney>
+    <apparelMoney>1300~1800</apparelMoney>
+    <apparelTags>
+      <li>BNFII_Uniform</li>
+      <li>BNFII_Armor_Heavy_Shocktrooper</li>
+      <li>BNF_Accessories_Shocktrooper</li>
+      <li>BNFII_Armor_Light_Shocktrooper</li>
+      <li>BNFII_Armor_Conscript</li>
+      <li>BNFII_Armor_Heavy</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_MedicBase">
+    <defName>BNFII_Civil_Medic</defName>
+    <label>medic</label>
+    <labelPlural>medics</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyMedicBase">
+    <defName>BNFII_Civil_Heavy_Medic</defName>
+    <label>heavy medic</label>
+    <labelPlural>heavy medics</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_EngineerBase">
+    <defName>BNFII_Civil_Engineer</defName>
+    <label>engineer</label>
+    <labelPlural>engineers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BNFII_HeavyEngineerBase">
+    <defName>BNFII_Civil_Heavy_Engineer</defName>
+    <label>heavy engineer</label>
+    <labelPlural>heavy engineers</labelPlural>
+    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+  </PawnKindDef>
+
+</Defs>
