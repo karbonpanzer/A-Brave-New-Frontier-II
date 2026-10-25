@@ -88,20 +88,6 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BNFII_ExtremeWeatherUniforms</defName>
-    <label>extreme weather uniforms</label>
-    <description>Tailor heavily modified garments designed for survival and work in extreme heat and cold.</description>
-    <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>BNFII_FrontierUniforms</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>4.2</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
     <defName>BNFII_OfficerUniforms</defName>
     <label>officer uniforms</label>
     <description>Tailor garments with officer markings that offer the same protection as standard apparel.</description>
