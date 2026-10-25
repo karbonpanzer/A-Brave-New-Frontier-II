@@ -173,10 +173,10 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingScout</defName>
-		<label>vanguard webbing</label>
+		<label>scout webbing</label>
 		<description>.</description>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_VanguardKit</researchPrerequisite>
+			<researchPrerequisite>BNFII_ScoutKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
@@ -335,132 +335,44 @@
 				</li>
 			</options>
 		</colorGenerator>
+			<comps>
+				<li Class="CompProperties_ApparelReloadable">
+					<maxCharges>8</maxCharges>
+					<ammoDef>Weapon_GrenadeFrag</ammoDef>
+					<ammoCountToRefill>1</ammoCountToRefill>
+					<baseReloadTicks>60</baseReloadTicks>
+					<soundReload>Standard_Reload</soundReload>
+					<hotKey>Misc4</hotKey>
+					<chargeNoun>frag</chargeNoun>
+					<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+				</li>
+			</comps>
+			<verbs>
+				<li>
+					<label>throw frag grenade</label>
+					<verbClass>Verb_LaunchProjectileStatic</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<onlyManualCast>True</onlyManualCast>
+					<range>12.9</range>
+					<forcedMissRadius>1.9</forcedMissRadius>
+					<warmupTime>1.5</warmupTime>
+					<noiseRadius>4</noiseRadius>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<soundCast>ThrowGrenade</soundCast>
+					<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+					<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
+					<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+				</li>
+			</verbs>		
 		<tradeTags>
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
 		</tradeTags>
 	</ThingDef>
-
-		<ThingDef ParentName="ApparelMakeableBase">
-			<defName>BNF_WebbingGrenadier</defName>
-			<description>.</description>
-			<label>grenadier webbing</label>
-			<recipeMaker>
-			  <researchPrerequisite>BNFII_ShocktrooperKit</researchPrerequisite>
-			</recipeMaker>
-
-			<graphicData>
-			  <texPath>BNFII/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</texPath>
-			  <graphicClass>Graphic_Single</graphicClass>
-				<shaderType>CutoutComplex</shaderType>
-			</graphicData>
-
-			<costStuffCount>40</costStuffCount>
-			<costList>
-			  <Steel>40</Steel>
-			</costList>
-			<stuffCategories>
-			  <li>Fabric</li>
-			  <li>Leathery</li>
-			</stuffCategories>
-
-			<statBases>
-			  <MaxHitPoints>200</MaxHitPoints>
-			  <WorkToMake>10000</WorkToMake>
-			  <Mass>1</Mass>
-			  <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			  <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			  <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			  <EquipDelay>1</EquipDelay>
-			</statBases>
-
-			<comps>
-			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>8</maxCharges>
-				<ammoDef>Weapon_GrenadeFrag</ammoDef>
-				<ammoCountToRefill>1</ammoCountToRefill>
-				<baseReloadTicks>60</baseReloadTicks>
-				<soundReload>Standard_Reload</soundReload>
-				<hotKey>Misc4</hotKey>
-				<chargeNoun>frag</chargeNoun>
-				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-			</li>
-			</comps>
-			<verbs>
-			<li>
-				<label>throw frag grenade</label>
-				<verbClass>Verb_LaunchProjectileStatic</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<onlyManualCast>True</onlyManualCast>
-				<range>12.9</range>
-				<forcedMissRadius>1.9</forcedMissRadius>
-				<warmupTime>1.5</warmupTime>
-				<noiseRadius>4</noiseRadius>
-				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-				<soundCast>ThrowGrenade</soundCast>
-				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-				<targetParams>
-				<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
-				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-			</li>
-			</verbs>
-
-		   <thingCategories>
-			  <li>BNFII_Accessories</li>
-			</thingCategories>
-
-			<equippedStatOffsets>
-			  <PainShockThreshold>0.20</PainShockThreshold>
-			</equippedStatOffsets>
-
-			<apparel>
-			  <bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Waist</li>
-			  </bodyPartGroups>
-			  <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/GrenadierWebbing/GrenadierWebbing</wornGraphicPath>
-			  <layers>
-				<li>Shell</li>
-			  </layers>
-			  <tags>
-				<li>BNF_Accessories_Shocktrooper</li>
-				<li>BNF_Accessories_Shocktrooper</li>
-			  </tags>
-			  <defaultOutfitTags>
-				<li>Soldier</li>
-			  </defaultOutfitTags>
-			  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-              <countsAsClothingForNudity>false</countsAsClothingForNudity>
-			  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
-			  <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
-			  <useWornGraphicMask>True</useWornGraphicMask>
-			</apparel>
-
-				<colorGenerator Class="ColorGenerator_Options">
-				  <options>
-					<li>
-					  <weight>10</weight>
-					  <only>(0.50,0.5,0.36)</only>
-					</li>
-					<li>
-					  <weight>6</weight>
-					  <only>(0.40,0.57,0.40)</only>
-					</li>
-					<li>
-					  <weight>10</weight>
-					  <only>(0.38,0.36,0.20)</only>
-					</li>
-					<li>
-					  <weight>10</weight>
-					  <only>(0.29,0.32,0.12)</only>
-					</li>
-				  </options>
-				</colorGenerator>
-		</ThingDef>
-
+	
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_PouchesInfantry</defName>
 		<label>infantry pouches</label>
@@ -702,75 +614,4 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
-		<defName>BNF_BeltPolice</defName>
-		<label>police belt</label>
-		<description>.</description>
-		<recipeMaker>
-			<researchPrerequisite>BNFII_RiotFlakArmor</researchPrerequisite>
-		</recipeMaker>
-		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<costStuffCount>40</costStuffCount>
-		<costList>
-			<Steel>50</Steel>
-		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>2000</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1.5</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<ArrestSuccessChance>0.10</ArrestSuccessChance>
-            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
-		</equippedStatOffsets>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Waist</li>
-			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/PoliceBelt/PoliceBelt</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
-			<tags>
-				<li>BNF_Police</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.75,0.67,0.54)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.55,0.45,0.46)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.56,0.43,0.24)</only>
-				</li>
-			</options>
-		</colorGenerator>
-	</ThingDef>
 </Defs>
