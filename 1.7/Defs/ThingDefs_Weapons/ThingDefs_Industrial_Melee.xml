@@ -3,7 +3,7 @@
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>BNFII_TrenchKnife</defName>
-		<label>Trench Knife</label>
+		<label>trench knife</label>
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -100,15 +100,15 @@
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<costStuffCount>55</costStuffCount>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>1.6</Mass>
 			<MarketValue>120</MarketValue>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<equippedAngleOffset>-50</equippedAngleOffset>
 		<tools>
 			<li>
@@ -151,6 +151,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2.0</drawSize>
 		</graphicData>
+		<techLevel>Industrial</techLevel>
 		<uiIconScale>0.8</uiIconScale>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<recipeMaker>
@@ -166,14 +167,10 @@
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<costStuffCount>75</costStuffCount>
 		<statBases>
 			<WorkToMake>24000</WorkToMake>
 			<Mass>3.0</Mass>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<tools>
 			<li>
 				<label>edge</label>
@@ -207,6 +204,7 @@
 			</li>
 		</tools>
 		<costList>
+			<Steel>75</Steel>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<thingSetMakerTags>
@@ -227,7 +225,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>BNFII_ChainSword</defName>
-		<label>Chainsword</label>
+		<label>chainsword</label>
 		<description>.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -248,19 +246,15 @@
 				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
-		<costStuffCount>60</costStuffCount>
 		<costList>
+			<Steel>140</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
-			<Steel>80</Steel>
 		</costList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
 			<Mass>1.8</Mass>
 			<MarketValue>140</MarketValue>
 		</statBases>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<uiIconScale>0.9</uiIconScale>
 		<tools>
