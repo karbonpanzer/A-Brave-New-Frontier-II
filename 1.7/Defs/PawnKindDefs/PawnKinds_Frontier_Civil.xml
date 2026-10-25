@@ -82,7 +82,7 @@
     <labelPlural>infantry</labelPlural>
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
     <apparelRequired>
-      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakArmor</li>
       <li>BNFII_FlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
@@ -110,7 +110,7 @@
     <labelPlural>shocktroopers</labelPlural>
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
     <apparelRequired>
-      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakArmor</li>
       <li>BNFII_FlakHelmet_Faceshield</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>

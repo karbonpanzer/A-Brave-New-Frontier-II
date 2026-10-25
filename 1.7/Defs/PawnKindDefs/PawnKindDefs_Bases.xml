@@ -36,7 +36,7 @@
     <gearHealthRange>1.0~1.0</gearHealthRange>
     <apparelRequired>
       <li>BNFII_OfficerFlakArmor</li>
-      <li>BNFII_FlakHelmet_Officer</li>
+      <li>BNFII_OfficerFlakHelmet</li>
       <li>BNFII_WebbingMagazine</li>
     </apparelRequired>
   </PawnKindDef>
@@ -154,7 +154,7 @@
     </weaponTags>
     <apparelMoney>1100~1600</apparelMoney>
     <apparelRequired>
-      <li>BNFII_FlakArmor_Scout</li>
+      <li>BNFII_ScoutFlakArmor</li>
       <li>BNFII_FlakHelmet</li>
       <li>BNFII_WebbingScout</li>
     </apparelRequired>
@@ -210,8 +210,8 @@
     </weaponTags>
     <apparelMoney>1000~1500</apparelMoney>
     <apparelRequired>
-      <li>BNFII_LightFlakArmor_Medic</li>
-      <li>BNFII_FlakHelmet_Medic</li>
+      <li>BNFII_MedicFlakArmor</li>
+      <li>BNFII_MedicFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
       <li>BNFII_PouchesMedic</li>
@@ -237,8 +237,8 @@
     </weaponTags>
     <apparelMoney>1200~1700</apparelMoney>
     <apparelRequired>
-      <li>BNFII_HeavyFlakArmor_Medic</li>
-      <li>BNFII_HeavyFlakHelmet_Medic</li>
+      <li>BNFII_HeavyFlakArmor</li>
+      <li>BNFII_HeavyFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
       <li>BNFII_PouchesMedic</li>
@@ -264,8 +264,8 @@
     </weaponTags>
     <apparelMoney>1000~1500</apparelMoney>
     <apparelRequired>
-      <li>BNFII_LightFlakArmor_Support</li>
-      <li>BNFII_FlakHelmet_Support</li>
+      <li>BNFII_EngineerFlakArmor</li>
+      <li>BNFII_EngineerFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
       <li>BNFII_PouchesSupport</li>
@@ -291,8 +291,8 @@
     </weaponTags>
     <apparelMoney>1200~1700</apparelMoney>
     <apparelRequired>
-      <li>BNFII_HeavyFlakArmor_Support</li>
-      <li>BNFII_HeavyFlakHelmet_Support</li>
+      <li>BNFII_HeavyFlakArmor</li>
+      <li>BNFII_HeavyFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
       <li>BNFII_PouchesSupport</li>

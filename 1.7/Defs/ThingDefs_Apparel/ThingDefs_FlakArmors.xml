@@ -158,7 +158,7 @@
 
   <!-- Medic Flak Armor -->
   <ThingDef ParentName="BNFII_ApparelArmorFlakLightBase">
-    <defName>BNFII_FlakArmor_Medic</defName>
+    <defName>BNFII_MedicFlakArmor</defName>
     <label>flak armor (medic)</label>
     <description>.</description>
     <graphicData>
@@ -173,7 +173,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
-    <defName>BNFII_FlakHelmet_Medic</defName>
+    <defName>BNFII_MedicFlakHelmet</defName>
     <label>flak helmet (medic)</label>
     <description>.</description>
     <graphicData>
@@ -189,7 +189,7 @@
 
   <!-- Engineer Flak Armor -->
   <ThingDef ParentName="BNFII_ApparelArmorFlakLightBase">
-    <defName>BNFII_FlakArmor_Support</defName>
+    <defName>BNFII_EngineerFlakArmor</defName>
     <label>flak armor (engineer)</label>
     <description>.</description>
     <graphicData>
@@ -204,7 +204,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
-    <defName>BNFII_FlakHelmet_Support</defName>
+    <defName>BNFII_EngineerFlakHelmet</defName>
     <label>flak helmet (engineer)</label>
     <description>.</description>
     <graphicData>
@@ -843,7 +843,7 @@
 
   <!-- Scout Flak Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
-    <defName>BNFII_FlakArmor_Scout</defName>
+    <defName>BNFII_ScoutFlakArmor</defName>
     <label>scout flak armor</label>
     <description>.</description>
     <graphicData>

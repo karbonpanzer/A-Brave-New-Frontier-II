@@ -67,7 +67,7 @@
 
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>BNFII_LightFlakArmor</thingDef>
+					<thingDef>BNFII_FlakArmor</thingDef>
 					<count>3</count>
 					<stuff>Steel</stuff>
 					<quality>Normal</quality>
