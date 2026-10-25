@@ -5,7 +5,7 @@
   <ResearchProjectDef>
     <defName>BNFII_FlakArmor</defName>
     <label>flak armor</label>
-    <description>Craft flak armor and helmets, along with matching boots and gloves, for standard infantry protection.</description>
+    <description>Craft improved metal armor to protect from gunshots and explosions. This weighty armor slows movement slightly.</description>
     <baseCost>1200</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -19,7 +19,7 @@
   <ResearchProjectDef>
     <defName>BNFII_ScoutFlakArmor</defName>
     <label>scout flak armor</label>
-    <description>Craft lightened flak armor that trades protection for mobility.</description>
+    <description>Craft lightened metal armor to increase movement but has less protection.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -33,7 +33,7 @@
   <ResearchProjectDef>
     <defName>BNFII_HeavyFlakArmor</defName>
     <label>heavy flak armor</label>
-    <description>Craft heavy flak armor and helmets with additional plating for improved protection at increased material cost.</description>
+    <description>Craft reinforced metal armor to protect from heavy gun fire and explosions. This armor is heavy and slows movement.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -47,7 +47,7 @@
   <ResearchProjectDef>
     <defName>BNFII_OfficerFlakArmor</defName>
     <label>officer flak armor</label>
-    <description>Craft flak armor and helmets with officer markings that provide standard protection with added visual identification.</description>
+    <description>Craft prestige metal armor to enhance psycasting abilities while maintaining protection. Note that these also require gold.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -61,7 +61,7 @@
   <ResearchProjectDef>
     <defName>BNFII_ModifiedFlakHelmets</defName>
     <label>modified flak helmets</label>
-    <description>Craft flak helmets fitted with thermal lining, gasmasks or faceshields for hostile conditions.</description>
+    <description>Craft modified helmets which offer increased protection, integrated gasmasks, and insulation against the elements.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -76,7 +76,7 @@
   <ResearchProjectDef>
     <defName>BNFII_FrontierUniforms</defName>
     <label>frontier uniforms</label>
-    <description>Tailor garments that provide light protection and insulation for a variety of climates.</description>
+    <description>Tailor uniforms which provide insulation from the elements and slight protection.</description>
     <baseCost>1200</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -90,7 +90,7 @@
   <ResearchProjectDef>
     <defName>BNFII_OfficerUniforms</defName>
     <label>officer uniforms</label>
-    <description>Tailor garments with officer markings that offer the same protection as standard apparel.</description>
+    <description>Tailor uniforms which provide insulation, protection, and social status.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -105,7 +105,7 @@
   <ResearchProjectDef>
     <defName>BNFII_InfantryKit</defName>
     <label>infantry kit</label>
-    <description>Craft webbing and pouches that improve reload speed and general combat readiness.</description>
+    <description>Tailor bandoleers for usage by infantry.</description>
     <baseCost>1200</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -119,7 +119,7 @@
   <ResearchProjectDef>
     <defName>BNFII_ShocktrooperKit</defName>
     <label>shocktrooper kit</label>
-    <description>Craft heavy webbing and grenade rigs for frontline shocktroopers.</description>
+    <description>Tailor bandoleers for usage by shocktroopers.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -133,7 +133,7 @@
   <ResearchProjectDef>
     <defName>BNFII_ScoutKit</defName>
     <label>Scout kit</label>
-    <description>Craft lightweight webbing that helps scouts move unseen.</description>
+    <description>Tailor bandoleers for usage by scouts.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -147,7 +147,7 @@
   <ResearchProjectDef>
     <defName>BNFII_SupportKit</defName>
     <label>support kit</label>
-    <description>Craft pouches that assist the work of support roles such as engineers and medics.</description>
+    <description>Tailor bandoleers for usage by support forces.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -162,7 +162,7 @@
   <ResearchProjectDef>
     <defName>BNFII_StreamlinedProduction</defName>
     <label>streamlined production</label>
-    <description>Simplify firearm manufacturing to mass-produce service weapons, trench shotguns and knives.</description>
+    <description>Craft streamlined guns which are cheaper to produce but are inferior quality.</description>
     <baseCost>1200</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -176,7 +176,7 @@
   <ResearchProjectDef>
     <defName>BNFII_SpecializedAccelerant</defName>
     <label>specialized accelerant</label>
-    <description>Develop specialized propellants for high-powered assault and marksman weapons.</description>
+    <description>Craft specialized guns which use a volatile accelerant to create a higher rate of fire.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
@@ -190,7 +190,7 @@
   <ResearchProjectDef>
     <defName>BNFII_PowerWeapons</defName>
     <label>power weapons</label>
-    <description>Craft powered melee weapons such as mauls, glaives and chainswords.</description>
+    <description>Craft specialized melee weapons which use improvised generators to create electric shocks on hit.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
