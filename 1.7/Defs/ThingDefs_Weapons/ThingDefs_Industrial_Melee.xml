@@ -18,8 +18,7 @@
 				<Crafting>5</Crafting>
 			</skillRequirements>
 			<recipeUsers>
-				<li>FueledSmithy</li>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 		<costStuffCount>50</costStuffCount>
@@ -96,7 +95,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 			<recipeUsers>
-				<li>FueledSmithy</li>
+				<li>TableMachining</li>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
@@ -163,7 +162,7 @@
 			</skillRequirements>
 			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<recipeUsers>
-				<li>FueledSmithy</li>
+				<li>TableMachining</li>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
