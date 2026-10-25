@@ -13,7 +13,7 @@
       <li>FlakArmor</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewY>0.7</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -41,7 +41,7 @@
       <li>BNFII_FlakArmor</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>0.75</researchViewY>
+    <researchViewY>0.7</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -55,21 +55,7 @@
       <li>BNFII_FlakArmor</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>1.5</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef>
-    <defName>BNFII_RiotFlakArmor</defName>
-    <label>riot flak armor</label>
-    <description>Craft leather riot armor, helmets and belts for keeping order in the colony.</description>
-    <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>BNFII_FlakArmor</li>
-    </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>2.25</researchViewY>
+    <researchViewY>1.4</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -82,8 +68,8 @@
     <prerequisites>
       <li>BNFII_FlakArmor</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>3</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.7</researchViewY>
   </ResearchProjectDef>
 
   <!-- Uniforms -->
@@ -98,7 +84,7 @@
       <li>ComplexClothing</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
-    <researchViewY>4.75</researchViewY>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -112,7 +98,7 @@
       <li>BNFII_FrontierUniforms</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>4.75</researchViewY>
+    <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -126,7 +112,7 @@
       <li>BNFII_FrontierUniforms</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>5.5</researchViewY>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <!-- Kits -->
@@ -140,8 +126,8 @@
     <prerequisites>
       <li>ComplexClothing</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>6.5</researchViewY>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -154,13 +140,13 @@
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>6.5</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>BNFII_VanguardKit</defName>
-    <label>vanguard kit</label>
+    <defName>BNFII_ScoutKit</defName>
+    <label>Scout kit</label>
     <description>Craft lightweight webbing that helps scouts move unseen.</description>
     <baseCost>1600</baseCost>
     <tab>ABraveNewFrontierII</tab>
@@ -168,8 +154,8 @@
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>7.25</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -182,8 +168,8 @@
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>8</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4.2</researchViewY>
   </ResearchProjectDef>
 
   <!-- Weapons -->
@@ -197,8 +183,8 @@
     <prerequisites>
       <li>PrecisionRifling</li>
     </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0</researchViewX>
+    <researchViewY>5.6</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -211,8 +197,8 @@
     <prerequisites>
       <li>BNFII_StreamlinedProduction</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5.6</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -223,10 +209,10 @@
     <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>BNFII_StreamlinedProduction</li>
+      <li>BNFII_SpecializedAccelerant</li>
     </prerequisites>
-    <researchViewX>4</researchViewX>
-    <researchViewY>0.75</researchViewY>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5.6</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
