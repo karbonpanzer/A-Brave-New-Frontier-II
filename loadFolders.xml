@@ -1,9 +1,0 @@
-<loadFolders>
-	<v1.7>
-		<li>/</li>
-		<li>1.7</li>
-		<li>Common</li>			
-
-		<!--li IfModActive="Ludeon.RimWorld.Odyssey">1.7/Mods/Odyssey</li-->
-	</v1.7>	
-</loadFolders>

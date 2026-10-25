@@ -77,7 +77,7 @@
     <labelPlural>mercenaries</labelPlural>
     <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
     <apparelRequired>
-      <li>BNFII_LightFlakArmor</li>
+      <li>BNFII_FlakArmor</li>
       <li>BNFII_FlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>

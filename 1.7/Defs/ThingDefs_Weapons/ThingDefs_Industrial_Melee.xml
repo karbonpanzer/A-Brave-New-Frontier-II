@@ -13,7 +13,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_ExpeditionaryWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_StreamlinedProduction</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
 			</skillRequirements>
@@ -75,7 +75,7 @@
 			<li>BNFII_Civilian</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>	
 	</ThingDef>
 
@@ -91,7 +91,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<recipeMaker>
-			<researchPrerequisite>BNFII_TrenchWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -137,7 +137,7 @@
             <li>BNFII_InfantrySupport</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>		
 	</ThingDef>
 		
@@ -160,7 +160,7 @@
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>BNFII_AntiMechanoidWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<recipeUsers>
 				<li>FueledSmithy</li>
 				<li>ElectricSmithy</li>
@@ -221,7 +221,7 @@
 			<li>BNFII_Commander</li>			
 		</weaponTags>
 		<tradeTags>
-			<li>WeaponMelee</li>
+			<li>Weapons</li>
 		</tradeTags>		
 	</ThingDef>
 
@@ -243,7 +243,7 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<researchPrerequisite>BNFII_AntiInsectoidWeaponry</researchPrerequisite>
+			<researchPrerequisite>BNFII_PowerWeapons</researchPrerequisite>
 			<recipeUsers>
 				<li>TableMachining</li>
 			</recipeUsers>
