@@ -292,7 +292,7 @@
     </apparel>
   </ThingDef>
 
-  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
+  <!--ThingDef ParentName="BNFII_ApparelArmorHelmetFlakLightBase">
     <defName>BNFII_FlakHelmet_Gasmask</defName>
     <label>flak helmet (gasmask)</label>
     <description>.</description>
@@ -322,7 +322,7 @@
         <li>BNFII_Armor_Scout</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef-->
 
   <!-- Officer Flak Armor Parents -->
   <ThingDef Name="BNFII_ApparelArmorFlakOfficerBase" ParentName="ArmorMachineableBase" Abstract="True">
@@ -801,7 +801,7 @@
     </apparel>
   </ThingDef>
 
-  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+  <!--ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
     <defName>BNFII_HeavyFlakHelmet_Gasmask</defName>
     <label>heavy flak helmet (gasmask)</label>
     <description>.</description>
@@ -839,7 +839,7 @@
         <li>BNFII_Armor_Heavy</li>
       </tags>
     </apparel>
-  </ThingDef>
+  </ThingDef-->
 
   <!-- Scout Flak Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
