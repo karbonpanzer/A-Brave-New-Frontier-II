@@ -98,7 +98,7 @@
       <li>BNFII_FrontierUniforms</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
   <!-- Kits -->
@@ -113,7 +113,7 @@
       <li>ComplexClothing</li>
     </prerequisites>
     <researchViewX>1</researchViewX>
-    <researchViewY>2.8</researchViewY>
+    <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
