@@ -118,22 +118,6 @@
     </apparelTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BNFII_HeavyShocktrooperBase">
-    <defName>BNFII_Rough_Trench_Shocktrooper</defName>
-    <label>heavy raider</label>
-    <labelPlural>heavy raiders</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
-    <combatPower>125</combatPower>
-    <weaponMoney>2100~2700</weaponMoney>
-    <apparelMoney>1200~1700</apparelMoney>
-    <apparelTags>
-      <li>BNFII_Uniform</li>
-      <li>BNFII_Armor_Heavy_Shocktrooper</li>
-      <li>BNF_Accessories_Shocktrooper</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
-  </PawnKindDef>
-
   <PawnKindDef ParentName="BNFII_MedicBase">
     <defName>BNFII_Rough_Medic</defName>
     <label>corpsman</label>
@@ -141,24 +125,10 @@
     <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BNFII_HeavyMedicBase">
-    <defName>BNFII_Rough_Heavy_Medic</defName>
-    <label>veteran corpsman</label>
-    <labelPlural>veteran corpsmen</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
-  </PawnKindDef>
-
   <PawnKindDef ParentName="BNFII_EngineerBase">
     <defName>BNFII_Rough_Engineer</defName>
     <label>technic</label>
     <labelPlural>technics</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="BNFII_HeavyEngineerBase">
-    <defName>BNFII_Rough_Heavy_Engineer</defName>
-    <label>veteran technic</label>
-    <labelPlural>veteran technics</labelPlural>
     <defaultFactionType>BNFII_Frontier_Rough</defaultFactionType>
   </PawnKindDef>
 

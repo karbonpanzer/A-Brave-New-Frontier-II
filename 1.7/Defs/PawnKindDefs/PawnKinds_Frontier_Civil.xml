@@ -123,36 +123,10 @@
     </apparelTags>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BNFII_HeavyShocktrooperBase">
-    <defName>BNFII_Civil_Trench_Shocktrooper</defName>
-    <label>heavy shocktrooper</label>
-    <labelPlural>heavy shocktroopers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
-    <combatPower>135</combatPower>
-    <weaponMoney>2400~3000</weaponMoney>
-    <apparelMoney>1300~1800</apparelMoney>
-    <apparelTags>
-      <li>BNFII_Uniform</li>
-      <li>BNFII_Armor_Heavy_Shocktrooper</li>
-      <li>BNF_Accessories_Shocktrooper</li>
-      <li>BNFII_Armor_Light_Shocktrooper</li>
-      <li>BNFII_Armor_Conscript</li>
-      <li>BNFII_Armor_Heavy</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
-  </PawnKindDef>
-
   <PawnKindDef ParentName="BNFII_MedicBase">
     <defName>BNFII_Civil_Medic</defName>
     <label>medic</label>
     <labelPlural>medics</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="BNFII_HeavyMedicBase">
-    <defName>BNFII_Civil_Heavy_Medic</defName>
-    <label>heavy medic</label>
-    <labelPlural>heavy medics</labelPlural>
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
   </PawnKindDef>
 
@@ -163,11 +137,5 @@
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="BNFII_HeavyEngineerBase">
-    <defName>BNFII_Civil_Heavy_Engineer</defName>
-    <label>heavy engineer</label>
-    <labelPlural>heavy engineers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
-  </PawnKindDef>
 
 </Defs>

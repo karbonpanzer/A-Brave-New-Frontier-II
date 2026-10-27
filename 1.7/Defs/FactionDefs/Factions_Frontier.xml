@@ -138,18 +138,6 @@
 		  </li>
 
 		  <li>
-			<kindDef>Combat</kindDef>
-			<commonality>35</commonality>
-			<options>
-			  <BNFII_Civil_Trench_Shocktrooper>30</BNFII_Civil_Trench_Shocktrooper>
-			  <BNFII_Civil_Heavy_Infantry>7</BNFII_Civil_Heavy_Infantry>
-			  <BNFII_Civil_Heavy_Medic>2</BNFII_Civil_Heavy_Medic>
-			  <BNFII_Civil_Heavy_Engineer>2</BNFII_Civil_Heavy_Engineer>
-			  <BNFII_Civil_Commander>3</BNFII_Civil_Commander>
-			</options>
-		  </li>
-
-		  <li>
 			<kindDef>Peaceful</kindDef>
 			<commonality>20</commonality>
 			<options>
@@ -298,18 +286,6 @@
 		  </li>
 
 		  <li>
-			<kindDef>Combat</kindDef>
-			<commonality>35</commonality>
-			<options>
-			  <BNFII_Rough_Trench_Shocktrooper>30</BNFII_Rough_Trench_Shocktrooper>
-			  <BNFII_Rough_Heavy_Infantry>7</BNFII_Rough_Heavy_Infantry>
-			  <BNFII_Rough_Heavy_Medic>2</BNFII_Rough_Heavy_Medic>
-			  <BNFII_Rough_Heavy_Engineer>2</BNFII_Rough_Heavy_Engineer>
-			  <BNFII_Rough_Commander>3</BNFII_Rough_Commander>
-			</options>
-		  </li>
-
-		  <li>
 			<kindDef>Peaceful</kindDef>
 			<commonality>20</commonality>
 			<options>
@@ -335,8 +311,7 @@
 			</carriers>
 			<guards>
 			  <BNFII_Rough_Hireling>25</BNFII_Rough_Hireling>
-			  <BNFII_Rough_Infantry>18</BNFII_Rough_Infantry>
-			  <BNFII_Rough_Heavy_Infantry>12</BNFII_Rough_Heavy_Infantry>				  
+			  <BNFII_Rough_Infantry>18</BNFII_Rough_Infantry>				  
 			  <BNFII_Rough_Ranger>8</BNFII_Rough_Ranger>
 			  <BNFII_Rough_Commander>3</BNFII_Rough_Commander>
 			</guards>

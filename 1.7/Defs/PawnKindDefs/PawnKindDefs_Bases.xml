@@ -182,23 +182,6 @@
     <initialResistanceRange>35~45</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef Name="BNFII_HeavyShocktrooperBase" ParentName="BNFII_MilitaryBase" Abstract="True">
-    <gearHealthRange>0.7~2.0</gearHealthRange>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-      <li>BNF_HRaider</li>
-    </weaponTags>
-    <apparelRequired>
-      <li>BNFII_HeavyFlakArmor</li>
-      <li>BNFII_HeavyFlakHelmet_Faceshield</li>
-      <li>BNFII_FlakBoots</li>
-      <li>BNFII_FlakGloves</li>
-      <li>BNFII_WebbingShocktrooper</li>
-    </apparelRequired>
-    <initialWillRange>5~7</initialWillRange>
-    <initialResistanceRange>35~45</initialResistanceRange>
-  </PawnKindDef>
-
   <PawnKindDef Name="BNFII_MedicBase" ParentName="BNFII_MilitaryBase" Abstract="True">
     <combatPower>80</combatPower>
     <itemQuality>Normal</itemQuality>
@@ -226,33 +209,6 @@
     <initialResistanceRange>30~40</initialResistanceRange>
   </PawnKindDef>
 
-  <PawnKindDef Name="BNFII_HeavyMedicBase" ParentName="BNFII_MilitaryBase" Abstract="True">
-    <combatPower>105</combatPower>
-    <itemQuality>Normal</itemQuality>
-    <gearHealthRange>0.7~2.0</gearHealthRange>
-    <weaponMoney>1800~2400</weaponMoney>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-      <li>BNF_FrontlineSupport</li>
-    </weaponTags>
-    <apparelMoney>1200~1700</apparelMoney>
-    <apparelRequired>
-      <li>BNFII_HeavyFlakArmor</li>
-      <li>BNFII_HeavyFlakHelmet</li>
-      <li>BNFII_FlakBoots</li>
-      <li>BNFII_FlakGloves</li>
-      <li>BNFII_PouchesMedic</li>
-    </apparelRequired>
-    <apparelTags>
-      <li>BNFII_Uniform</li>
-      <li>BNFII_Armor_Heavy_Medic</li>
-      <li>BNF_Accessories_Medic</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
-    <initialWillRange>5~7</initialWillRange>
-    <initialResistanceRange>35~45</initialResistanceRange>
-  </PawnKindDef>
-
   <PawnKindDef Name="BNFII_EngineerBase" ParentName="BNFII_MilitaryBase" Abstract="True">
     <combatPower>80</combatPower>
     <itemQuality>Normal</itemQuality>
@@ -278,33 +234,6 @@
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <initialWillRange>4~6</initialWillRange>
     <initialResistanceRange>30~40</initialResistanceRange>
-  </PawnKindDef>
-
-  <PawnKindDef Name="BNFII_HeavyEngineerBase" ParentName="BNFII_MilitaryBase" Abstract="True">
-    <combatPower>105</combatPower>
-    <itemQuality>Normal</itemQuality>
-    <gearHealthRange>0.7~2.0</gearHealthRange>
-    <weaponMoney>1800~2400</weaponMoney>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-      <li>BNF_FrontlineSupport</li>
-    </weaponTags>
-    <apparelMoney>1200~1700</apparelMoney>
-    <apparelRequired>
-      <li>BNFII_HeavyFlakArmor</li>
-      <li>BNFII_HeavyFlakHelmet</li>
-      <li>BNFII_FlakBoots</li>
-      <li>BNFII_FlakGloves</li>
-      <li>BNFII_PouchesSupport</li>
-    </apparelRequired>
-    <apparelTags>
-      <li>BNFII_Uniform</li>
-      <li>BNFII_Armor_Heavy_Engineer</li>
-      <li>BNF_Accessories_Engineer</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0.75</apparelAllowHeadgearChance>
-    <initialWillRange>5~7</initialWillRange>
-    <initialResistanceRange>35~45</initialResistanceRange>
   </PawnKindDef>
 
 </Defs>
