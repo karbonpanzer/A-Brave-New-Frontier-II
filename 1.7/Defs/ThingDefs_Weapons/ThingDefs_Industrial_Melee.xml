@@ -7,7 +7,7 @@
 		<description>A short fighting knife with a reinforced knuckle guard. It is quick and easy to wield in tight spaces.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/trenchknife</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/TrenchKnife</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>0.7</drawSize>
 		</graphicData>
@@ -84,7 +84,7 @@
 		<description>A heavy maul with a powered striking head. Slow to swing, but each blow lands with crushing force.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/powermaul</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/PowerMaul</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.3</drawSize>
 		</graphicData>
@@ -146,7 +146,7 @@
 		<description>A long polearm whose blade discharges an electromagnetic pulse on contact. It cuts deep and stuns mechanoids, but it is slow to swing.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/powerglaive</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/PowerGlaive</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>2.0</drawSize>
 		</graphicData>
@@ -228,7 +228,7 @@
 		<description>A sword lined with a motorized chain of cutting teeth. It tears through flesh and light armor, leaving ragged, bleeding wounds.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<texPath>BNFII/Things/Item/Equipment/Weapons/chainsword</texPath>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/Chainsword</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.2</drawSize>
 		</graphicData>

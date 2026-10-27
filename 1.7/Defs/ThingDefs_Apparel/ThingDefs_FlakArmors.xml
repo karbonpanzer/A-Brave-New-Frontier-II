@@ -180,7 +180,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedic</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedic</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Light_Medic</li>
       </tags>
@@ -455,10 +455,10 @@
     <label>officer flak armor</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakArmor</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerArmor/OfficerArmor</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakArmor</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Officer</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
@@ -471,10 +471,10 @@
     <label>officer flak helmet</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmet</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmet</wornGraphicPath>
       <tags Inherit="False">
         <li>BNFII_Armor_Officer</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
@@ -488,7 +488,7 @@
     <label>officer flak helmet (thermal)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisites>
@@ -509,7 +509,7 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -525,7 +525,7 @@
     <label>officer flak helmet (faceshield)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisites>
@@ -553,7 +553,7 @@
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -847,7 +847,7 @@
     <label>scout flak armor</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutFlakArmor/ScoutFlakArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -885,7 +885,7 @@
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutArmor/ScoutArmor</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutFlakArmor/ScoutFlakArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>

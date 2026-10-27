@@ -134,7 +134,7 @@
     <label>field hat (temperate)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldHatTemperate</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -167,7 +167,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatTemperate/FieldHatTemperate</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldHatTemperate</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
@@ -326,7 +326,7 @@
     <label>field hat (boreal)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldHatWinter</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -359,7 +359,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatWinter/FieldHatWinter</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldHatWinter</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
@@ -375,7 +375,7 @@
     <label>frontier officer uniform</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldUniform</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -413,7 +413,7 @@
       <SocialImpact>0.05</SocialImpact>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerUniform/OfficerUniform</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldUniform</wornGraphicPath>
       <tags>
         <li>BNFII_Uniform_Officer</li>
       </tags>
@@ -425,7 +425,7 @@
     <label>officer cap</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHat</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -459,7 +459,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Headgear/OfficerCap/OfficerCap</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHat</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
