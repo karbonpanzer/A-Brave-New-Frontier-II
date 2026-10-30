@@ -1,12 +1,7 @@
-<img src="About/preview.png" alt="Preview" width="1280"><br>
-
 <div align="center">
 <img src="About/preview.png" alt="Preview" width="1280"><br>
 
 <div align="center">
-
-<!-- BNFII description paragraphs go here, as <p>...</p> -->
-
 <img src="Resources/Steam%20Workshop/Exported/FactionHeader.png" alt="Factions" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FactionColonialAdmin.png" alt="Colonial Administration" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FactionColonialMilitia.png" alt="Colonial Militia" width="640"><br>
