@@ -39,7 +39,6 @@
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>
