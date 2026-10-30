@@ -12,8 +12,8 @@
 <img src="Resources/Steam%20Workshop/Exported/Content.png" alt="Content" width="640"><br>
 
 <img src="Resources/Steam%20Workshop/Exported/ApparelHeader.png" alt="Apparel" width="640"><br>
-<img src="Resources/Steam%20Workshop/Exported/FlakHelmet.png" alt="Flak Helmet" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FlakArmor.png" alt="Flak Armor" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/FlakHelmet.png" alt="Flak Helmet" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FlakGloves.png" alt="Flak Gloves" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FlakBoots.png" alt="Flak Boots" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/UniformTemperate.png" alt="Uniform Temperate" width="640"><br>
