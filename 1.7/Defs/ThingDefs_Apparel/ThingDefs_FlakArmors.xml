@@ -234,7 +234,7 @@
     <label>flak helmet (gasmask)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
@@ -249,7 +249,7 @@
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/LightHelmetGasmask/LightHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetGasmask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -371,7 +371,7 @@
     <label>medic flak helmet (gasmask)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/FlakArmorMedic/FlakHelmetMedicGasmask</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicGasmask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
@@ -386,7 +386,7 @@
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/FlakArmorMedic/FlakHelmetMedicGasmask</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicGasmask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -508,7 +508,7 @@
     <label>engineer flak helmet (gasmask)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/FlakArmorEngineer/FlakHelmetEngineerGasmask</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerGasmask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
@@ -523,7 +523,7 @@
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/FlakArmorMedic/FlakHelmetEngineerGasmask</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerGasmask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
@@ -776,8 +776,8 @@
   </ThingDef>
 
    <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakOfficerBase">
-    <defName>BNFII_OfficerFlakHelmet_Faceshield</defName>
-    <label>officer flak helmet (faceshield)</label>
+    <defName>BNFII_OfficerFlakHelmet_Gasmask</defName>
+    <label>officer flak helmet (gasmask)</label>
     <description>.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</texPath>
@@ -856,7 +856,6 @@
       <EquipDelay>8</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyArmor/HeavyArmor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>Torso</li>
@@ -885,7 +884,6 @@
 
   <ThingDef Name="BNFII_ApparelArmorHelmetFlakHeavyBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -920,7 +918,6 @@
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyHelmet/HeavyHelmet</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
         <li>UpperHead</li>
@@ -1055,12 +1052,12 @@
     </apparel>
   </ThingDef>
 
-  <!ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
+  <ThingDef ParentName="BNFII_ApparelArmorHelmetFlakHeavyBase">
     <defName>BNFII_HeavyFlakHelmet_Gasmask</defName>
     <label>heavy flak helmet (gasmask)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyFlakArmor/HeavyHelmetGasmask</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
       <researchPrerequisites>
@@ -1084,7 +1081,7 @@
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
     </equippedStatOffsets>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Helmets/HeavyFlakArmor/HeavyHelmetGasmask</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetGasmask</wornGraphicPath>
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>

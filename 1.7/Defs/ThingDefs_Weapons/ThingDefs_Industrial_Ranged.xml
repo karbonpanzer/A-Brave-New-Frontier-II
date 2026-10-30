@@ -481,6 +481,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>BNFII/Things/Item/Equipment/Weapons/ServiceRifleBayonet</texPath>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>

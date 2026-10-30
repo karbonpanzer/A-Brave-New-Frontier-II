@@ -228,7 +228,7 @@
     <label>field hat (arid)</label>
     <description>.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldHatDesert</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -261,7 +261,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Headgear/FieldHatDesert/FieldHatDesert</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldHatDesert</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
