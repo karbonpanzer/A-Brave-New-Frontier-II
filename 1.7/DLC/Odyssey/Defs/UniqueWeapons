@@ -4,7 +4,7 @@
   <ThingDef ParentName="BNFII_ServiceRifle">
     <defName>BNFII_ServiceRifle_Unique</defName>
     <label>unique service rifle</label>
-    <description>A sabot service with customized parts.</description>
+    <description>A service rifle with customized parts.</description>
     <graphicData>
       <texPath>BNFII/Things/Item/Equipment/UniqueWeapons/ServiceRifle</texPath>
       <graphicClass>Graphic_Random</graphicClass>
