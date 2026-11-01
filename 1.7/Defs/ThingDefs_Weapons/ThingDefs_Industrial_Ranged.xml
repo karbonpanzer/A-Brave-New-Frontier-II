@@ -392,7 +392,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="BaseHumanMakeableGun" Name="BNFII_ServiceRifle">
 		<defName>BNFII_ServiceRifle</defName>
 		<label>service rifle</label>
 		<description>A mass-produced gas-operated rifle with a fast semi-automatic action. It lacks accuracy, but it can put a high volume of fire downrange.</description>
