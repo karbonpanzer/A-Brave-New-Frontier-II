@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<!--ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingMagazine</defName>
 		<label>magazine webbing</label>
 		<description>.</description>
@@ -84,7 +84,7 @@
 			<li>Clothing</li>
 			<li>BNF_Clothing</li>
 		</tradeTags>
-	</ThingDef>
+	</ThingDef-->
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>BNFII_WebbingAmmo</defName>
@@ -94,7 +94,7 @@
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/AmmoBandoleer/AmmoBandoleer</texPath>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/HeavyInfantryBandoleer/HeavyInfantryBandoleer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -127,7 +127,7 @@
 				<li>Shoulders</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/AmmoBandoleer/AmmoBandoleer</wornGraphicPath>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/HeavyInfantryBandoleer/HeavyInfantryBandoleer</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -381,7 +381,7 @@
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</texPath>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -413,7 +413,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryPouches/InfantryPouches</wornGraphicPath>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -460,7 +460,7 @@
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</texPath>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/SupportPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -494,7 +494,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/SupportPouches/SupportPouches</wornGraphicPath>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/SupportPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -541,7 +541,7 @@
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</texPath>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicPouches</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -575,7 +575,7 @@
 				<li>Torso</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicPouches/MedicPouches</wornGraphicPath>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicPouches</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
