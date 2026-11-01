@@ -2,7 +2,7 @@
 <Defs> 
 
   <!-- Officer Flak Armor -->
-  <ThingDef ParentName="ArmorMachineableBase">
+  <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_OfficerFlakArmor</defName>
     <label>officer flak armor</label>
     <description>.</description>
@@ -75,7 +75,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet</defName>
     <label>officer flak helmet</label>
     <description>.</description>
@@ -144,8 +144,7 @@
     </tradeTags>
   </ThingDef>
 
-  <!-- Modified Officer Flak Helmets -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Thermal</defName>
     <label>officer flak helmet (thermal)</label>
     <description>.</description>
@@ -220,7 +219,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Faceshield</defName>
     <label>officer flak helmet (faceshield)</label>
     <description>.</description>
@@ -296,7 +295,7 @@
     </tradeTags>
   </ThingDef>
 
-   <ThingDef ParentName="ArmorHelmetMakeableBase">
+   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Gasmask</defName>
     <label>officer flak helmet (gasmask)</label>
     <description>.</description>
