@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- Heavy Flak Armor -->
-  <ThingDef ParentName="ArmorMachineableBase">
+  <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_HeavyFlakArmor</defName>
     <label>heavy flak armor</label>
     <description>.</description>
@@ -74,7 +74,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet</defName>
     <label>heavy flak helmet</label>
     <description>.</description>
@@ -139,8 +139,7 @@
     </tradeTags>
   </ThingDef>
 
-  <!-- Modified Heavy Flak Helmets -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Thermal</defName>
     <label>heavy flak helmet (thermal)</label>
     <description>.</description>
@@ -211,7 +210,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Faceshield</defName>
     <label>heavy flak helmet (faceshield)</label>
     <description>.</description>
@@ -283,7 +282,7 @@
     </tradeTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Gasmask</defName>
     <label>heavy flak helmet (gasmask)</label>
     <description>.</description>
