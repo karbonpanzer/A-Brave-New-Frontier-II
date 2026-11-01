@@ -1,6 +1,86 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
+  <!-- Flak Armor and Helmet Parents -->
+  <ThingDef Name="BNFII_FlakArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.04</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Neck</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Armor</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef Name="BNFII_FlakHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <thingCategories>
+      <li>BNFII_Helmets</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Armor</li>
+      <li>BNFII_Armor</li>
+    </tradeTags>
+  </ThingDef>  
+  
   <!-- Flak Armor -->
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>BNFII_FlakArmor</defName>
