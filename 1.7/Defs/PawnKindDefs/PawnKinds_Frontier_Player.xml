@@ -21,6 +21,7 @@
     <apparelMoney>1500~3000</apparelMoney>
     <apparelTags>
       <li>BNFII_Uniform</li>
+      <li>BNFII_Headwear</li>
     </apparelTags>
     <apparelColor>(60,80,110)</apparelColor>
     <apparelIgnoreSeasons>false</apparelIgnoreSeasons>

@@ -1,62 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Defs>
 
-	<!--ThingDef ParentName="ApparelMakeableBase">
-		<defName>BNFII_WebbingMagazine</defName>
-		<label>magazine webbing</label>
-		<description>.</description>
-		<recipeMaker>
-			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
-		</recipeMaker>
+	<!-- Accessory Parent -->
+	<ThingDef Name="BNFII_AccessoryBase" ParentName="ApparelMakeableBase" Abstract="True">
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MagazineBandoleer/MagazineBandoleer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>60</costStuffCount>
-		<costList>
-			<Steel>40</Steel>
-		</costList>
+		<costStuffCount>40</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>10000</WorkToMake>
 			<Mass>1</Mass>
 			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
-		<equippedStatOffsets>
-			<RangedCooldownFactor>-0.35</RangedCooldownFactor>
-		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
-				<li>Shoulders</li>
 				<li>Waist</li>
 			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/MagazineBandoleer/MagazineBandoleer</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<li>BNF_Accessories_Infantry</li>
-			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<drawData>
-				<dataNorth>
-					<layer>28</layer>
-				</dataNorth>
-			</drawData>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
@@ -80,13 +54,17 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<thingCategories Inherit="False">
+			<li>ApparelMisc</li>
+		</thingCategories> 		
 		<tradeTags>
 			<li>Clothing</li>
-			<li>BNF_Clothing</li>
+			<li>BNFII_Utility</li>
 		</tradeTags>
-	</ThingDef-->
+	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<!-- Webbing -->
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_WebbingAmmo</defName>
 		<label>ammo webbing</label>
 		<description>.</description>
@@ -95,83 +73,33 @@
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/HeavyInfantryBandoleer/HeavyInfantryBandoleer</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
 		<equippedStatOffsets>
 			<RangedCooldownFactor>-0.35</RangedCooldownFactor>
 		</equippedStatOffsets>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Waist</li>
-			</bodyPartGroups>
 			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/HeavyInfantryBandoleer/HeavyInfantryBandoleer</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
 			<tags>
-				<li>BNF_Accessories_Infantry</li>
+				<li>BNFII_InfantryAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
 			<drawData>
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
 			</drawData>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_WebbingScout</defName>
 		<label>scout webbing</label>
 		<description>.</description>
@@ -180,83 +108,33 @@
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
 		<equippedStatOffsets>
 			<HuntingStealth>0.40</HuntingStealth>
 		</equippedStatOffsets>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Waist</li>
-			</bodyPartGroups>
 			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/ScoutWebbing/ScoutWebbing</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
 			<tags>
-				<li>BNF_Accessories_Scout</li>
+				<li>BNFII_ScoutAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
 			<drawData>
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
 			</drawData>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_WebbingShocktrooper</defName>
 		<label>shocktrooper webbing</label>
 		<description>.</description>
@@ -265,115 +143,66 @@
 		</recipeMaker>
 		<graphicData>
 			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>10000</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1</EquipDelay>
 		</statBases>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.20</PainShockThreshold>
 		</equippedStatOffsets>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Shoulders</li>
-				<li>Waist</li>
-			</bodyPartGroups>
 			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/ShocktrooperWebbing/ShocktrooperWebbing</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
 			<tags>
-				<li>BNF_Accessories_Shocktrooper</li>
+				<li>BNFII_ShocktrooperAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
 			<drawData>
 				<dataNorth>
 					<layer>28</layer>
 				</dataNorth>
 			</drawData>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-			<comps>
-				<li Class="CompProperties_ApparelReloadable">
-					<maxCharges>8</maxCharges>
-					<ammoDef>Weapon_GrenadeFrag</ammoDef>
-					<ammoCountToRefill>1</ammoCountToRefill>
-					<baseReloadTicks>60</baseReloadTicks>
-					<soundReload>Standard_Reload</soundReload>
-					<hotKey>Misc4</hotKey>
-					<chargeNoun>frag</chargeNoun>
-					<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
-				</li>
-			</comps>
-			<verbs>
-				<li>
-					<label>throw frag grenade</label>
-					<verbClass>Verb_LaunchProjectileStatic</verbClass>
-					<hasStandardCommand>true</hasStandardCommand>
-					<onlyManualCast>True</onlyManualCast>
-					<range>12.9</range>
-					<forcedMissRadius>1.9</forcedMissRadius>
-					<warmupTime>1.5</warmupTime>
-					<noiseRadius>4</noiseRadius>
-					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
-					<soundCast>ThrowGrenade</soundCast>
-					<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
-					<targetParams>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>8</maxCharges>
+				<ammoDef>Weapon_GrenadeFrag</ammoDef>
+				<ammoCountToRefill>1</ammoCountToRefill>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>frag</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>throw frag grenade</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>12.9</range>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<warmupTime>1.5</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>ThrowGrenade</soundCast>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
-					</targetParams>
-					<defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
-					<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-				</li>
-			</verbs>		
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
+				</targetParams>
+				<defaultProjectile>Proj_GrenadeFrag</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
 	</ThingDef>
-	
-	<ThingDef ParentName="ApparelMakeableBase">
+
+	<!-- Pouches -->
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_PouchesInfantry</defName>
 		<label>infantry pouches</label>
 		<description>.</description>
@@ -381,78 +210,27 @@
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryPouches</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryBelt</texPath>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>40</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>2000</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<RangedCooldownFactor>-0.2</RangedCooldownFactor>
 		</equippedStatOffsets>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Waist</li>
-			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryPouches</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/InfantryBelt/InfantryBelt</wornGraphicPath>
 			<tags>
-				<li>BNF_Accessories_Infantry</li>
+				<li>BNFII_InfantryAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_PouchesSupport</defName>
 		<label>support pouches</label>
 		<description>.</description>
@@ -460,80 +238,28 @@
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/SupportPouches</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/EngineerBelt</texPath>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>30</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+		</statBases>
 		<equippedStatOffsets>
 			<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
 			<ConstructionSpeed>0.15</ConstructionSpeed>
 		</equippedStatOffsets>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>2500</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1</EquipDelay>
-		</statBases>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Waist</li>
-			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/SupportPouches</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/EngineerBelt/EngineerBelt</wornGraphicPath>
 			<tags>
-				<li>BNF_Accessories_Engineer</li>
+				<li>BNFII_EngineerAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_PouchesMedic</defName>
 		<label>medic pouches</label>
 		<description>.</description>
@@ -541,77 +267,25 @@
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
-			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicPouches</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<texPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicBelt</texPath>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>30</Steel>
 			<Silver>5</Silver>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<thingCategories>
-			<li>BNFII_Accessories</li>
-		</thingCategories>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+		</statBases>
 		<equippedStatOffsets>
 			<MedicalTendSpeed>0.1</MedicalTendSpeed>
 			<MedicalTendQuality>0.15</MedicalTendQuality>
 		</equippedStatOffsets>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>2500</WorkToMake>
-			<Mass>1</Mass>
-			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-			<EquipDelay>1</EquipDelay>
-		</statBases>
 		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Waist</li>
-			</bodyPartGroups>
-			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicPouches</wornGraphicPath>
-			<layers>
-				<li>Shell</li>
-			</layers>
+			<wornGraphicPath>BNFII/Things/Pawn/Humanlike/Accessories/MedicBelt/MedicBelt</wornGraphicPath>
 			<tags>
-				<li>BNF_Accessories_Medic</li>
+				<li>BNFII_MedicAccessories</li>
 			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<useWornGraphicMask>True</useWornGraphicMask>
 		</apparel>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.50,0.5,0.36)</only>
-				</li>
-				<li>
-					<weight>6</weight>
-					<only>(0.40,0.57,0.40)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.38,0.36,0.20)</only>
-				</li>
-				<li>
-					<weight>10</weight>
-					<only>(0.29,0.32,0.12)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<tradeTags>
-			<li>Clothing</li>
-			<li>BNF_Clothing</li>
-		</tradeTags>
 	</ThingDef>
 
 </Defs>

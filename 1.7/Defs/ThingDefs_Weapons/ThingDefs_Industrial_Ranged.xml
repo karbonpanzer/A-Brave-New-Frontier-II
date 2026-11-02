@@ -63,11 +63,7 @@
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>Pistol</li>
-			<li>BNFII_Infantry</li>
-			<li>BNFII_Raider</li>
-			<li>BNFII_InfantrySupport</li>
-			<li>BNFII_Commander</li>
-			<li>BNFII_Civilian</li>
+			<li>BNFII_Sidearm</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -90,6 +86,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -155,11 +152,7 @@
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>Pistol</li>
-			<li>BNFII_Infantry</li>
-			<li>BNFII_Raider</li>
-			<li>BNFII_InfantrySupport</li>
-			<li>BNFII_Commander</li>
-			<li>BNFII_Civilian</li>
+			<li>BNFII_Sidearm</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -182,6 +175,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -250,9 +244,7 @@
 		<weaponTags>
 			<li>Revolver</li>
 			<li>IndustrialGunAdvanced</li>
-			<li>BNFII_HRaider</li>
-			<li>BNFII_FrontlineSupport</li>
-			<li>BNFII_Commander</li>
+			<li>BNFII_EliteSidearm</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -274,6 +266,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -346,9 +339,7 @@
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
 			<li>ShortShots</li>
-			<li>BNFII_Raider</li>
-			<li>BNFII_InfantrySupport</li>
-			<li>BNFII_Civilian</li>
+			<li>BNFII_SMG</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -373,6 +364,7 @@
 		</thingSetMakerTags>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -441,14 +433,7 @@
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
 			<li>AssaultRifle</li>
-			<li>BNFII_Infantry</li>
-			<li>BNFII_HInfantry</li>
-			<li>BNFII_Ranger</li>
-			<li>BNFII_Raider</li>
-			<li>BNFII_HRaider</li>
-			<li>BNFII_Commander</li>
-			<li>BNFII_FrontlineSupport</li>
-			<li>BNFII_InfantrySupport</li>
+			<li>BNFII_Rifle</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -471,6 +456,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -524,7 +510,7 @@
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
 			<li>AssaultRifle</li>
-			<li>BNFII_Partisan</li>
+			<li>BNFII_Rifle</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -555,6 +541,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -626,7 +613,7 @@
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
 			<li>GunHeavy</li>
-			<li>BNFII_HInfantry</li>
+			<li>BNFII_Heavy</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -652,6 +639,7 @@
 		</thingSetMakerTags>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -722,9 +710,7 @@
 			<li>IndustrialGunAdvanced</li>
 			<li>ShortShots</li>
 			<li>PumpShotgun</li>
-			<li>BNFII_HInfantry</li>
-			<li>BNFII_Raider</li>
-			<li>BNFII_FrontlineSupport</li>
+			<li>BNFII_Shotgun</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -747,6 +733,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -814,8 +801,7 @@
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
 			<li>SniperRifle</li>
-			<li>BNFII_Ranger</li>
-			<li>BNFII_Commander</li>
+			<li>BNFII_Sniper</li>
 		</weaponTags>
 		<tools>
 			<li>
@@ -838,6 +824,7 @@
 		</tools>
 		<tradeTags>
 			<li>WeaponRanged</li>
+			<li>BNFII_WeaponRanged</li>
 		</tradeTags>
 	</ThingDef>
 

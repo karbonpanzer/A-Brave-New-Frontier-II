@@ -31,6 +31,9 @@
       <layers>
         <li>Middle</li>
       </layers>
+      <tags>
+        <li>BNFII_Armor</li>
+      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
@@ -38,8 +41,8 @@
       <soundWear>Wear_PowerArmor</soundWear>
       <soundRemove>Remove_PowerArmor</soundRemove>
     </apparel>
-    <thingCategories>
-      <li>BNFII_Armor</li>
+    <thingCategories Inherit="False">
+      <li>ApparelArmor</li>
     </thingCategories>
     <tradeTags>
       <li>Armor</li>
@@ -71,20 +74,20 @@
       <layers>
         <li>Overhead</li>
       </layers>
+      <tags>
+        <li>BNFII_Armor</li>
+      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <thingCategories>
-      <li>BNFII_Helmets</li>
-    </thingCategories>
+    <thingCategories Inherit="False">
+      <li>ArmorHeadgear</li>
+    </thingCategories>    
     <tradeTags>
       <li>Armor</li>
       <li>BNFII_Armor</li>
     </tradeTags>
-    <thingCategories>
-      <li>BNFII_Helmets</li>
-    </thingCategories>
   </ThingDef>  
   
   <!-- Flak Armor -->
@@ -120,9 +123,8 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Light_Shocktrooper</li>
+      <tags>
+        <li>BNFII_FlakArmor</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -158,9 +160,9 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Scout</li>
+      <tags>
+        <li>BNFII_FlakArmor</li>
+        <li>BNFII_FlakHelmet</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -207,7 +209,8 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <tags>
-        <li>BNFII_Armor_Light</li>
+        <li>BNFII_FlakArmor</li>
+        <li>BNFII_FlakHelmetThermal</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -254,8 +257,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Shocktrooper</li>
+      <tags>
+        <li>BNFII_FlakArmor</li>
+        <li>BNFII_FlakHelmetFaceshield</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -299,9 +303,9 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Scout</li>
+      <tags>
+        <li>BNFII_FlakArmor</li>
+        <li>BNFII_FlakHelmetGasmask</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -340,8 +344,8 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Medic</li>
+      <tags>
+        <li>BNFII_MedicFlakArmor</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -377,8 +381,9 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedic</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Medic</li>
+      <tags>
+        <li>BNFII_MedicFlakArmor</li>
+        <li>BNFII_MedicFlakHelmet</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -424,8 +429,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
+      <tags>
+        <li>BNFII_MedicFlakArmor</li>
+        <li>BNFII_MedicFlakHelmetThermal</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -472,8 +478,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Shocktrooper</li>
+      <tags>
+        <li>BNFII_MedicFlakArmor</li>
+        <li>BNFII_MedicFlakHelmetFaceshield</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -517,9 +524,9 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Scout</li>
+      <tags>
+        <li>BNFII_MedicFlakArmor</li>
+        <li>BNFII_MedicFlakHelmetGasmask</li>
       </tags>
     </apparel>
   </ThingDef> 
@@ -557,8 +564,8 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakArmorEngineer</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Engineer</li>
+      <tags>
+        <li>BNFII_EngineerFlakArmor</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -594,8 +601,9 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineer</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Engineer</li>
+      <tags>
+        <li>BNFII_EngineerFlakArmor</li>
+        <li>BNFII_EngineerFlakHelmet</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -641,8 +649,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
+      <tags>
+        <li>BNFII_EngineerFlakArmor</li>
+        <li>BNFII_EngineerFlakHelmetThermal</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -690,8 +699,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light_Shocktrooper</li>
+      <tags>
+        <li>BNFII_EngineerFlakArmor</li>
+        <li>BNFII_EngineerFlakHelmetFaceshield</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -736,9 +746,9 @@
         <li>FullHead</li>
       </bodyPartGroups>
       <immuneToToxGasExposure>true</immuneToToxGasExposure>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Scout</li>
+      <tags>
+        <li>BNFII_EngineerFlakArmor</li>
+        <li>BNFII_EngineerFlakHelmetGasmask</li>
       </tags>
     </apparel>
   </ThingDef> 
@@ -780,9 +790,8 @@
         <li>Torso</li>
         <li>Neck</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Scout</li>
-        <li>BNFII_Armor_Conscript</li>
+      <tags>
+        <li>BNFII_ScoutFlakArmor</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -841,19 +850,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Heavy</li>
-        <li>BNFII_Armor_Light_Medic</li>
-        <li>BNFII_Armor_Heavy_Medic</li>
-        <li>BNFII_Armor_Light_Engineer</li>
-        <li>BNFII_Armor_Heavy_Engineer</li>
-        <li>BNFII_Armor_Light_Shocktrooper</li>
-        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+        <li>BNFII_Armor</li>
+        <li>BNFII_FlakBoots</li>
       </tags>
     </apparel>
-    <thingCategories>
-      <li>BNFII_ArmorAccessories</li>
-    </thingCategories>
+    <thingCategories Inherit="False">
+      <li>ApparelArmor</li>
+    </thingCategories>    
     <tradeTags>
       <li>Armor</li>
       <li>BNFII_Armor</li>
@@ -914,19 +917,13 @@
         <li>Soldier</li>
       </defaultOutfitTags>
       <tags>
-        <li>BNFII_Armor_Light</li>
-        <li>BNFII_Armor_Heavy</li>
-        <li>BNFII_Armor_Light_Medic</li>
-        <li>BNFII_Armor_Heavy_Medic</li>
-        <li>BNFII_Armor_Light_Engineer</li>
-        <li>BNFII_Armor_Heavy_Engineer</li>
-        <li>BNFII_Armor_Light_Shocktrooper</li>
-        <li>BNFII_Armor_Heavy_Shocktrooper</li>
+        <li>BNFII_Armor</li>
+        <li>BNFII_FlakGloves</li>
       </tags>
     </apparel>
-    <thingCategories>
-      <li>BNFII_ArmorAccessories</li>
-    </thingCategories>
+    <thingCategories Inherit="False">
+      <li>ApparelArmor</li>
+    </thingCategories>    
     <tradeTags>
       <li>Armor</li>
       <li>BNFII_Armor</li>

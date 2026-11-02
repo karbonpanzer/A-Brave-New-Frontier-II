@@ -8,7 +8,8 @@
     <labelPlural>settlers</labelPlural>
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
     <weaponTags>
-      <li>BNF_Settler</li>
+      <li>BNFII_Sidearm</li>
+      <li>BNFII_SMG</li>
       <li>SimpleGun</li>
       <li>Pistol</li>
     </weaponTags>
@@ -21,7 +22,8 @@
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
     <weaponMoney>1350~1950</weaponMoney>
     <weaponTags>
-      <li>BNF_Trader</li>
+      <li>BNFII_Sidearm</li>
+      <li>BNFII_SMG</li>
       <li>Pistol</li>
       <li>SimpleGun</li>
     </weaponTags>
@@ -51,11 +53,12 @@
       <li>BNFII_FlakGloves</li>
     </apparelRequired>
     <apparelTags>
-      <li>BNFII_Uniform_Officer</li>
-      <li>BNFII_Armor_Officer</li>
-      <li>BNF_Accessories_Infantry</li>
-      <li>BNF_Accessories_Shocktrooper</li>
-      <li>BNF_Accessories_Scout</li>
+      <li>BNFII_OfficerUniform</li>
+      <li>BNFII_OfficerHeadwear</li>
+      <li>BNFII_OfficerFlakArmor</li>
+      <li>BNFII_InfantryAccessories</li>
+      <li>BNFII_ShocktrooperAccessories</li>
+      <li>BNFII_ScoutAccessories</li>
     </apparelTags>
     <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
     <initialWillRange>2~4</initialWillRange>
@@ -69,7 +72,8 @@
     <labelPlural>militia</labelPlural>
     <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
     <weaponTags>
-      <li>BNF_Settler</li>
+      <li>BNFII_Sidearm</li>
+      <li>BNFII_SMG</li>
       <li>SimpleGun</li>
       <li>Pistol</li>
       <li>Gun</li>
@@ -118,8 +122,9 @@
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>
-      <li>BNFII_Armor_Light_Shocktrooper</li>
-      <li>BNF_Accessories_Shocktrooper</li>
+      <li>BNFII_Headwear</li>
+      <li>BNFII_FlakArmor</li>
+      <li>BNFII_ShocktrooperAccessories</li>
     </apparelTags>
   </PawnKindDef>
 

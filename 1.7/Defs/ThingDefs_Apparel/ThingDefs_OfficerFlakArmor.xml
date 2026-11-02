@@ -38,8 +38,8 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakArmor</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Officer</li>
+      <tags>
+        <li>BNFII_OfficerFlakArmor</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
       </tags>
     </apparel>
@@ -79,8 +79,9 @@
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmet</wornGraphicPath>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Officer</li>
+      <tags>
+        <li>BNFII_OfficerFlakArmor</li>
+        <li>BNFII_OfficerFlakHelmet</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
       </tags>
     </apparel>
@@ -132,8 +133,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Officer</li>
+      <tags>
+        <li>BNFII_OfficerFlakArmor</li>
+        <li>BNFII_OfficerFlakHelmetThermal</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
       </tags>
     </apparel>
@@ -186,8 +188,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Officer</li>
+      <tags>
+        <li>BNFII_OfficerFlakArmor</li>
+        <li>BNFII_OfficerFlakHelmetFaceshield</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
       </tags>
     </apparel>
@@ -240,8 +243,9 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
-      <tags Inherit="False">
-        <li>BNFII_Armor_Officer</li>
+      <tags>
+        <li>BNFII_OfficerFlakArmor</li>
+        <li>BNFII_OfficerFlakHelmetGasmask</li>
         <li MayRequire="Ludeon.RimWorld.Royalty">PrestigeCombatGear</li>
       </tags>
     </apparel>

@@ -34,11 +34,11 @@
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
-      <li>BNFII_Uniforms</li>
+      <li>ApparelMisc</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
-      <li>BNFII_Clothing</li>
+      <li>BNFII_Uniforms</li>
     </tradeTags>
   </ThingDef>
 
@@ -71,11 +71,11 @@
     </apparel>
     <techLevel>Industrial</techLevel>
     <thingCategories Inherit="False">
-      <li>BNFII_Headgear</li>
+      <li>Headgear</li>
     </thingCategories>
     <tradeTags>
       <li>Clothing</li>
-      <li>BNFII_Clothing</li>
+      <li>BNFII_Uniforms</li>
     </tradeTags>
   </ThingDef>
 
@@ -172,7 +172,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <tags>
-        <li>BNFII_Uniform</li>
+        <li>BNFII_Headwear</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -266,7 +266,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <tags>
-        <li>BNFII_Uniform</li>
+        <li>BNFII_Headwear</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -364,7 +364,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <tags>
-        <li>BNFII_Uniform</li>
+        <li>BNFII_Headwear</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -415,7 +415,7 @@
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldUniform</wornGraphicPath>
       <tags>
-        <li>BNFII_Uniform_Officer</li>
+        <li>BNFII_OfficerUniform</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -464,7 +464,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <tags>
-        <li>BNFII_Uniform_Officer</li>
+        <li>BNFII_OfficerHeadwear</li>
       </tags>
     </apparel>
   </ThingDef>

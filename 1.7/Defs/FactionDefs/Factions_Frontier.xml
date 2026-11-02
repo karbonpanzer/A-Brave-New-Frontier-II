@@ -31,7 +31,7 @@
 				<li>Cloth</li>
 			</thingDefs>
 		</apparelStuffFilter>
-		<factionIconPath>BNFII/UI/FactionIcons/FrontierPlayerOutpostIII</factionIconPath>
+		<factionIconPath>BNFII/UI/FactionIcons/BNFII_Player</factionIconPath>
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
@@ -55,7 +55,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>representative</leaderTitle>
-		<factionIconPath>BNFII/UI/FactionIcons/FrontierCivilOutpostIII</factionIconPath>
+		<factionIconPath>BNFII/UI/FactionIcons/BNFII_Civil</factionIconPath>
 		<factionNameMaker>BNF_Faction_Civil</factionNameMaker>
 		<settlementNameMaker>BNF_Settlement_Civil</settlementNameMaker>
 		<colorSpectrum>
@@ -203,7 +203,7 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>commissar</leaderTitle>
-		<factionIconPath>BNFII/UI/FactionIcons/FrontierRoughOutpostIII</factionIconPath>
+		<factionIconPath>BNFII/UI/FactionIcons/BNFII_Rough</factionIconPath>
 		<factionNameMaker>BNF_Faction_Rough</factionNameMaker>
 		<settlementNameMaker>BNF_Settlement_Rough</settlementNameMaker>
 		<colorSpectrum>

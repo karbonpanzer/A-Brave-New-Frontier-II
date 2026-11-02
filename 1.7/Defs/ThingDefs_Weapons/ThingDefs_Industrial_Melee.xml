@@ -67,14 +67,11 @@
 		</tools>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
-			<li>BNFII_Infantry</li>				
-			<li>BNFII_Ranger</li>
-            <li>BNFII_Raider</li>
-            <li>BNFII_InfantrySupport</li>
-			<li>BNFII_Civilian</li>			
+			<li>BNFII_StandardMelee</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Weapons</li>
+			<li>WeaponMelee</li>
+			<li>BNFII_WeaponMelee</li>
 		</tradeTags>	
 	</ThingDef>
 
@@ -129,14 +126,11 @@
 		</tools>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
-			<li>BNFII_Infantry</li>
-			<li>BNFII_HInfantry</li>				
-            <li>BNFII_Raider</li>
-			<li>BNFII_HRaider</li>		
-            <li>BNFII_InfantrySupport</li>			
+			<li>BNFII_StandardMelee</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Weapons</li>
+			<li>WeaponMelee</li>
+			<li>BNFII_WeaponMelee</li>
 		</tradeTags>		
 	</ThingDef>
 		
@@ -211,14 +205,11 @@
 		</thingSetMakerTags>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>
-			<li>BNFII_Ranger</li>				
-            <li>BNFII_Raider</li>
-			<li>BNFII_HRaider</li>			
-            <li>BNFII_FrontSupport</li>	
-			<li>BNFII_Commander</li>			
+			<li>BNFII_EliteMelee</li>
 		</weaponTags>
 		<tradeTags>
-			<li>Weapons</li>
+			<li>WeaponMelee</li>
+			<li>BNFII_WeaponMelee</li>
 		</tradeTags>		
 	</ThingDef>
 
@@ -292,18 +283,14 @@
 		</tools>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>
-			<li>BNFII_HInfantry</li>				
-            <li>BNFII_Raider</li>
-			<li>BNFII_HRaider</li>			
-            <li>BNFII_FrontSupport</li>	
-			<li>BNFII_Commander</li>			
+			<li>BNFII_EliteMelee</li>
 		</weaponTags>
 		<thingSetMakerTags>
 			<li>RewardStandardMidTech</li>
 		</thingSetMakerTags>
 		<tradeTags>
-			<li>IndustrialMeleeAdvanced</li>
-			<li>Melee</li>
+			<li>WeaponMelee</li>
+			<li>BNFII_WeaponMelee</li>
 		</tradeTags>		
 	</ThingDef>
 
