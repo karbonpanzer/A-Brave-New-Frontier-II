@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="BNFII_ApparelUniformBase"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BNFII_ApparelUniformBase"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="BNFII_ApparelHatBase"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BNFII_ApparelHatBase"]/statBases</xpath>
+		<value>
+			<Bulk>1.5</Bulk>
+			<WornBulk>0</WornBulk>
+		</value>
+	</Operation>
+
+</Patch>

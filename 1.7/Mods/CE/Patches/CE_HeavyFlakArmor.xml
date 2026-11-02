@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakArmor" or defName="BNFII_HeavyFlakHelmet" or defName="BNFII_HeavyFlakHelmet_Thermal" or defName="BNFII_HeavyFlakHelmet_Gasmask"]/equippedStatOffsets/MoveSpeed</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>11</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakArmor"]/statBases</xpath>
+		<value>
+			<Bulk>10</Bulk>
+			<WornBulk>5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet" or defName="BNFII_HeavyFlakHelmet_Thermal"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Faceshield"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>7</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Gasmask"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>1.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Thermal" or defName="BNFII_HeavyFlakHelmet_Gasmask"]/statBases</xpath>
+		<value>
+			<Bulk>5</Bulk>
+			<WornBulk>1.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Faceshield"]/statBases</xpath>
+		<value>
+			<Bulk>5</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Thermal" or defName="BNFII_HeavyFlakHelmet_Faceshield" or defName="BNFII_HeavyFlakHelmet_Gasmask"]/apparel/layers</xpath>
+		<value>
+			<li>StrappedHead</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Thermal" or defName="BNFII_HeavyFlakHelmet_Gasmask"]</xpath>
+		<value>
+			<li Class="CombatExtended.PartialArmorExt">
+				<stats>
+					<li>
+						<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+						<parts>
+							<li>Eye</li>
+							<li>Nose</li>
+							<li>Jaw</li>
+						</parts>
+					</li>
+					<li>
+						<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+						<parts>
+							<li>Eye</li>
+							<li>Nose</li>
+							<li>Jaw</li>
+						</parts>
+					</li>
+				</stats>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyFlakHelmet_Gasmask"]/equippedStatOffsets</xpath>
+		<value>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+		</value>
+	</Operation>
+
+</Patch>
