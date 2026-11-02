@@ -85,7 +85,7 @@
       <li>BNFII_FlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
-      <li>BNFII_WebbingAmmo</li>
+      <li>BNFII_HeavyInfantryWebbing</li>
     </apparelRequired>
   </PawnKindDef>
 
@@ -113,7 +113,7 @@
       <li>BNFII_HeavyFlakHelmet_Faceshield</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
-      <li>BNFII_WebbingShocktrooper</li>
+      <li>BNFII_ShocktrooperWebbing</li>
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>

@@ -95,9 +95,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -149,9 +147,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -204,9 +200,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -243,6 +237,7 @@
       <bodyPartGroups Inherit="False">
         <li>FullHead</li>
       </bodyPartGroups>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
       <tags>
         <li>BNFII_OfficerFlakArmor</li>
         <li>BNFII_OfficerFlakHelmetGasmask</li>

@@ -25,8 +25,6 @@
 <img src="Resources/Steam%20Workshop/Exported/OfficerUniform.png" alt="Officer Uniform" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/OfficerHat.png" alt="Officer Hat" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/OfficerHatInsulated.png" alt="Insulated Officer Hat" width="640"><br>
-
-<img src="Resources/Steam%20Workshop/Exported/VariantArmorsDescriptor.png" alt="Armor Variants" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/FlakArmorVariants.png" alt="Flak Armor Variants" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/HeavyFlakHelmet.png" alt="Heavy Flak Helmet" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/HeavyFlakArmor.png" alt="Heavy Flak Armor" width="640"><br>
@@ -36,6 +34,13 @@
 <img src="Resources/Steam%20Workshop/Exported/MaskedEquipment.png" alt="Masked Equipment" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/GasmaskedEquipment.png" alt="Gasmasked Equipment" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/InsulatedEquipment.png" alt="Insulated Equipment" width="640"><br>
+
+<img src="Resources/Steam%20Workshop/Exported/HeavyInfantryWebbing.png" alt="Heavy Infantry Webbing" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/ScoutWebbing.png" alt="Scout Webbing" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/ShocktrooperWebbing.png" alt="Shocktrooper Webbing" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/InfantryBelt.png" alt="Infantry Belt" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/EngineerBelt.png" alt="Engineer Belt" width="640"><br>
+<img src="Resources/Steam%20Workshop/Exported/MedicBelt.png" alt="Medic Belt" width="640"><br>
 
 <img src="Resources/Steam%20Workshop/Exported/WeaponHeader.png" alt="Weapons" width="640"><br>
 <img src="Resources/Steam%20Workshop/Exported/ServicePistol.png" alt="Service Pistol" width="640"><br>

@@ -30,18 +30,8 @@
 
 				<li Class="ScenPart_PlayerPawnsArriveMethod">
 					<def>PlayerPawnsArriveMethod</def>
-					<method>DropPods</method>
+					<method>Standing</method>
 					<visible>false</visible>
-				</li>
-
-				<li Class="ScenPart_ForcedHediff">
-					<def>ForcedHediff</def>
-					<visible>false</visible>
-					<context>PlayerStarter</context>
-					<chance>0.5</chance>
-					<hediff>CryptosleepSickness</hediff>
-					<hideOffMap>true</hideOffMap>
-					<severityRange>1~1</severityRange>
 				</li>
 
 				<li Class="ScenPart_StartingThing_Defined">

@@ -204,7 +204,7 @@
 	<!-- Belts -->
 	<ThingDef ParentName="BNFII_AccessoryBase">
 		<defName>BNFII_InfantryBelt</defName>
-		<label>infantry pouches</label>
+		<label>infantry belt</label>
 		<description>A belt system for keeping spare munitions close at hand, reducing their ranged weapons cool down. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>

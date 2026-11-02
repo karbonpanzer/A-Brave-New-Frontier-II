@@ -38,7 +38,7 @@
     <apparelRequired>
       <li>BNFII_OfficerFlakArmor</li>
       <li>BNFII_OfficerFlakHelmet</li>
-      <li>BNFII_WebbingAmmo</li>
+      <li>BNFII_HeavyInfantryWebbing</li>
     </apparelRequired>
   </PawnKindDef>
 
@@ -145,7 +145,7 @@
       <li>BNFII_HeavyFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
-      <li>BNFII_WebbingAmmo</li>
+      <li>BNFII_HeavyInfantryWebbing</li>
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>
@@ -174,7 +174,7 @@
     <apparelRequired>
       <li>BNFII_ScoutFlakArmor</li>
       <li>BNFII_FlakHelmet</li>
-      <li>BNFII_WebbingScout</li>
+      <li>BNFII_ScoutWebbing</li>
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>
@@ -224,7 +224,7 @@
       <li>BNFII_MedicFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
-      <li>BNFII_PouchesMedic</li>
+      <li>BNFII_MedicBelt</li>
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>
@@ -255,7 +255,7 @@
       <li>BNFII_EngineerFlakHelmet</li>
       <li>BNFII_FlakBoots</li>
       <li>BNFII_FlakGloves</li>
-      <li>BNFII_PouchesSupport</li>
+      <li>BNFII_EngineerBelt</li>
     </apparelRequired>
     <apparelTags>
       <li>BNFII_Uniform</li>

@@ -500,7 +500,7 @@
     <recipeMaker>
       <researchPrerequisite>BNFII_OfficerUniforms</researchPrerequisite>
     </recipeMaker>
-    <costStuffCount>35</costStuffCount>
+    <costStuffCount>50</costStuffCount>
     <statBases>
       <WorkToMake>1600</WorkToMake>
       <MaxHitPoints>80</MaxHitPoints>

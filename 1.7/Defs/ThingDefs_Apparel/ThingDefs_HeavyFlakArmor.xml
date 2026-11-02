@@ -57,6 +57,7 @@
       <Cloth>60</Cloth>
       <Plasteel>20</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Cloth>10</Cloth>
     </costList>
     <costStuffCount>50</costStuffCount>
     <equippedStatOffsets>
@@ -86,9 +87,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -136,9 +135,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -187,9 +184,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
