@@ -4,7 +4,7 @@
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>BNFII_Frontier_Player</defName>
 		<label>Colonial Settlers</label>
-		<description>A Frontier group sent to colonize this world by choice.</description>
+		<description>A group of homesteaders sent to occupy these lands.</description>
 		<colorSpectrum>
             <li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
@@ -42,11 +42,11 @@
 	</FactionDef>
 
 	<FactionDef ParentName="FactionBase">
-		<defName>BNFII_Frontier_Civil</defName>
-		<label>civil colonial expedition</label>
-		<description>These people are a new arrival to this world, arriving from various worlds seeking opportunity. Some have spent years to centuries in their travels, limiting them to the technology of their time but many have brought technology from their homeworlds.\n\nThey are concerned with their colonies but desire strong connections with the people of their world, pursing trade, exploration, and peace with their neighbors.</description>
-		<pawnSingular>expeditionary</pawnSingular>
-		<pawnsPlural>expeditionaries</pawnsPlural>
+		<defName>BNFII_Homesteaders</defName>
+		<label>homesteaders</label>
+		<description>A faction of long time inhabitants of this world. These people don't identify themselves as colonists or outlanders, this world is their home.\n\nThey possess a strong industrial system which provides them large amounts of military gear. They don't heavily rely on their industry though, they possess a strong will and determination to keep their home theirs.\n\nThey often trade with outsiders in hopes of either appeasing or integrating the small groups of outlanders into their goverments. They are open to making friends but will defend their homes against any and all who threaten them.</description>
+		<pawnSingular>homesteader</pawnSingular>
+		<pawnsPlural>homesteaders</pawnsPlural>
 		<listOrderPriority>13</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -84,15 +84,14 @@
 			</categories>
 		  </li>
 		</backstoryFilters>
-		<apparelStuffFilter>
+		<!--apparelStuffFilter>
 			<thingDefs>
 				<li>Steel</li>
 				<li>Leather_Plain</li>
 			</thingDefs>
-		</apparelStuffFilter>
+		</apparelStuffFilter-->
 		<xenotypeSet>
 			<xenotypeChances>
-				<Starjack MayRequire="Ludeon.RimWorld.Odyssey">0.12</Starjack>
 				<Hussar MayRequire="Ludeon.RimWorld.Biotech">0.06</Hussar>
 				<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.04</Dirtmole>
 				<Impid MayRequire="Ludeon.RimWorld.Biotech">0.02</Impid>
@@ -191,10 +190,10 @@
 
 	<FactionDef ParentName="FactionBase">
 		<defName>BNFII_Frontier_Rough</defName>
-		<label>rough colonial expedition</label>
-		<description>A loose confederation of pirates, criminals, and all manner of unsavory person arrived to this world in search of resources to exploit. Having spent years travelling to this world in a stolen fleet with stolen technology, they are limited to the technology of what they have pilfered in their years of travel.\n\nThey are concerned with what loot they are able to aquire from the inhabitants of this world. they prefer violence to diplomacy and will kill to obtain what they want.</description>
-		<pawnSingular>expeditionary</pawnSingular>
-		<pawnsPlural>expeditionaries</pawnsPlural>
+		<label>desperadoes</label>
+		<description>A heavily armed faction made up of renegades, exiles, and other undesireables. Often from criminal backgrounds, their prediciment has forced them into a life of banditry.\n\nOrganized into various gangs, they raid, pillage, and plunder all around them. They use mostly stolen industrial level armaments to take what they want.\n\nThey view the world as nothing more than civilization ruining the freedom they desire, the freedom to take what they want.</description>
+		<pawnSingular>desperado</pawnSingular>
+		<pawnsPlural>desperadoes</pawnsPlural>
 		<listOrderPriority>14</listOrderPriority>
 		<settlementGenerationWeight>1</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -232,12 +231,12 @@
 			</categories>
 		  </li>
 		</backstoryFilters>
-		<apparelStuffFilter>
+		<!--apparelStuffFilter>
 			<thingDefs>
 				<li>Steel</li>
 				<li>Leather_Plain</li>
 			</thingDefs>
-		</apparelStuffFilter>
+		</apparelStuffFilter-->
 		<xenotypeSet>
 			<xenotypeChances>
 				<Starjack MayRequire="Ludeon.RimWorld.Odyssey">0.12</Starjack>
