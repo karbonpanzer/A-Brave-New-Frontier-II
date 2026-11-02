@@ -94,7 +94,7 @@
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_FlakArmor</defName>
     <label>flak armor</label>
-    <description>.</description>
+    <description>A full set of armor plates, covering most of the body. Using a mixture of plasteel weave and metals, it provides good protection against gunshots and stabbing attacks.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmor</texPath>
     </graphicData>
@@ -132,7 +132,7 @@
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_FlakHelmet</defName>
     <label>flak helmet</label>
-    <description>.</description>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmet</texPath>
     </graphicData>
@@ -169,8 +169,8 @@
   
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_FlakHelmet_Thermal</defName>
-    <label>flak helmet (thermal)</label>
-    <description>.</description>
+    <label>insulated flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an insulated hood which keeps the wearer's head warm.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetThermal</texPath>
     </graphicData>
@@ -217,8 +217,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_FlakHelmet_Faceshield</defName>
-    <label>flak helmet (faceshield)</label>
-    <description>.</description>
+    <label>shielded flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetMask</texPath>
     </graphicData>
@@ -266,8 +266,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_FlakHelmet_Gasmask</defName>
-    <label>flak helmet (gasmask)</label>
-    <description>.</description>
+    <label>gasmask flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with a gasmask which protects the wearer against most gases.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetGasmask</texPath>
     </graphicData>
@@ -313,8 +313,8 @@
   <!-- Medic Flak Armor -->
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_MedicFlakArmor</defName>
-    <label>flak armor (medic)</label>
-    <description>.</description>
+    <label>medic flak armor</label>
+    <description>A full set of armor plates, covering most of the body. Using a mixture of plasteel weave and metals, it provides good protection against gunshots and stabbing attacks. Marked with a cross, to show the wearer is a medic.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</texPath>
     </graphicData>
@@ -352,8 +352,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_MedicFlakHelmet</defName>
-    <label>flak helmet (medic)</label>
-    <description>.</description>
+    <label>medic flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Marked with a cross, to show the wearer is a medic.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedic</texPath>
     </graphicData>
@@ -390,8 +390,8 @@
   
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_MedicFlakHelmet_Thermal</defName>
-    <label>medic flak helmet (thermal)</label>
-    <description>.</description>
+    <label>medic insulated flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an insulated hood which keeps the wearer's head warm. Marked with a cross, to show the wearer is a medic.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicThermal</texPath>
     </graphicData>
@@ -438,8 +438,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_MedicFlakHelmet_Faceshield</defName>
-    <label>medic flak helmet (faceshield)</label>
-    <description>.</description>
+    <label>medic shielded flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond. Marked with a cross, to show the wearer is a medic.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicMask</texPath>
     </graphicData>
@@ -487,8 +487,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_MedicFlakHelmet_Gasmask</defName>
-    <label>medic flak helmet (gasmask)</label>
-    <description>.</description>
+    <label>medic gasmask flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with a gasmask which protects the wearer against most gases. Marked with a cross, to show the wearer is a medic.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicGasmask</texPath>
     </graphicData>
@@ -534,8 +534,8 @@
   <!-- Engineer Flak Armor -->
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_EngineerFlakArmor</defName>
-    <label>flak armor (engineer)</label>
-    <description>.</description>
+    <label>engineer flak armor</label>
+    <description>A full set of armor plates, covering most of the body. Using a mixture of plasteel weave and metals, it provides good protection against gunshots and stabbing attacks. Marked with a cog, to show the wearer is an engineer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakArmorEngineer</texPath>
     </graphicData>
@@ -572,8 +572,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_EngineerFlakHelmet</defName>
-    <label>flak helmet (engineer)</label>
-    <description>.</description>
+    <label>engineer flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Marked with a cog, to show the wearer is an engineer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineer</texPath>
     </graphicData>
@@ -610,8 +610,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_EngineerFlakHelmet_Thermal</defName>
-    <label>engineer flak helmet (thermal)</label>
-    <description>.</description>
+    <label>engineer insulated flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an insulated hood which keeps the wearer's head warm. Marked with a cog, to show the wearer is an engineer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerThermal</texPath>
     </graphicData>
@@ -658,8 +658,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_EngineerFlakHelmet_Faceshield</defName>
-    <label>engineer flak helmet (faceshield)</label>
-    <description>.</description>
+    <label>engineer shielded flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond. Marked with a cog, to show the wearer is an engineer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerMask</texPath>
     </graphicData>
@@ -708,8 +708,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_EngineerFlakHelmet_Gasmask</defName>
-    <label>engineer flak helmet (gasmask)</label>
-    <description>.</description>
+    <label>engineer gasmask flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets. Fitted with a gasmask which protects the wearer against most gases. Marked with a cog, to show the wearer is an engineer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerGasmask</texPath>
     </graphicData>
@@ -757,7 +757,7 @@
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_ScoutFlakArmor</defName>
     <label>scout flak armor</label>
-    <description>.</description>
+    <description>A stripped set of armor plates, covering their torso. The shoulders and therefore their protection have been removed to make the armor lighter for scouts.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutFlakArmor/ScoutFlakArmor</texPath>
     </graphicData>
@@ -800,7 +800,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>BNFII_FlakBoots</defName>
     <label>flak boots</label>
-    <description>.</description>
+    <description>A pair of boots with plasteel weave and metal protecting the feet and legs. Awkward to work in, they provide good protection to the wearer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorAccessories/FlakBoots</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -867,7 +867,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>BNFII_FlakGloves</defName>
     <label>flak gloves</label>
-    <description>.</description>
+    <description>A pair of gloves with plasteel weave and metal protecting the hands and fingers. Awkward to work in, they provide good protection to the wearer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorAccessories/FlakGloves</texPath>
       <graphicClass>Graphic_Single</graphicClass>
