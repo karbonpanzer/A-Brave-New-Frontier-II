@@ -82,8 +82,8 @@
   <!-- Temperate Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Temperate</defName>
-    <label>frontier uniform (temperate)</label>
-    <description>.</description>
+    <label>frontier uniform</label>
+    <description>A full body uniform made out of thick fabric or leather. Providing minor protection and offering moderate protection against moderate weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldUniformTemperate</texPath>
     </graphicData>
@@ -131,8 +131,8 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Temperate</defName>
-    <label>field hat (temperate)</label>
-    <description>.</description>
+    <label>field hat</label>
+    <description>A type of soft cap made out of thick fabric or leather offering moderate protection against moderate weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformTemperate/FieldHatTemperate</texPath>
     </graphicData>
@@ -177,11 +177,11 @@
     </apparel>
   </ThingDef>
 
-  <!-- Arid Uniform -->
+  <!-- Desert Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Desert</defName>
-    <label>frontier uniform (arid)</label>
-    <description>.</description>
+    <label>hot frontier uniform</label>
+    <description>A full body uniform made out of thick fabric or leather. Providing minor protection and offering moderate protection against warm weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldUniformDesert</texPath>
     </graphicData>
@@ -225,8 +225,8 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Desert</defName>
-    <label>field hat (arid)</label>
-    <description>.</description>
+    <label>hot field hat</label>
+    <description>A type of soft cap featuring a neck cape, made out of thick fabric or leather offering moderate protection against warm weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformDesert/FieldHatDesert</texPath>
     </graphicData>
@@ -271,11 +271,11 @@
     </apparel>
   </ThingDef>
 
-  <!-- Boreal Uniform -->
+  <!-- Insulated Uniform -->
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_FieldUniform_Winter</defName>
-    <label>frontier uniform (boreal)</label>
-    <description>.</description>
+    <label>insulated frontier uniform</label>
+    <description>A full body uniform made out of thick fabric or leather. Providing minor protection and offering moderate protection against cold weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldUniformWinter</texPath>
     </graphicData>
@@ -323,8 +323,8 @@
 
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_FieldHat_Winter</defName>
-    <label>field hat (boreal)</label>
-    <description>.</description>
+    <label>insulated field hat</label>
+    <description>A fur lined soft cap fitted with an insulated hood, made out of thick fabric or leather offering moderate protection against cold weather.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/FieldUniformWinter/FieldHatWinter</texPath>
     </graphicData>
@@ -373,7 +373,7 @@
   <ThingDef ParentName="BNFII_ApparelUniformBase">
     <defName>BNFII_OfficerUniform</defName>
     <label>frontier officer uniform</label>
-    <description>.</description>
+    <description>A full body uniform made out of the finest fabric or leather. Providing minor protection, general protection in most weather, and maintains image of an Officer</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldUniform</texPath>
     </graphicData>
@@ -423,7 +423,7 @@
   <ThingDef ParentName="BNFII_ApparelHatBase">
     <defName>BNFII_OfficerCap</defName>
     <label>officer cap</label>
-    <description>.</description>
+    <description>A flat topped soft cap worn by officers, made out of the finest thick fabric or leather. Provides general protection in most weather and image of a Officer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHat</texPath>
     </graphicData>
@@ -468,5 +468,54 @@
       </tags>
     </apparel>
   </ThingDef>
+
+  <ThingDef ParentName="BNFII_ApparelHatBase">
+    <defName>BNFII_OfficerCap_Insulated</defName>
+    <label>insulated officer cap</label>
+    <description>A flat topped soft cap worn by officers, made out of the finest thick fabric or leather. Provides general protection in most weather and image of a Officer.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatInsulated</texPath>
+    </graphicData>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.9,0.9,0.9)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.5,0.5,0.5,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>BNFII_OfficerUniforms</researchPrerequisite>
+    </recipeMaker>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <WorkToMake>1600</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatInsulated</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <tags>
+        <li>BNFII_OfficerHeadwear</li>
+      </tags>
+    </apparel>
+  </ThingDef>  
 
 </Defs>
