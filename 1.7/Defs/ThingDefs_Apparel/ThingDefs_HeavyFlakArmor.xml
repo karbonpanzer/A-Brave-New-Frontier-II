@@ -5,7 +5,7 @@
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_HeavyFlakArmor</defName>
     <label>heavy flak armor</label>
-    <description>.</description>
+    <description>A reinforced full set of armor plates, covering the body but heavier than normal flak armor. Additional layers of plasteel weave and metal offer improved protection but the additional weight slows the wearer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakArmor</texPath>
     </graphicData>
@@ -43,7 +43,7 @@
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet</defName>
     <label>heavy flak helmet</label>
-    <description>.</description>
+    <description>A reinforced combat helmet, using a different design which provides greater protection than simple flak helmets. However the additional armor slows the wearer.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmet</texPath>
     </graphicData>
@@ -80,8 +80,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Thermal</defName>
-    <label>heavy flak helmet (thermal)</label>
-    <description>.</description>
+    <label>heavy insulated flak helmet</label>
+    <description>A reinforced combat helmet, using a different design which provides greater protection than simple flak helmets. However the additional armor slows the wearer. Fitted with an insulated hood which keeps the wearer's head warm.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetThermal</texPath>
     </graphicData>
@@ -130,8 +130,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Faceshield</defName>
-    <label>heavy flak helmet (faceshield)</label>
-    <description>.</description>
+    <label>heavy shielded flak helmet</label>
+    <description>A reinforced combat helmet, using a different design which provides greater protection than simple flak helmets. However the additional armor slows the wearer and fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetMask</texPath>
     </graphicData>
@@ -181,8 +181,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_HeavyFlakHelmet_Gasmask</defName>
-    <label>heavy flak helmet (gasmask)</label>
-    <description>.</description>
+    <label>heavy gasmask flak helmet</label>
+    <description>A reinforced combat helmet, using a different design which provides greater protection than simple flak helmets. However the additional armor slows the wearer. Fitted with a gasmask which protects the wearer against most gases.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/HeavyFlakArmor/HeavyFlakHelmetGasmask</texPath>
     </graphicData>
