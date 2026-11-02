@@ -65,9 +65,9 @@
 
 	<!-- Webbing -->
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_WebbingAmmo</defName>
-		<label>ammo webbing</label>
-		<description>.</description>
+		<defName>BNFII_HeavyInfantryWebbing</defName>
+		<label>heavy infantry webbing</label>
+		<description>A heavy webbing system for keeping large amounts of spare munitions close at hand, greatly reducing their ranged weapons cool down but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
@@ -100,9 +100,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_WebbingScout</defName>
+		<defName>BNFII_ScoutWebbing</defName>
 		<label>scout webbing</label>
-		<description>.</description>
+		<description>A heavy webbing system for allowing greater manuevability, greatly increasing the foraging and stelath of the wearer but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_ScoutKit</researchPrerequisite>
 		</recipeMaker>
@@ -135,9 +135,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_WebbingShocktrooper</defName>
+		<defName>BNFII_ShocktrooperWebbing</defName>
 		<label>shocktrooper webbing</label>
-		<description>.</description>
+		<description>A heavy webbing system for keeping large amounts of explosives and combat drugs close at hand, greatly increasing their combat skills but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_ShocktrooperKit</researchPrerequisite>
 		</recipeMaker>
@@ -201,11 +201,11 @@
 		</verbs>
 	</ThingDef>
 
-	<!-- Pouches -->
+	<!-- Belts -->
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_PouchesInfantry</defName>
+		<defName>BNFII_InfantryBelt</defName>
 		<label>infantry pouches</label>
-		<description>.</description>
+		<description>A belt system for keeping spare munitions close at hand, reducing their ranged weapons cool down. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_InfantryKit</researchPrerequisite>
 		</recipeMaker>
@@ -231,9 +231,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_PouchesSupport</defName>
-		<label>support pouches</label>
-		<description>.</description>
+		<defName>BNFII_EngineerBelt</defName>
+		<label>engineer belt</label>
+		<description>A belt system for keeping spare tools close at hand, reducing their repair time in the field. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
@@ -260,9 +260,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BNFII_AccessoryBase">
-		<defName>BNFII_PouchesMedic</defName>
-		<label>medic pouches</label>
-		<description>.</description>
+		<defName>BNFII_MedicBelt</defName>
+		<label>medic belt</label>
+		<description>A belt system for keeping spare medical supplies close at hand, improving their tending quality and speed. It doesn't cover the body, so it can be worn happily by nudists and yttakin.</description>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_SupportKit</researchPrerequisite>
 		</recipeMaker>
