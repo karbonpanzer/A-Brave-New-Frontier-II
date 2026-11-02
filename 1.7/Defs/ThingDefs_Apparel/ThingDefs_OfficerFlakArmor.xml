@@ -5,7 +5,7 @@
   <ThingDef ParentName="BNFII_FlakArmorBase">
     <defName>BNFII_OfficerFlakArmor</defName>
     <label>officer flak armor</label>
-    <description>.</description>
+    <description>A full set of armor plates, covering most of the body. Using a mixture of plasteel weave, metals and gold, it provides good protection against gunshots and stabbing attacks while projecting their Officer status.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakArmor</texPath>
     </graphicData>
@@ -48,7 +48,7 @@
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet</defName>
     <label>officer flak helmet</label>
-    <description>.</description>
+    <description>A combat helmet, reinforced with plasteel weave and gold. It provides minor boosts to psycasters but is preferred by Officers in the field.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmet</texPath>
     </graphicData>
@@ -89,8 +89,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Thermal</defName>
-    <label>officer flak helmet (thermal)</label>
-    <description>.</description>
+    <label>officer insulated flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave and gold. It provides minor boosts to psycasters but is preferred by Officers in the field. Fitted with an insulated hood which keeps the wearer's head warm.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</texPath>
     </graphicData>
@@ -143,8 +143,8 @@
 
   <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Faceshield</defName>
-    <label>officer flak helmet (faceshield)</label>
-    <description>.</description>
+    <label>officer shielded flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave and gold. It provides minor boosts to psycasters but is preferred by Officers in the field. Fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</texPath>
     </graphicData>
@@ -198,8 +198,8 @@
 
    <ThingDef ParentName="BNFII_FlakHelmetBase">
     <defName>BNFII_OfficerFlakHelmet_Gasmask</defName>
-    <label>officer flak helmet (gasmask)</label>
-    <description>.</description>
+    <label>officer gasmask flak helmet</label>
+    <description>A combat helmet, reinforced with plasteel weave and gold. It provides minor boosts to psycasters but is preferred by Officers in the field. Fitted with a gasmask which protects the wearer against most gases.</description>
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</texPath>
     </graphicData>
