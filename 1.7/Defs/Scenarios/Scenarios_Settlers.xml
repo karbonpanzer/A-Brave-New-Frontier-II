@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ScenarioDef ParentName="ScenarioBase">
-		<defName>BNFII_Outlanders</defName>
-		<label>Expedition</label>
-		<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of the rest of the expedition.</description>
+		<defName>BNFII_Colony</defName>
+		<label>Settlers</label>
+		<description>After finding a place of strategic importance, your group chose to embark to set the claim for this land. With the backing of the government, you will hold this land as a settlement and administer to it as you see fit.</description>
 
 		<scenario>
-			<name>Expedition</name>
-			<summary>A group of offworld settlers, sent as scouts ahead of their larger group.</summary>
-			<description>After years of cryptosleep you have arrived to the Rimworlds. Arriving as the first wave of the colonial fleet, it is on this world were opportunities await. It is here that you will start your new life as colonist and develop your colony for the arrival of the rest of the expedition.</description>
+			<name>Settlers</name>
+			<summary>Three settlers try and make it work - a twist on the classic Rimworld experience.</summary>
+			<description>After finding a place of strategic importance, your group chose to embark to set the claim for this land. With the backing of the government, you will hold this land as a settlement and administer to it as you see fit.</description>
 
 			<playerFaction>
 				<def>PlayerFaction</def>
@@ -18,13 +18,13 @@
 			<parts>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>You emerged from your pod and examined your surroundings. A new world lies before you where opportunity is at every corner.\n\nNow, the real challenge begins, you have no idea when the rest of the colonial expedition is going to arrive, it could be within days or within centuries. According to the colonial compact, you must prepare for their arrival and be ready to integrate them into your colony.\n\nIt will be hard but you have to fulfil this duty for the good of the colony.</text>
+					<text>After finding a place of strategic importance, your group chose to embark to set the claim for this land.\n\nWith the backing of the government, you will hold this land as a settlement and administer to it as you see fit.</text>
 					<closeSound>GameStartSting</closeSound>
 				</li>			
 			
 				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 					<def>ConfigPage_ConfigureStartingPawns</def>
-					<pawnCount>5</pawnCount>
+					<pawnCount>3</pawnCount>
 					<pawnChoiceCount>8</pawnChoiceCount>
 				</li>
 
@@ -53,7 +53,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>BNFII_ServiceRifle</thingDef>
-					<count>2</count>					
+					<count>1</count>					
 					<quality>Normal</quality>
 				</li>				
 
@@ -68,15 +68,31 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>BNFII_FlakArmor</thingDef>
-					<count>3</count>
+					<count>1</count>
 					<stuff>Steel</stuff>
 					<quality>Normal</quality>
 				</li>
 
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
+					<thingDef>BNFII_FlakGloves</thingDef>
+					<count>1</count>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>	
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>BNFII_FlakBoots</thingDef>
+					<count>1</count>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>					
+
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
 					<thingDef>BNFII_FlakHelmet</thingDef>
-					<count>3</count>
+					<count>1</count>
 					<stuff>Steel</stuff>
 					<quality>Normal</quality>
 				</li>
