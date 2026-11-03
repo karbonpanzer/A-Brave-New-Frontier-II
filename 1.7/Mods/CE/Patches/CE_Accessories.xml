@@ -2,14 +2,14 @@
 <Patch>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingAmmo" or defName="BNFII_WebbingScout" or defName="BNFII_WebbingShocktrooper" or defName="BNFII_PouchesInfantry" or defName="BNFII_PouchesSupport" or defName="BNFII_PouchesMedic"]/apparel/layers/li[.="Shell"]</xpath>
+		<xpath>Defs/ThingDef[@Name="BNFII_AccessoryBase"]/apparel/layers/li[.="Shell"]</xpath>
 		<value>
 			<li>Webbing</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingAmmo"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyInfantryWebbing"]/statBases</xpath>
 		<value>
 			<Bulk>6</Bulk>
 			<WornBulk>3</WornBulk>
@@ -17,21 +17,21 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingAmmo"]/equippedStatOffsets/RangedCooldownFactor</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyInfantryWebbing"]/equippedStatOffsets/RangedCooldownFactor</xpath>
 		<value>
 			<ReloadSpeed>0.25</ReloadSpeed>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingAmmo"]/equippedStatOffsets</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_HeavyInfantryWebbing"]/equippedStatOffsets</xpath>
 		<value>
 			<CarryBulk>25</CarryBulk>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingScout"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_ScoutWebbing"]/statBases</xpath>
 		<value>
 			<Bulk>4</Bulk>
 			<WornBulk>1.5</WornBulk>
@@ -39,14 +39,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingScout"]/equippedStatOffsets</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_ScoutWebbing"]/equippedStatOffsets</xpath>
 		<value>
 			<CarryBulk>15</CarryBulk>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingShocktrooper"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_ShocktrooperWebbing"]/statBases</xpath>
 		<value>
 			<Bulk>6</Bulk>
 			<WornBulk>3</WornBulk>
@@ -54,14 +54,14 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingShocktrooper"]/equippedStatOffsets</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_ShocktrooperWebbing"]/equippedStatOffsets</xpath>
 		<value>
 			<CarryBulk>15</CarryBulk>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_WebbingShocktrooper"]/verbs</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_ShocktrooperWebbing"]/verbs</xpath>
 		<value>
 			<verbs>
 				<li Class="CombatExtended.VerbPropertiesCE">
@@ -90,7 +90,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_PouchesInfantry"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_InfantryBelt"]/statBases</xpath>
 		<value>
 			<Bulk>4</Bulk>
 			<WornBulk>1.5</WornBulk>
@@ -98,21 +98,21 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_PouchesInfantry"]/equippedStatOffsets/RangedCooldownFactor</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_InfantryBelt"]/equippedStatOffsets/RangedCooldownFactor</xpath>
 		<value>
 			<ReloadSpeed>0.15</ReloadSpeed>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_PouchesInfantry"]/equippedStatOffsets</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_InfantryBelt"]/equippedStatOffsets</xpath>
 		<value>
 			<CarryBulk>20</CarryBulk>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_PouchesSupport" or defName="BNFII_PouchesMedic"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_EngineerBelt" or defName="BNFII_MedicBelt"]/statBases</xpath>
 		<value>
 			<Bulk>4</Bulk>
 			<WornBulk>1.5</WornBulk>
@@ -120,7 +120,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="BNFII_PouchesSupport" or defName="BNFII_PouchesMedic"]/equippedStatOffsets</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_EngineerBelt" or defName="BNFII_MedicBelt"]/equippedStatOffsets</xpath>
 		<value>
 			<CarryBulk>15</CarryBulk>
 		</value>

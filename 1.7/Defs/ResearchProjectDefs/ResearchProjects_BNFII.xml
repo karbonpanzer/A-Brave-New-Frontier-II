@@ -7,13 +7,12 @@
     <label>flak armor</label>
     <description>Craft improved metal armor to protect from gunshots and explosions. This weighty armor slows movement slightly.</description>
     <baseCost>1200</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>FlakArmor</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewX>7</researchViewX>
+    <researchViewY>6.3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -21,13 +20,12 @@
     <label>scout flak armor</label>
     <description>Craft lightened metal armor to increase movement but has less protection.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_FlakArmor</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>8</researchViewX>
+    <researchViewY>5.6</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -35,13 +33,12 @@
     <label>heavy flak armor</label>
     <description>Craft reinforced metal armor to protect from heavy gun fire and explosions. This armor is heavy and slows movement.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_FlakArmor</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewX>8</researchViewX>
+    <researchViewY>6.3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -49,13 +46,12 @@
     <label>officer flak armor</label>
     <description>Craft prestige metal armor to enhance psycasting abilities while maintaining protection. Note that these also require gold.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_FlakArmor</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1.4</researchViewY>
+    <researchViewX>8</researchViewX>
+    <researchViewY>7.0</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -63,13 +59,12 @@
     <label>modified flak helmets</label>
     <description>Craft modified helmets which offer increased protection, integrated gasmasks, and insulation against the elements.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_FlakArmor</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewX>9</researchViewX>
+    <researchViewY>6.3</researchViewY>
   </ResearchProjectDef>
 
   <!-- Uniforms -->
@@ -78,13 +73,12 @@
     <label>frontier uniforms</label>
     <description>Tailor uniforms which provide insulation from the elements and slight protection.</description>
     <baseCost>1200</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>ComplexClothing</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewX>3</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -92,13 +86,12 @@
     <label>officer uniforms</label>
     <description>Tailor uniforms which provide insulation, protection, and social status.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_FrontierUniforms</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>2.8</researchViewY>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <!-- Kits -->
@@ -107,13 +100,12 @@
     <label>infantry kit</label>
     <description>Tailor bandoleers for usage by infantry.</description>
     <baseCost>1200</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>ComplexClothing</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewX>3</researchViewX>
+    <researchViewY>6.3</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -121,13 +113,12 @@
     <label>shocktrooper kit</label>
     <description>Tailor bandoleers for usage by shocktroopers.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>2.8</researchViewY>
+    <researchViewX>4</researchViewX>
+    <researchViewY>5.6</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -135,13 +126,12 @@
     <label>Scout kit</label>
     <description>Tailor bandoleers for usage by scouts.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>3.5</researchViewY>
+    <researchViewX>4</researchViewX>
+    <researchViewY>7</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -149,13 +139,12 @@
     <label>support kit</label>
     <description>Tailor bandoleers for usage by support forces.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_InfantryKit</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>4.2</researchViewY>
+    <researchViewX>4</researchViewX>
+    <researchViewY>6.3</researchViewY>
   </ResearchProjectDef>
 
   <!-- Weapons -->
@@ -164,13 +153,12 @@
     <label>streamlined production</label>
     <description>Craft streamlined guns which are cheaper to produce but are inferior quality.</description>
     <baseCost>1200</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>PrecisionRifling</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
-    <researchViewY>5.6</researchViewY>
+    <researchViewX>12</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -178,13 +166,12 @@
     <label>specialized accelerant</label>
     <description>Craft specialized guns which use a volatile accelerant to create a higher rate of fire.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_StreamlinedProduction</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>5.6</researchViewY>
+    <researchViewX>13</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -192,13 +179,12 @@
     <label>power weapons</label>
     <description>Craft specialized melee weapons which use improvised generators to create electric shocks on hit.</description>
     <baseCost>1600</baseCost>
-    <tab>ABraveNewFrontierII</tab>
     <techLevel>Industrial</techLevel>
     <prerequisites>
       <li>BNFII_SpecializedAccelerant</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>5.6</researchViewY>
+    <researchViewX>14</researchViewX>
+    <researchViewY>4.9</researchViewY>
   </ResearchProjectDef>
 
 </Defs>

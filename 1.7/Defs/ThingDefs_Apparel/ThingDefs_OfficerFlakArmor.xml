@@ -95,7 +95,10 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+        <li>BNFII_OfficerFlakArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -147,7 +150,10 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+        <li>BNFII_OfficerFlakArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -200,7 +206,10 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
+      <researchPrerequisites>
+        <li>BNFII_ModifiedFlakHelmets</li>
+        <li>BNFII_OfficerFlakArmor</li>
+      </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>

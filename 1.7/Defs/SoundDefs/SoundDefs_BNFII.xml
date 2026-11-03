@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+
+	<SoundDef>
+		<defName>BNFII_Shot_ServicePistol</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Autopistol</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>60~62</volumeRange>
+				<pitchRange>1.02~1.10</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_AssaultPistol</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Autopistol</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>60~62</volumeRange>
+				<pitchRange>0.86~0.93</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/GunShotA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>18~22</volumeRange>
+				<pitchRange>0.90~0.98</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_AssaultRevolver</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Revolver</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>40~42</volumeRange>
+				<pitchRange>0.82~0.90</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/GunShotA</clipPath>
+					</li>
+				</grains>
+				<volumeRange>15~18</volumeRange>
+				<pitchRange>0.80~0.88</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_AssaultSMG</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/HeavySMG</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>39~41</volumeRange>
+				<pitchRange>1.06~1.14</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_ServiceRifle</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>45~47</volumeRange>
+				<pitchRange>0.88~0.95</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/BoltActionRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>14~17</volumeRange>
+				<pitchRange>0.95~1.05</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_AssaultLMG</defName>
+		<context>MapOnly</context>
+		<maxVoices>6</maxVoices>
+		<maxSimultaneous>2</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>44~47</volumeRange>
+				<pitchRange>0.78~0.86</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Minigun/Shot</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>14~17</volumeRange>
+				<pitchRange>0.85~0.92</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_TrenchShotgun</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Shotgun/Shot</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>94~95</volumeRange>
+				<pitchRange>0.86~0.94</pitchRange>
+				<distRange>39.11765~70</distRange>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Shotgun/Rack</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>12~14</volumeRange>
+				<pitchRange>0.88~0.98</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_MarksmanRifle</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>68~70</volumeRange>
+				<pitchRange>0.94~1.00</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
