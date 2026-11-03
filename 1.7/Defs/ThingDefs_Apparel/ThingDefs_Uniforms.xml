@@ -474,7 +474,7 @@
     <label>insulated officer cap</label>
     <description>A flat topped soft cap worn by officers, made out of the finest thick fabric or leather. Provides general protection in most weather and image of a Officer.</description>
     <graphicData>
-      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatInsulated</texPath>
+      <texPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatThermal</texPath>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -508,7 +508,7 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatInsulated</wornGraphicPath>
+      <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Clothes/OfficerFieldUniform/OfficerFieldHatThermal</wornGraphicPath>
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>

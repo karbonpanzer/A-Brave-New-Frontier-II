@@ -3,11 +3,11 @@
 
   <!-- Player -->
   <PawnKindDef ParentName="BasePlayerPawnKind">
-    <defName>BNFII_Frontier_Player</defName>
-    <label>offworlder</label>
-    <labelPlural>offworlders</labelPlural>
+    <defName>BNFII_Settler</defName>
+    <label>settler</label>
+    <labelPlural>settlers</labelPlural>
     <race>Human</race>
-    <defaultFactionType>BNFII_Frontier_Player</defaultFactionType>
+    <defaultFactionType>BNFII_Player</defaultFactionType>
     <itemQuality>Normal</itemQuality>
     <gearHealthRange>0.2~0.6</gearHealthRange>
     <backstoryFiltersOverride>

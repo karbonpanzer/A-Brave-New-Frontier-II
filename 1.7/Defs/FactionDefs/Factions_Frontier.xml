@@ -2,16 +2,16 @@
 <Defs>
 	
 	<FactionDef ParentName="PlayerFactionBase">
-		<defName>BNFII_Frontier_Player</defName>
-		<label>Colonial Settlers</label>
+		<defName>BNFII_Player</defName>
+		<label>Settlers</label>
 		<description>A group of homesteaders sent to occupy these lands.</description>
 		<colorSpectrum>
             <li>(0, 0.737, 0.847)</li>
 		</colorSpectrum>
 		<isPlayer>true</isPlayer>
-		<basicMemberKind>BNFII_Frontier_Player</basicMemberKind>
-		<pawnSingular>Frontier</pawnSingular>
-		<pawnsPlural>Frontiers</pawnsPlural>
+		<basicMemberKind>BNFII_Settler</basicMemberKind>
+		<pawnSingular>settler</pawnSingular>
+		<pawnsPlural>settlers</pawnsPlural>
 		<techLevel>Industrial</techLevel>
 		<allowedCultures>
 			<li>Astropolitan</li>

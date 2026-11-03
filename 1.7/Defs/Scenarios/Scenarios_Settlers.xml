@@ -12,7 +12,7 @@
 
 			<playerFaction>
 				<def>PlayerFaction</def>
-				<factionDef>BNFII_Frontier_Player</factionDef>
+				<factionDef>BNFII_Player</factionDef>
 			</playerFaction>
 
 			<parts>

@@ -6,7 +6,7 @@
     <defName>BNFII_Civil_Settler</defName>
     <label>settler</label>
     <labelPlural>settlers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <weaponTags>
       <li>BNFII_Sidearm</li>
       <li>BNFII_SMG</li>
@@ -19,7 +19,7 @@
     <defName>BNFII_Civil_Trader</defName>
     <label>trader</label>
     <labelPlural>traders</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <weaponMoney>1350~1950</weaponMoney>
     <weaponTags>
       <li>BNFII_Sidearm</li>
@@ -35,14 +35,14 @@
     <defName>BNFII_Civil_Representative</defName>
     <label>representative</label>
     <labelPlural>representatives</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BNFII_CommanderBase">
     <defName>BNFII_Civil_Commander</defName>
     <label>infantry commander</label>
     <labelPlural>infantry commanders</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <combatPower>160</combatPower>
     <isFighter>false</isFighter>
     <itemQuality>Good</itemQuality>
@@ -70,7 +70,7 @@
     <defName>BNFII_Civil_Militia</defName>
     <label>militia</label>
     <labelPlural>militia</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <weaponTags>
       <li>BNFII_Sidearm</li>
       <li>BNFII_SMG</li>
@@ -84,7 +84,7 @@
     <defName>BNFII_Civil_Infantry</defName>
     <label>infantry</label>
     <labelPlural>infantry</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <apparelRequired>
       <li>BNFII_FlakArmor</li>
       <li>BNFII_FlakHelmet</li>
@@ -98,21 +98,21 @@
     <defName>BNFII_Civil_Heavy_Infantry</defName>
     <label>heavy infantry</label>
     <labelPlural>heavy infantry</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BNFII_RangerBase">
     <defName>BNFII_Civil_Ranger</defName>
     <label>ranger</label>
     <labelPlural>rangers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BNFII_ShocktrooperBase">
     <defName>BNFII_Civil_Trench_Raider</defName>
     <label>shocktrooper</label>
     <labelPlural>shocktroopers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
     <apparelRequired>
       <li>BNFII_FlakArmor</li>
       <li>BNFII_FlakHelmet_Faceshield</li>
@@ -132,14 +132,14 @@
     <defName>BNFII_Civil_Medic</defName>
     <label>medic</label>
     <labelPlural>medics</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
   </PawnKindDef>
 
   <PawnKindDef ParentName="BNFII_EngineerBase">
     <defName>BNFII_Civil_Engineer</defName>
     <label>engineer</label>
     <labelPlural>engineers</labelPlural>
-    <defaultFactionType>BNFII_Frontier_Civil</defaultFactionType>
+    <defaultFactionType>BNFII_Homesteaders</defaultFactionType>
   </PawnKindDef>
 
 
