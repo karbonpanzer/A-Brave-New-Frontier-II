@@ -9,7 +9,7 @@
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
         <!-- Dark Grey  -->
-        <color>(0.45,0.45,0.45)</color>
+        <color>(0.4,0.4,0.4)</color>
     </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
@@ -59,8 +59,8 @@
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <colorGenerator Class="ColorGenerator_Single">
-        <!-- Dark Grey -->
-        <color>(0.45,0.45,0.45)</color>
+        <!-- Dark Grey  -->
+        <color>(0.4,0.4,0.4)</color>
     </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>

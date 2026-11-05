@@ -61,6 +61,9 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>Pistol</li>
@@ -151,6 +154,9 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>Pistol</li>
@@ -243,6 +249,9 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>Revolver</li>
 			<li>IndustrialGunAdvanced</li>
@@ -337,6 +346,10 @@
 				<muzzleFlashScale>6</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>RangedLight</li>
+			<li>ShortShots</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
@@ -611,6 +624,9 @@
 				<muzzleFlashScale>14</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
@@ -670,9 +686,6 @@
 			<texPath>BNFII/Things/Item/Equipment/Weapons/TrenchShogtun</texPath>
 		</graphicData>
 		<soundInteract>Interact_Shotgun</soundInteract>
-		<weaponClasses>
-			<li>ShortShots</li>
-		</weaponClasses>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_StreamlinedProduction</researchPrerequisite>
 			<skillRequirements>
@@ -707,6 +720,9 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGun</li>
 			<li>IndustrialGunAdvanced</li>
@@ -800,6 +816,9 @@
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
 		</verbs>
+		<weaponClasses>
+			<li>LongShots</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
 			<li>SniperRifle</li>
@@ -855,6 +874,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.55</drawSize>
     </graphicData>
+	<uiIconScale>0.7</uiIconScale>
     <soundInteract>Interact_Rifle</soundInteract>
     <techLevel>Industrial</techLevel>
     <statBases>
@@ -891,15 +911,15 @@
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
+	<weaponClasses>
+		<li>LongShots</li>
+		<li>RangedHeavy</li>
+	</weaponClasses>
 	<weaponTags>
 		<li>IndustrialGunAdvanced</li>
 		<li>SniperRifle</li>
 		<li>BNFII_Sniper</li>
 	</weaponTags>
-    <weaponClasses>
-      <li>LongShots</li>
-      <li>RangedHeavy</li>
-    </weaponClasses>
     <tools>
       <li>
         <label>stock</label>

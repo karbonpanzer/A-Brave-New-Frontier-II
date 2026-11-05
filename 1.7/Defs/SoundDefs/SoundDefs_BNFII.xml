@@ -13,7 +13,7 @@
 					</li>
 				</grains>
 				<volumeRange>48~50</volumeRange>
-				<pitchRange>0.90~0.96</pitchRange>
+				<pitchRange>0.86~1.00</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -23,7 +23,7 @@
 					</li>
 				</grains>
 				<volumeRange>16~18</volumeRange>
-				<pitchRange>1.10~1.16</pitchRange>
+				<pitchRange>1.05~1.21</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -41,7 +41,7 @@
 					</li>
 				</grains>
 				<volumeRange>58~60</volumeRange>
-				<pitchRange>0.80~0.86</pitchRange>
+				<pitchRange>0.76~0.90</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -51,7 +51,7 @@
 					</li>
 				</grains>
 				<volumeRange>14~16</volumeRange>
-				<pitchRange>1.04~1.10</pitchRange>
+				<pitchRange>0.99~1.15</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -69,7 +69,7 @@
 					</li>
 				</grains>
 				<volumeRange>40~42</volumeRange>
-				<pitchRange>0.74~0.80</pitchRange>
+				<pitchRange>0.70~0.84</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -79,7 +79,7 @@
 					</li>
 				</grains>
 				<volumeRange>16~18</volumeRange>
-				<pitchRange>0.82~0.88</pitchRange>
+				<pitchRange>0.77~0.93</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -97,7 +97,7 @@
 					</li>
 				</grains>
 				<volumeRange>38~40</volumeRange>
-				<pitchRange>1.14~1.20</pitchRange>
+				<pitchRange>1.09~1.25</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -107,7 +107,7 @@
 					</li>
 				</grains>
 				<volumeRange>16~18</volumeRange>
-				<pitchRange>0.96~1.02</pitchRange>
+				<pitchRange>0.91~1.07</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -125,7 +125,7 @@
 					</li>
 				</grains>
 				<volumeRange>44~46</volumeRange>
-				<pitchRange>0.80~0.86</pitchRange>
+				<pitchRange>0.76~0.90</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -135,7 +135,7 @@
 					</li>
 				</grains>
 				<volumeRange>16~18</volumeRange>
-				<pitchRange>0.92~0.98</pitchRange>
+				<pitchRange>0.87~1.03</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -145,7 +145,7 @@
 					</li>
 				</grains>
 				<volumeRange>10~12</volumeRange>
-				<pitchRange>0.80~0.86</pitchRange>
+				<pitchRange>0.75~0.91</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -163,7 +163,7 @@
 					</li>
 				</grains>
 				<volumeRange>42~45</volumeRange>
-				<pitchRange>0.70~0.76</pitchRange>
+				<pitchRange>0.65~0.81</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -173,7 +173,7 @@
 					</li>
 				</grains>
 				<volumeRange>16~18</volumeRange>
-				<pitchRange>0.78~0.84</pitchRange>
+				<pitchRange>0.73~0.89</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -183,7 +183,7 @@
 					</li>
 				</grains>
 				<volumeRange>8~10</volumeRange>
-				<pitchRange>1.25~1.32</pitchRange>
+				<pitchRange>1.21~1.37</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -201,7 +201,7 @@
 					</li>
 				</grains>
 				<volumeRange>92~94</volumeRange>
-				<pitchRange>0.78~0.84</pitchRange>
+				<pitchRange>0.74~0.88</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -211,7 +211,7 @@
 					</li>
 				</grains>
 				<volumeRange>18~20</volumeRange>
-				<pitchRange>0.70~0.76</pitchRange>
+				<pitchRange>0.65~0.81</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -221,7 +221,7 @@
 					</li>
 				</grains>
 				<volumeRange>14~16</volumeRange>
-				<pitchRange>0.82~0.90</pitchRange>
+				<pitchRange>0.78~0.94</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -239,7 +239,7 @@
 					</li>
 				</grains>
 				<volumeRange>64~66</volumeRange>
-				<pitchRange>1.06~1.12</pitchRange>
+				<pitchRange>1.02~1.16</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -249,7 +249,7 @@
 					</li>
 				</grains>
 				<volumeRange>18~20</volumeRange>
-				<pitchRange>1.00~1.06</pitchRange>
+				<pitchRange>0.95~1.11</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -259,7 +259,7 @@
 					</li>
 				</grains>
 				<volumeRange>10~12</volumeRange>
-				<pitchRange>0.90~0.96</pitchRange>
+				<pitchRange>0.85~1.01</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -276,8 +276,8 @@
 						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>70~72</volumeRange>
-				<pitchRange>0.76~0.82</pitchRange>
+				<volumeRange>74~76</volumeRange>
+				<pitchRange>0.50~0.62</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -286,8 +286,18 @@
 						<clipFolderPath>Weapon/Autocannon</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>20~22</volumeRange>
-				<pitchRange>0.72~0.78</pitchRange>
+				<volumeRange>30~32</volumeRange>
+				<pitchRange>0.46~0.58</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/ThumpCannon_Fire</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.70~0.82</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -296,8 +306,8 @@
 						<clipFolderPath>Weapon/BoltActionRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>16~18</volumeRange>
-				<pitchRange>0.84~0.90</pitchRange>
+				<volumeRange>14~16</volumeRange>
+				<pitchRange>0.68~0.80</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>

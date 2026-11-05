@@ -65,6 +65,9 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
 			<li>BNFII_StandardMelee</li>
@@ -139,6 +142,9 @@
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
 			<li>BNFII_StandardMelee</li>
@@ -199,6 +205,9 @@
 				<cooldownTime>2.4</cooldownTime>
 			</li>
 		</tools>
+		<weaponClasses>
+			<li>MeleeBlunt</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialMeleeBasic</li>
 			<li>BNFII_StandardMelee</li>
@@ -278,6 +287,9 @@
 		<thingSetMakerTags>
 			<li>RewardStandardMidTech</li>
 		</thingSetMakerTags>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>
 			<li>BNFII_EliteMelee</li>
@@ -356,6 +368,9 @@
 				<armorPenetration>0.20</armorPenetration>
 			</li>
 		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
 		<weaponTags>
 			<li>IndustrialMeleeAdvanced</li>
 			<li>BNFII_EliteMelee</li>
