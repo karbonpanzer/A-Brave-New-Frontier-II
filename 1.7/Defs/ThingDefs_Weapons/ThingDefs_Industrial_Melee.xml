@@ -75,6 +75,81 @@
 		</tradeTags>	
 	</ThingDef>
 
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>BNFII_Machete</defName>
+		<label>machete</label>
+		<description>A broad bladed tool used in agriculture. Often used by militarys for brush clearing and even as a weapon.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>BNFII/Things/Item/Equipment/Weapons/Machete</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<researchPrerequisite>BNFII_StreamlinedProduction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<statBases>
+			<WorkToMake>6400</WorkToMake>
+			<Mass>0.5</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>guard</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18</power>
+				<armorPenetration>0.15</armorPenetration>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags>
+			<li>IndustrialMeleeBasic</li>
+			<li>BNFII_StandardMelee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>WeaponMelee</li>
+			<li>BNFII_WeaponMelee</li>
+		</tradeTags>	
+	</ThingDef>	
+
+
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>BNFII_PowerMaul</defName>
 		<label>power maul</label>

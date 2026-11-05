@@ -830,4 +830,97 @@
 		</tradeTags>
 	</ThingDef>
 
+  <ThingDef ParentName="BaseBullet">
+    <defName>BNFII_Bullet_AntiMaterialRifle</defName>
+    <label>anti-materiel impact shell</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <speed>120</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_AntiMaterialRifle_Base">
+    <defName>BNFII_AntiMaterialRifle</defName>
+    <label>anti-materiel rifle</label>
+    <description>A bolt-action heavy caliber rifle designed for armor and building penetration. Boasting incredible range and power, it is a slow and heavy weapon which requires a long time to fire accurately.</description>
+    <graphicData>
+      <texPath>BNFII/Things/Item/Equipment/Weapons/AntiMaterialRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.55</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>6</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>16</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>BNFII_SpecializedAccelerant</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>BNFII_Bullet_AntiMaterialRifle</defaultProjectile>
+        <warmupTime>5</warmupTime>
+        <range>44.9</range>
+        <soundCast>BNFII_Shot_AntiMaterialRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<weaponTags>
+		<li>IndustrialGunAdvanced</li>
+		<li>SniperRifle</li>
+		<li>BNFII_Sniper</li>
+	</weaponTags>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

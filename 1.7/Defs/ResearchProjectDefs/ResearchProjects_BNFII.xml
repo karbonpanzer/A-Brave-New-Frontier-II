@@ -5,7 +5,7 @@
   <ResearchProjectDef>
     <defName>BNFII_FlakArmor</defName>
     <label>flak armor</label>
-    <description>Craft improved metal armor to protect from gunshots and explosions. This weighty armor slows movement slightly.</description>
+    <description>Craft improved flak armor to protect from gunshots and explosions. This weighty armor slows movement slightly.</description>
     <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -18,7 +18,7 @@
   <ResearchProjectDef>
     <defName>BNFII_ScoutFlakArmor</defName>
     <label>scout flak armor</label>
-    <description>Craft lightened metal armor to increase movement but has less protection.</description>
+    <description>Craft lightened flak armor to increase movement but has less protection.</description>
     <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -31,7 +31,7 @@
   <ResearchProjectDef>
     <defName>BNFII_HeavyFlakArmor</defName>
     <label>heavy flak armor</label>
-    <description>Craft reinforced metal armor to protect from heavy gun fire and explosions. This armor is heavy and slows movement.</description>
+    <description>Craft reinforced flak armor to protect from heavy gun fire and explosions. This armor is heavy and slows movement.</description>
     <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -44,7 +44,7 @@
   <ResearchProjectDef>
     <defName>BNFII_OfficerFlakArmor</defName>
     <label>officer flak armor</label>
-    <description>Craft prestige metal armor to enhance psycasting abilities while maintaining protection. Note that these also require gold.</description>
+    <description>Craft prestige flak armor to enhance psycasting abilities while maintaining protection. Note that these also require gold.</description>
     <baseCost>1600</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

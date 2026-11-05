@@ -9,11 +9,21 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/MachinePistol</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>48~50</volumeRange>
+				<pitchRange>0.90~0.96</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
 						<clipFolderPath>Weapon/Autopistol</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>60~62</volumeRange>
-				<pitchRange>1.02~1.10</pitchRange>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>1.10~1.16</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -30,18 +40,18 @@
 						<clipFolderPath>Weapon/Autopistol</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>60~62</volumeRange>
-				<pitchRange>0.86~0.93</pitchRange>
+				<volumeRange>58~60</volumeRange>
+				<pitchRange>0.80~0.86</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>Weapon/GunShotA</clipPath>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Revolver</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>18~22</volumeRange>
-				<pitchRange>0.90~0.98</pitchRange>
+				<volumeRange>14~16</volumeRange>
+				<pitchRange>1.04~1.10</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -59,17 +69,17 @@
 					</li>
 				</grains>
 				<volumeRange>40~42</volumeRange>
-				<pitchRange>0.82~0.90</pitchRange>
+				<pitchRange>0.74~0.80</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>Weapon/GunShotA</clipPath>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>15~18</volumeRange>
-				<pitchRange>0.80~0.88</pitchRange>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.82~0.88</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -86,8 +96,18 @@
 						<clipFolderPath>Weapon/HeavySMG</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>39~41</volumeRange>
-				<pitchRange>1.06~1.14</pitchRange>
+				<volumeRange>38~40</volumeRange>
+				<pitchRange>1.14~1.20</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/MachinePistol</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.96~1.02</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -104,18 +124,28 @@
 						<clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>45~47</volumeRange>
-				<pitchRange>0.88~0.95</pitchRange>
+				<volumeRange>44~46</volumeRange>
+				<pitchRange>0.80~0.86</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Weapon/BoltActionRifle</clipFolderPath>
+						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>14~17</volumeRange>
-				<pitchRange>0.95~1.05</pitchRange>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.92~0.98</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Revolver</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>10~12</volumeRange>
+				<pitchRange>0.80~0.86</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -124,7 +154,6 @@
 	<SoundDef>
 		<defName>BNFII_Shot_AssaultLMG</defName>
 		<context>MapOnly</context>
-		<maxVoices>6</maxVoices>
 		<maxSimultaneous>2</maxSimultaneous>
 		<subSounds>
 			<li>
@@ -133,8 +162,8 @@
 						<clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>44~47</volumeRange>
-				<pitchRange>0.78~0.86</pitchRange>
+				<volumeRange>42~45</volumeRange>
+				<pitchRange>0.70~0.76</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
@@ -143,8 +172,18 @@
 						<clipFolderPath>Weapon/Minigun/Shot</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>14~17</volumeRange>
-				<pitchRange>0.85~0.92</pitchRange>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.78~0.84</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Autocannon</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>8~10</volumeRange>
+				<pitchRange>1.25~1.32</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -161,9 +200,19 @@
 						<clipFolderPath>Weapon/Shotgun/Shot</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>94~95</volumeRange>
-				<pitchRange>0.86~0.94</pitchRange>
-				<distRange>39.11765~70</distRange>
+				<volumeRange>92~94</volumeRange>
+				<pitchRange>0.78~0.84</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Revolver</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>18~20</volumeRange>
+				<pitchRange>0.70~0.76</pitchRange>
+				<sustainLoop>False</sustainLoop>
 			</li>
 			<li>
 				<grains>
@@ -171,8 +220,8 @@
 						<clipFolderPath>Weapon/Shotgun/Rack</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>12~14</volumeRange>
-				<pitchRange>0.88~0.98</pitchRange>
+				<volumeRange>14~16</volumeRange>
+				<pitchRange>0.82~0.90</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
@@ -189,8 +238,66 @@
 						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
 					</li>
 				</grains>
-				<volumeRange>68~70</volumeRange>
-				<pitchRange>0.94~1.00</pitchRange>
+				<volumeRange>64~66</volumeRange>
+				<pitchRange>1.06~1.12</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Revolver</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>18~20</volumeRange>
+				<pitchRange>1.00~1.06</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/AssaultRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>10~12</volumeRange>
+				<pitchRange>0.90~0.96</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>BNFII_Shot_AntiMaterialRifle</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/SniperRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>70~72</volumeRange>
+				<pitchRange>0.76~0.82</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/Autocannon</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>20~22</volumeRange>
+				<pitchRange>0.72~0.78</pitchRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>Weapon/BoltActionRifle</clipFolderPath>
+					</li>
+				</grains>
+				<volumeRange>16~18</volumeRange>
+				<pitchRange>0.84~0.90</pitchRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>

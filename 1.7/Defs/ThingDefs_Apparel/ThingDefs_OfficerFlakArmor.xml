@@ -20,10 +20,10 @@
       <Plasteel>30</Plasteel>
       <ComponentIndustrial>3</ComponentIndustrial>
       <Gold>8</Gold>
+      <Steel>100</Steel>
     </costList>
-    <costStuffCount>100</costStuffCount>
     <equippedStatOffsets>
-      <MoveSpeed>-0.05</MoveSpeed>
+      <MoveSpeed>-0.18</MoveSpeed>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
       <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">0.05</PsychicSensitivity>
       <PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.033</PsychicEntropyRecoveryRate>
@@ -33,7 +33,9 @@
       <MarketValue>1000</MarketValue>
       <MaxHitPoints>265</MaxHitPoints>
       <Mass>10.0</Mass>
-      <StuffEffectMultiplierArmor>1.15</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.26</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.34</ArmorRating_Heat>
       <EquipDelay>8</EquipDelay>
     </statBases>
     <apparel>
@@ -63,8 +65,8 @@
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Gold>4</Gold>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">0.05</PsychicSensitivity>
@@ -74,7 +76,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -95,10 +99,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-        <li>BNFII_OfficerFlakArmor</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -108,8 +109,8 @@
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Gold>4</Gold>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <PsychicSensitivity MayRequire="Ludeon.RimWorld.Royalty">0.05</PsychicSensitivity>
@@ -119,12 +120,12 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetThermal</wornGraphicPath>
@@ -150,10 +151,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-        <li>BNFII_OfficerFlakArmor</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -163,8 +161,8 @@
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Gold>4</Gold>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
@@ -175,12 +173,12 @@
       <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>170</MaxHitPoints>
       <Mass>1.7</Mass>
-      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.57</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetMask</wornGraphicPath>
@@ -206,10 +204,7 @@
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</texPath>
     </graphicData>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>BNFII_ModifiedFlakHelmets</li>
-        <li>BNFII_OfficerFlakArmor</li>
-      </researchPrerequisites>
+      <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -219,8 +214,8 @@
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
       <Gold>4</Gold>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -231,12 +226,12 @@
       <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>170</MaxHitPoints>
       <Mass>1.7</Mass>
-      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.57</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/OfficerFlakArmor/OfficerFlakHelmetGasmask</wornGraphicPath>

@@ -3,7 +3,7 @@
   <packageId>kp.abravenewfrontierII</packageId>
   <author>karbonpanzer</author>
   <name>A Brave New Frontier II</name>
-  <description>.</description>
+  <description>A total rebuild of my previous mod, A Brave New Frontier.\nThe reason for this rebuild is that BNF over time had what I can best describe as "identity issues" with what it was.\n\nA Brave New Frontier II adds:\nTwo new factions and a unique scenario.\nA new tier of flak armor.\nCombat focused accessories.\nAnd "cost effective" weapon designs.\n\nAdditions which are gonna be noticed by people who played the previous version of the mod are:\nFixed textures masks.\nConversion from stuffed armor to fixed cost armor.\nRemoval of the decal system from BNF which was poorly made by me.\nEntirely new weapons which fit the theme better.\n\nYes, this is all NCR looking, that is by design because this was inspired by Shazbot's Frontier Uniforms which is also NCR inspired.\n\nBig thanks to Krazy4Games for the art and Shazbot for the inspiration.</description>
   
 	<supportedVersions>
 	  <li>1.7</li>	  

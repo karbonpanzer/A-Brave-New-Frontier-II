@@ -7,7 +7,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <colorGenerator Class="ColorGenerator_Single">
+        <!-- Dark Grey  -->
+        <color>(0.45,0.45,0.45)</color>
+    </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -15,12 +18,12 @@
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <equippedStatOffsets>
-      <MoveSpeed>-0.04</MoveSpeed>
+      <MoveSpeed>-0.14</MoveSpeed>
     </equippedStatOffsets>
+    <statBases>
+      <Flammability>0.4</Flammability>
+    </statBases>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
@@ -55,7 +58,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <colorGenerator Class="ColorGenerator_Single">
+        <!-- Dark Grey -->
+        <color>(0.45,0.45,0.45)</color>
+    </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -63,9 +69,9 @@
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
+    <statBases>
+      <Flammability>0.4</Flammability>
+    </statBases>
     <apparel>
       <useWornGraphicMask>true</useWornGraphicMask>
       <bodyPartGroups>
@@ -108,17 +114,19 @@
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>80</Steel>
     </costList>
-    <costStuffCount>80</costStuffCount>
     <equippedStatOffsets>
-      <MoveSpeed>-0.04</MoveSpeed>
+      <MoveSpeed>-0.14</MoveSpeed>
     </equippedStatOffsets>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>550</MarketValue>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>7.0</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.33</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -146,8 +154,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -155,7 +163,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -184,8 +194,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -193,12 +203,12 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetThermal</wornGraphicPath>
@@ -232,8 +242,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
@@ -242,12 +252,12 @@
       <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>170</MaxHitPoints>
       <Mass>1.7</Mass>
-      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.57</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmor/FlakArmorHelmetMask</wornGraphicPath>
@@ -281,8 +291,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>45</Steel>
     </costList>
-    <costStuffCount>45</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -291,7 +301,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -318,7 +330,6 @@
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakArmorMedic</texPath>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <recipeMaker>
       <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
       <skillRequirements>
@@ -329,17 +340,19 @@
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>80</Steel>
     </costList>
-    <costStuffCount>80</costStuffCount>
     <equippedStatOffsets>
-      <MoveSpeed>-0.04</MoveSpeed>
+      <MoveSpeed>-0.14</MoveSpeed>
     </equippedStatOffsets>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>550</MarketValue>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>7.0</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.33</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -367,8 +380,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -376,7 +389,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -405,8 +420,8 @@
       <Cloth>80</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -414,12 +429,12 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicThermal</wornGraphicPath>
@@ -453,8 +468,8 @@
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
@@ -463,12 +478,12 @@
       <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>170</MaxHitPoints>
       <Mass>1.7</Mass>
-      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.57</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorMedic/FlakHelmetMedicMask</wornGraphicPath>
@@ -502,8 +517,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>45</Steel>
     </costList>
-    <costStuffCount>45</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -512,7 +527,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -549,17 +566,19 @@
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>80</Steel>
     </costList>
-    <costStuffCount>80</costStuffCount>
     <equippedStatOffsets>
-      <MoveSpeed>-0.04</MoveSpeed>
+      <MoveSpeed>-0.14</MoveSpeed>
     </equippedStatOffsets>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MarketValue>550</MarketValue>
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>7.0</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.33</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -587,8 +606,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -596,7 +615,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -625,8 +646,8 @@
       <Cloth>80</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
@@ -634,12 +655,12 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerThermal</wornGraphicPath>
@@ -663,7 +684,6 @@
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerMask</texPath>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <recipeMaker>
       <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
@@ -674,8 +694,8 @@
       <Cloth>60</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>40</Steel>
     </costList>
-    <costStuffCount>40</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
       <RangedCooldownFactor>0.15</RangedCooldownFactor>
@@ -684,12 +704,12 @@
       <WorkToMake>8000</WorkToMake>
       <MaxHitPoints>170</MaxHitPoints>
       <Mass>1.7</Mass>
-      <StuffEffectMultiplierArmor>1.20</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.57</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
       <Insulation_Cold>12</Insulation_Cold>
       <Insulation_Heat>0.2</Insulation_Heat>
-      <StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerMask</wornGraphicPath>
@@ -713,7 +733,6 @@
     <graphicData>
       <texPath>BNFII/Things/Pawn/Humanlike/Armor/FlakArmorEngineer/FlakHelmetEngineerGasmask</texPath>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
     <recipeMaker>
       <researchPrerequisite>BNFII_ModifiedFlakHelmets</researchPrerequisite>
       <skillRequirements>
@@ -724,8 +743,8 @@
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
       <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>45</Steel>
     </costList>
-    <costStuffCount>45</costStuffCount>
     <equippedStatOffsets>
       <MoveSpeed>-0.01</MoveSpeed>
       <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
@@ -734,7 +753,9 @@
       <WorkToMake>7000</WorkToMake>
       <MaxHitPoints>110</MaxHitPoints>
       <Mass>1</Mass>
-      <StuffEffectMultiplierArmor>1.10</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.51</ArmorRating_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
@@ -771,18 +792,20 @@
       <Cloth>20</Cloth>
       <Plasteel>10</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>50</Steel>
     </costList>
-    <costStuffCount>50</costStuffCount>
     <statBases>
       <WorkToMake>6000</WorkToMake>
       <MarketValue>400</MarketValue>
       <MaxHitPoints>220</MaxHitPoints>
       <Mass>5.5</Mass>
-      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
-      <MoveSpeed>-0.01</MoveSpeed>
+      <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
     <apparel>
       <wornGraphicPath>BNFII/Things/Pawn/Humanlike/Armor/ScoutFlakArmor/ScoutFlakArmor</wornGraphicPath>
@@ -806,7 +829,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <colorGenerator Class="ColorGenerator_Single">
+        <!-- Vanilla Grey -->
+        <color>(0.65,0.65,0.65)</color>
+    </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
@@ -821,18 +847,18 @@
     <costList>
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
+      <Steel>10</Steel>
     </costList>
-    <costStuffCount>10</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>80</MaxHitPoints>
       <Mass>2.5</Mass>
-      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
       <EquipDelay>2</EquipDelay>
+      <Flammability>0.4</Flammability>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.10</MoveSpeed>
@@ -873,7 +899,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <colorGenerator Class="ColorGenerator_StandardApparel"/>
+    <colorGenerator Class="ColorGenerator_Single">
+        <!-- Vanilla Grey -->
+        <color>(0.65,0.65,0.65)</color>
+    </colorGenerator>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>BNFII_FlakArmor</researchPrerequisite>
@@ -888,18 +917,18 @@
     <costList>
       <Cloth>10</Cloth>
       <Plasteel>5</Plasteel>
+      <Steel>10</Steel>
     </costList>
-    <costStuffCount>10</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <statBases>
       <WorkToMake>5000</WorkToMake>
       <MarketValue>100</MarketValue>
       <MaxHitPoints>60</MaxHitPoints>
       <Mass>1.5</Mass>
-      <StuffEffectMultiplierArmor>1.00</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
       <EquipDelay>2</EquipDelay>
+      <Flammability>0.4</Flammability>
     </statBases>
     <equippedStatOffsets>
       <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>

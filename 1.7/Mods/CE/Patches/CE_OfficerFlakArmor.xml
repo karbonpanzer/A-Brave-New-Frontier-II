@@ -6,9 +6,23 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakArmor"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>9</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>10.8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakArmor"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>16.2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakArmor"]/statBases/ArmorRating_Heat</xpath>
+		<value>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
 		</value>
 	</Operation>
 
@@ -21,16 +35,44 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet" or defName="BNFII_OfficerFlakHelmet_Thermal"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet" or defName="BNFII_OfficerFlakHelmet_Thermal"]/statBases/ArmorRating_Sharp</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>9.6</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet_Faceshield" or defName="BNFII_OfficerFlakHelmet_Gasmask"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet" or defName="BNFII_OfficerFlakHelmet_Thermal"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
-			<StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+			<ArmorRating_Blunt>14.4</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet" or defName="BNFII_OfficerFlakHelmet_Thermal"]/statBases/ArmorRating_Heat</xpath>
+		<value>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet_Faceshield" or defName="BNFII_OfficerFlakHelmet_Gasmask"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>11.52</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet_Faceshield" or defName="BNFII_OfficerFlakHelmet_Gasmask"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>17.28</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="BNFII_OfficerFlakHelmet_Faceshield" or defName="BNFII_OfficerFlakHelmet_Gasmask"]/statBases/ArmorRating_Heat</xpath>
+		<value>
+			<ArmorRating_Heat>0.78</ArmorRating_Heat>
 		</value>
 	</Operation>
 
