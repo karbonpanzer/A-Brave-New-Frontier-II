@@ -4,7 +4,7 @@
   <!-- Armor -->
   <ResearchProjectDef>
     <defName>BNFII_FlakArmor</defName>
-    <label>flak armor</label>
+    <label>improved flak armor</label>
     <description>Craft improved flak armor to protect from gunshots and explosions. This weighty armor slows movement slightly.</description>
     <baseCost>1200</baseCost>
     <techLevel>Industrial</techLevel>

@@ -887,7 +887,6 @@
       <li>Armor</li>
       <li>BNFII_Armor</li>
     </tradeTags>
-    <uiIconScale>2</uiIconScale>
   </ThingDef>
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -957,7 +956,6 @@
       <li>Armor</li>
       <li>BNFII_Armor</li>
     </tradeTags>
-    <uiIconScale>2</uiIconScale>
   </ThingDef>
 
 </Defs>

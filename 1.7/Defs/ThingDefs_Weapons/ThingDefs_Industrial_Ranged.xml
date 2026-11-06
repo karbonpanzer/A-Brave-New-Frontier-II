@@ -484,6 +484,10 @@
 			<texPath>BNFII/Things/Item/Equipment/Weapons/ServiceRifleBayonet</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>		
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<researchPrerequisite>BNFII_StreamlinedProduction</researchPrerequisite>
@@ -874,6 +878,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.55</drawSize>
     </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>
+    </equippedStatOffsets>	
 	<uiIconScale>0.7</uiIconScale>
     <soundInteract>Interact_Rifle</soundInteract>
     <techLevel>Industrial</techLevel>

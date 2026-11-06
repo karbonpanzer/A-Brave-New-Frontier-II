@@ -210,7 +210,7 @@
       <MaxHitPoints>80</MaxHitPoints>
       <Mass>1.8</Mass>
       <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>2.5</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <PainShockThreshold>0.10</PainShockThreshold>
@@ -307,7 +307,7 @@
       <WorkToMake>4200</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.8</Mass>
-      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <equippedStatOffsets>
@@ -406,8 +406,8 @@
       <WorkToMake>4200</WorkToMake>
       <MaxHitPoints>80</MaxHitPoints>
       <Mass>1.8</Mass>
-      <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.80</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <equippedStatOffsets>
       <SocialImpact>0.05</SocialImpact>
