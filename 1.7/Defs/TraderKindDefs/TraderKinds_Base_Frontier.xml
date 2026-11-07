@@ -172,8 +172,12 @@
         <countRange>2~4</countRange>
       </li>
       <li Class="StockGenerator_Tag">
-        <tradeTag>BNFII_Clothing</tradeTag>
-        <countRange>7~7</countRange>
+        <tradeTag>BNFII_Uniforms</tradeTag>
+        <countRange>5~5</countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>BNFII_Utility</tradeTag>
+        <countRange>2~2</countRange>
       </li>          
       <li Class="StockGenerator_Tag">
         <tradeTag>Armor</tradeTag>

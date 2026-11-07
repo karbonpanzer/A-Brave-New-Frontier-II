@@ -866,7 +866,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun" Name="VWE_Gun_AntiMaterialRifle_Base">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>BNFII_AntiMaterialRifle</defName>
     <label>anti-materiel rifle</label>
     <description>A bolt-action heavy caliber rifle designed for armor and building penetration. Boasting incredible range and power, it is a slow and heavy weapon which requires a long time to fire accurately.</description>
