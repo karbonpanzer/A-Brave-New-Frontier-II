@@ -64,7 +64,7 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 - **Assault Revolver** - A heavy double-action revolver chambered for accelerant-charged rounds. It hits hard for a pistol, but it is short-ranged and inaccurate.
 - **Assault SMG** - A compact, fully automatic personal defense weapon. Its rapid bursts are deadly up close, but its accuracy falls off quickly with distance.
 - **Service Rifle** - A mass-produced gas-operated rifle with a fast semi-automatic action. It lacks accuracy, but it can put a high volume of fire downrange.
-- **Service Rifle (bayonet)** - A service rifle modified for burst fire and fitted with a heavy bayonet. It fires more slowly than the standard pattern, but the blade makes it dangerous in melee.
+- **Service Rifle (bayonet)** - A service rifle fitted with a heavy bayonet. It still lacks accuracy, but the blade makes it dangerous in melee.
 - **Assault LMG** - A gas-operated light machine gun firing accelerant-charged rounds. It is heavy and inaccurate, but its long armor-piercing bursts can shred groups of enemies.
 - **Trench Shotgun** - A single-barreled shotgun with a fast-cycling action. It fires one heavy blast of pellets at a time, but in rapid succession, making it devastating at close range.
 - **Marksman Rifle** - A long-barreled precision rifle. It is slow to aim and awkward up close, but it hits hard and accurately at long range.
