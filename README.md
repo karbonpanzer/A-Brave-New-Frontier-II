@@ -2,14 +2,14 @@
 
 # A Brave New Frontier II
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/FactionHeader.png" alt="Faction" width="640"></p>
-
 A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two local industrial factions, a starting scenario, a new tier of flak armor, combat accessories and a line of cost-effective weapons, all built around a frontier army look.
+
+## Factions
 
 - **Homesteaders** - A faction of long time inhabitants of this world.
 - **Desperadoes** - A heavily armed faction made up of renegades, exiles, and other undesireables.
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/ScenarioHeader.png" alt="Scenario" width="640"></p>
+## Scenario
 
 - **Settlers** - After finding a place of strategic importance, your group chose to embark to set the claim for this land. With the backing of the government, you will hold this land as a settlement and administer to it as you see fit.
 
@@ -20,7 +20,7 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 - Infantry Kit (prereq: Complex Clothing), then Shocktrooper, Scout and Support Kits
 - Streamlined Production (prereq: Precision Rifling), then Specialized Accelerant, then Power Weapons
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/ApparelHeader.png" alt="Apparel" width="640"></p>
+## Apparel
 
 - **Flak Armor** - A full set of armor plates, covering most of the body. Using a mixture of plasteel weave and metals, it provides good protection against gunshots and stabbing attacks.
 - **Flak Helmet** - A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets.
@@ -49,7 +49,7 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 - **Engineer Belt** - A belt system for keeping spare tools close at hand, reducing their repair time in the field. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
 - **Medic Belt** - A belt system for keeping spare medical supplies close at hand, improving their tending quality and speed. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/WeaponHeader.png" alt="Weapon" width="640"></p>
+## Weapons
 
 - **Service Pistol** - A mass-produced self-loading pistol. It is cheap and quick to fire, but lacks range and accuracy.
 - **Assault Pistol** - A self-loading pistol chambered for accelerant-charged rounds. It hits harder than most sidearms, but its accuracy suffers for it.
@@ -89,7 +89,7 @@ A Brave New Frontier II has built-in Combat Extended support, no separate patch 
 | Marksman Rifle | 7.62x51mm (10) | Designated marksman |
 | Anti-Materiel Rifle | .50 BMG (5) | Anti-materiel |
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/FAQHeader.png" alt="F A Q" width="640"></p>
+## FAQ
 
 **Can you make a patch for another mod?**  
 Post it in the suggestions thread. I'm happy to patch conflicts or mods that would benefit from it.
@@ -100,7 +100,7 @@ Post it in the suggestions thread, otherwise I don't get notified and it gets lo
 **I don't like something, fix it!**  
 Learn how to make a patch and change it yourself.
 
-<p align="center"><img src="Resources/Steam%20Workshop/Exported/CreditsHeader.png" alt="Credits" width="640"></p>
+## Credits
 
 **Karbonpanzer** - Coder, artist and editor  
 **Krazy4Games** - Original artist  
