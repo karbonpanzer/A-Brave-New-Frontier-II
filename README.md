@@ -15,16 +15,24 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 
 **Research** (in the vanilla research tab):
 - Improved Flak Armor (prereq: Flak Armor)
-- Scout, Heavy and Officer Flak Armor, Modified Flak Helmets (prereq: Improved Flak Armor)
-- Frontier Uniforms (prereq: Complex Clothing), then Officer Uniforms
-- Infantry Kit (prereq: Complex Clothing), then Shocktrooper, Scout and Support Kits
-- Streamlined Production (prereq: Precision Rifling), then Specialized Accelerant, then Power Weapons
+- Scout Flak Armor (prereq: Improved Flak Armor)
+- Heavy Flak Armor (prereq: Improved Flak Armor)
+- Officer Flak Armor (prereq: Improved Flak Armor)
+- Modified Flak Helmets (prereq: Improved Flak Armor)
+- Frontier Uniforms (prereq: Complex Clothing)
+- Officer Uniforms (prereq: Frontier Uniforms)
+- Infantry Kits (prereq: Complex Clothing)
+- Shocktrooper Kit (prereq: Infantry Kit)
+- Scout Kit (prereq: Infantry Kit)
+- Support Kits (prereq: Infantry Kit)
+- Streamlined Production (prereq: Precision Rifling)
+- Specialized Accelerant (prereq: Streamlined Production)
 
 ## Apparel
 
 - **Flak Armor** - A full set of armor plates, covering most of the body. Using a mixture of plasteel weave and metals, it provides good protection against gunshots and stabbing attacks.
 - **Flak Helmet** - A combat helmet, reinforced with plasteel weave, providing greater protection than simple flak helmets.
-- **Insulated, Shielded and Gasmask Variants** - Every flak helmet comes in three variants. Insulated: Fitted with an insulated hood which keeps the wearer's head warm. Shielded: Fitted with an improvised faceshield to protect the wearer during close quarters combat but makes them slower to respond. Gasmask: Fitted with a gasmask which protects the wearer against most gases.
+- **Insulated, Shielded and Gas mask Variants** - Every flak helmet comes in three variants. Insulated: Fitted with an insulated hood which keeps the wearer's head warm. Shielded: Fitted with an improvised face shield to protect the wearer during close quarters combat but makes them slower to respond. Gas mask: Fitted with a gas mask which protects the wearer against most gases.
 - **Medic and Engineer Flak** - Medic versions are marked with a cross, to show the wearer is a medic. Engineer versions are marked with a cog, to show the wearer is an engineer.
 - **Scout Flak Armor** - A stripped set of armor plates, covering their torso. The shoulders and therefore their protection have been removed to make the armor lighter for scouts.
 - **Heavy Flak Armor** - A reinforced full set of armor plates, covering the body but heavier than normal flak armor. Additional layers of plasteel weave and metal offer improved protection but the additional weight slows the wearer.
@@ -42,12 +50,12 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 - **Frontier Officer Uniform** - A full body uniform made out of the finest fabric or leather. Providing minor protection, general protection in most weather, and maintains image of an Officer
 - **Officer Cap** - A flat topped soft cap worn by officers, made out of the finest thick fabric or leather. Provides general protection in most weather and image of a Officer.
 - **Insulated Officer Cap** - A flat topped soft cap worn by officers, made out of the finest thick fabric or leather. Provides general protection in most weather and image of a Officer.
-- **Heavy Infantry Webbing** - A heavy webbing system for keeping large amounts of spare munitions close at hand, greatly reducing their ranged weapons cool down but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
-- **Scout Webbing** - A heavy webbing system for allowing greater manuevability, greatly increasing the foraging and stelath of the wearer but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
-- **Shocktrooper Webbing** - A heavy webbing system for keeping large amounts of explosives and combat drugs close at hand, greatly increasing their combat skills but weighing more. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
-- **Infantry Belt** - A belt system for keeping spare munitions close at hand, reducing their ranged weapons cool down. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
-- **Engineer Belt** - A belt system for keeping spare tools close at hand, reducing their repair time in the field. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
-- **Medic Belt** - A belt system for keeping spare medical supplies close at hand, improving their tending quality and speed. It doesn't cover the body, so it can be worn happily by nudists and yttakin.
+- **Heavy Infantry Webbing** - A heavy webbing system for keeping large amounts of spare munitions close at hand, greatly reducing their ranged weapons cool down but weighing more. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
+- **Scout Webbing** - A heavy webbing system for allowing greater maneuverability, greatly increasing the foraging and stealth of the wearer but weighing more. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
+- **Shocktrooper Webbing** - A heavy webbing system for keeping large amounts of explosives and combat drugs close at hand, greatly increasing their combat skills but weighing more. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
+- **Infantry Belt** - A belt system for keeping spare munitions close at hand, reducing their ranged weapons cool down. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
+- **Engineer Belt** - A belt system for keeping spare tools close at hand, reducing their repair time in the field. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
+- **Medic Belt** - A belt system for keeping spare medical supplies close at hand, improving their tending quality and speed. It doesn't cover the body, so it can be worn happily by nudists and Yttakin.
 
 ## Weapons
 
@@ -63,13 +71,7 @@ A Brave New Frontier II is a full rebuild of A Brave New Frontier. It adds two l
 - **Anti-materiel Rifle** - A bolt-action heavy caliber rifle designed for armor and building penetration. Boasting incredible range and power, it is a slow and heavy weapon which requires a long time to fire accurately.
 - **Trench Knife** - A short fighting knife with a reinforced knuckle guard. It is quick and easy to wield in tight spaces.
 - **Machete** - A broad bladed tool used in agriculture. Often used by militarys for brush clearing and even as a weapon.
-- **Power Maul** - A heavy maul with a powered striking head. Slow to swing, but each blow lands with crushing force.
-- **Power Glaive** - A long polearm whose blade discharges an electromagnetic pulse on contact. It cuts deep and stuns mechanoids, but it is slow to swing.
 - **Chainsword** - A sword lined with a motorized chain of cutting teeth. It tears through flesh and light armor, leaving ragged, bleeding wounds.
-
-## Mod Compatibility
-
-No other mods are required. Royalty and Ideology add bonus stats to officer gear when active, and Odyssey adds a unique service rifle.
 
 ## Combat Extended
 
@@ -83,7 +85,7 @@ A Brave New Frontier II has built-in Combat Extended support, no separate patch 
 | Assault Pistol | .50 AE (7) | Heavy sidearm |
 | Assault Revolver | .45-70 Govt (5) | Elite sidearm |
 | Assault SMG | 10mm Auto (30) | Close-quarters automatic |
-| Service Rifle | 7.62x39mm (30) | Infantry rifle |
+| Service Rifle | 5.56x45mm (30) | Infantry rifle |
 | Assault LMG | 7.62x51mm (100) | Squad support |
 | Trench Shotgun | 12 Gauge (6) | Breacher |
 | Marksman Rifle | 7.62x51mm (10) | Designated marksman |
@@ -94,11 +96,11 @@ A Brave New Frontier II has built-in Combat Extended support, no separate patch 
 **Can you make a patch for another mod?**  
 Post it in the suggestions thread. I'm happy to patch conflicts or mods that would benefit from it.
 
-**I have a variant idea!**  
-Post it in the suggestions thread, otherwise I don't get notified and it gets lost.
-
 **I don't like something, fix it!**  
 Learn how to make a patch and change it yourself.
+
+**I have a suggestion/improvement!**  
+Leave a comment, if I make a thread for it people will never use it.
 
 ## Credits
 
