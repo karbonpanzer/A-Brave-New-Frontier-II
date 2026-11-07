@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@Name="BNFII_AccessoryBase"]/apparel/layers/li[.="Shell"]</xpath>
+		<xpath>Defs/ThingDef[@Name="BNFII_AccessoryBase"]/apparel/layers/li[.="Belt"]</xpath>
 		<value>
 			<li>Webbing</li>
 		</value>

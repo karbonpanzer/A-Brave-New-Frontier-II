@@ -26,13 +26,16 @@
 				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Shell</li>
+				<li>Belt</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 			<useWornGraphicMask>True</useWornGraphicMask>
+			<wornGraphicData>
+				<renderUtilityAsPack>false</renderUtilityAsPack>
+			</wornGraphicData>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>

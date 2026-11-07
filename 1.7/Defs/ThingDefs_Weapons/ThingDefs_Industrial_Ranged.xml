@@ -24,7 +24,6 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>BNFII/Things/Item/Equipment/Weapons/ServicePistol</texPath>
-			<drawSize>0.75</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
@@ -117,7 +116,6 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>BNFII/Things/Item/Equipment/Weapons/assaultpistol</texPath>
-			<drawSize>0.7</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
@@ -211,7 +209,6 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>BNFII/Things/Item/Equipment/Weapons/AssaultRevolver</texPath>
-			<drawSize>0.8</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Revolver</soundInteract>
 		<recipeMaker>
