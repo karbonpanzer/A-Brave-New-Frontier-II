@@ -85,10 +85,10 @@ A Brave New Frontier II has built-in Combat Extended support, no separate patch 
 | Assault Pistol | .50 AE (7) | Heavy sidearm |
 | Assault Revolver | .45-70 Govt (5) | Elite sidearm |
 | Assault SMG | 10mm Auto (30) | Close-quarters automatic |
-| Service Rifle | 5.56x45mm (30) | Infantry rifle |
+| Service Rifle | 5.56x45mm (20) | Infantry rifle |
 | Assault LMG | 7.62x51mm (100) | Squad support |
 | Trench Shotgun | 12 Gauge (6) | Breacher |
-| Marksman Rifle | 7.62x51mm (10) | Designated marksman |
+| Marksman Rifle | 7.62x51mm (20) | Designated marksman |
 | Anti-Materiel Rifle | .50 BMG (5) | Anti-materiel |
 
 ## FAQ
